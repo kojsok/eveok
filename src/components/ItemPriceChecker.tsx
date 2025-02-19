@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import { useState } from "react";
 import { Button } from "@/components/ui/button"; // Используем кнопку из shadcn
 import axios from "axios";
@@ -7,13 +7,13 @@ import axios from "axios";
 interface TypeData {
     [key: string]: {
         id: number;
-        iconID: null | number; // Добавляем null
-        graphicID: null | number; // Добавляем null
+        iconID: null | number;
+        graphicID: null | number;
         name: {
             en: string;
             ru: string;
         };
-        basePrice: null | number; // Добавляем null
+        basePrice: null | number;
     };
 }
 
@@ -29,9 +29,8 @@ const formatNumber = (num: number): string => {
         minimumFractionDigits: 2,
         maximumFractionDigits: 2,
     }).format(num);
-
-    // Заменяем запятую на точку для десятичной части
-    return formatted.replace(/,/g, ".") + " ISK";
+    // return formatted.replace(/,/g, ".") + " ISK";
+    return formatted.replace(/,/g, ".");
 };
 
 // Нормализация строки
@@ -55,26 +54,24 @@ const findCloseMatches = (itemName: string, typeData: TypeData): string[] => {
             );
         })
         .map((type) => type.name.ru || type.name.en)
-        .slice(0, 3); // Возвращаем до 3 ближайших совпадений
+        .slice(0, 5); // Возвращаем до 5 ближайших совпадений
 };
 
 const ItemPriceChecker = () => {
-    const [inputValue, setInputValue] = useState<string>("");
-    const [results, setResults] = useState<{ name: string; adjustedPrice: string; averagePrice: string }[]>([]);
-    const [loading, setLoading] = useState<boolean>(false);
+    const [inputValue, setInputValue] = useState("");
+    const [results, setResults] = useState<
+        Array<{ name: string; adjustedPrice: string; averagePrice: string; quantity: number; totalAdjustedPrice: string; totalAveragePrice: string }>
+    >([]);
+    const [loading, setLoading] = useState(false);
     const [error, setError] = useState<string | null>(null);
-    const [currentPage, setCurrentPage] = useState<number>(1);
-    const [totalAdjustedPrice, setTotalAdjustedPrice] = useState<number>(0); // Состояние для текущей цены
-    const [totalAveragePrice, setTotalAveragePrice] = useState<number>(0); // Состояние для средней цены
-    const itemsPerPage = 10;
+    const [currentPage, setCurrentPage] = useState(1);
+    const [totalAdjustedPrice, setTotalAdjustedPrice] = useState(0);
+    const [totalAveragePrice, setTotalAveragePrice] = useState(0);
+    const itemsPerPage = 20; // Количество предметов на одной странице
 
     const fetchTypeData = async (): Promise<TypeData> => {
         const response = await import("../../src/data/typesnew.json");
-        if (
-            "default" in response &&
-            typeof response.default === "object" &&
-            response.default !== null
-        ) {
+        if ("default" in response && typeof response.default === "object" && response.default !== null) {
             return Object.entries(response.default).reduce((acc, [key, value]) => {
                 if (
                     typeof key === "string" &&
@@ -88,13 +85,13 @@ const ItemPriceChecker = () => {
                 ) {
                     acc[key] = {
                         id: value.id,
-                        iconID: value.iconID ?? null, // Убеждаемся, что iconID может быть null
-                        graphicID: value.graphicID ?? null, // Убеждаемся, что graphicID может быть null
+                        iconID: value.iconID ?? null,
+                        graphicID: value.graphicID ?? null,
                         name: {
-                            en: value.name.en ?? "", // Заменяем null на пустую строку
-                            ru: value.name.ru ?? "", // Заменяем null на пустую строку
+                            en: value.name.en ?? "",
+                            ru: value.name.ru ?? "",
                         },
-                        basePrice: value.basePrice ?? null, // Убеждаемся, что basePrice может быть null
+                        basePrice: value.basePrice ?? null,
                     };
                 }
                 return acc;
@@ -109,10 +106,13 @@ const ItemPriceChecker = () => {
             setError(null);
 
             setResults([]);
-            setTotalAdjustedPrice(0); // Сбрасываем общую сумму текущей цены
-            setTotalAveragePrice(0); // Сбрасываем общую сумму средней цены
+            setTotalAdjustedPrice(0);
+            setTotalAveragePrice(0);
 
-            const itemNames = inputValue.split("\n").map((name) => name.trim()).filter(Boolean);
+            const itemNames = inputValue
+                .split("\n")
+                .map((line) => line.trim())
+                .filter(Boolean);
 
             if (!itemNames.length) {
                 throw new Error("Введите хотя бы одно название предмета.");
@@ -120,26 +120,33 @@ const ItemPriceChecker = () => {
 
             const typeData = await fetchTypeData();
 
-            const typeIds: number[] = [];
+            const typeIdsWithQuantities: { typeId: number; quantity: number }[] = [];
             const namesNotFound: string[] = [];
 
             for (const itemName of itemNames) {
+                const [namePart, quantityPart] = itemName.split("*").map((part) => part.trim());
+                const quantity = quantityPart ? parseInt(quantityPart, 10) : 1;
+
+                if (quantityPart && (isNaN(quantity) || quantity <= 0)) {
+                    throw new Error(`Неверное количество для предмета "${namePart}".`);
+                }
+
+                const normalizedItemName = normalizeString(namePart);
                 let found = false;
-                const normalizedItemName = normalizeString(itemName);
 
                 for (const [id, type] of Object.entries(typeData)) {
                     const normalizedEnName = normalizeString(type.name.en);
                     const normalizedRuName = normalizeString(type.name.ru);
 
                     if (normalizedEnName === normalizedItemName || normalizedRuName === normalizedItemName) {
-                        typeIds.push(Number(id));
+                        typeIdsWithQuantities.push({ typeId: Number(id), quantity });
                         found = true;
                         break;
                     }
                 }
 
                 if (!found) {
-                    namesNotFound.push(itemName);
+                    namesNotFound.push(namePart);
                 }
             }
 
@@ -154,7 +161,7 @@ const ItemPriceChecker = () => {
                 throw new Error(`Не найдены предметы: ${suggestions}`);
             }
 
-            if (!typeIds.length) {
+            if (!typeIdsWithQuantities.length) {
                 throw new Error("Нет соответствующих предметов.");
             }
 
@@ -166,31 +173,45 @@ const ItemPriceChecker = () => {
 
             const prices: PriceData[] = pricesResponse.data;
 
-            const resultData: { name: string; adjustedPrice: string; averagePrice: string }[] = [];
-            let currentTotalAdjustedPrice = 0; // Локальная переменная для подсчета сумм
+            const resultData: {
+                name: string;
+                adjustedPrice: string;
+                averagePrice: string;
+                quantity: number;
+                totalAdjustedPrice: string;
+                totalAveragePrice: string;
+            }[] = [];
+
+            let currentTotalAdjustedPrice = 0;
             let currentTotalAveragePrice = 0;
 
-            for (const typeId of typeIds) {
+            for (const { typeId, quantity } of typeIdsWithQuantities) {
                 const price = prices.find((p) => p.type_id === typeId);
                 if (price) {
                     const typeName = typeData[typeId]?.name.ru || typeData[typeId]?.name.en || "Unknown";
-                    const formattedAdjustedPrice = formatNumber(price.adjusted_price);
-                    const formattedAveragePrice = formatNumber(price.average_price);
+                    const adjustedPrice = price.adjusted_price;
+                    const averagePrice = price.average_price;
+
+                    const totalAdjusted = adjustedPrice * quantity;
+                    const totalAverage = averagePrice * quantity;
 
                     resultData.push({
                         name: typeName,
-                        adjustedPrice: formattedAdjustedPrice,
-                        averagePrice: formattedAveragePrice,
+                        adjustedPrice: formatNumber(adjustedPrice),
+                        averagePrice: formatNumber(averagePrice),
+                        quantity,
+                        totalAdjustedPrice: formatNumber(totalAdjusted),
+                        totalAveragePrice: formatNumber(totalAverage),
                     });
 
-                    currentTotalAdjustedPrice += price.adjusted_price; // Суммируем текущие цены
-                    currentTotalAveragePrice += price.average_price; // Суммируем средние цены
+                    currentTotalAdjustedPrice += totalAdjusted;
+                    currentTotalAveragePrice += totalAverage;
                 }
             }
 
             setResults(resultData);
-            setTotalAdjustedPrice(currentTotalAdjustedPrice); // Обновляем состояние общей суммы текущей цены
-            setTotalAveragePrice(currentTotalAveragePrice); // Обновляем состояние общей суммы средней цены
+            setTotalAdjustedPrice(currentTotalAdjustedPrice);
+            setTotalAveragePrice(currentTotalAveragePrice);
         } catch (err: unknown) {
             if (err instanceof Error) {
                 setError(err.message || "Произошла ошибка при получении цен.");
@@ -203,10 +224,7 @@ const ItemPriceChecker = () => {
     };
 
     const totalPages = Math.ceil(results.length / itemsPerPage);
-    const paginatedResults = results.slice(
-        (currentPage - 1) * itemsPerPage,
-        currentPage * itemsPerPage
-    );
+    const paginatedResults = results.slice((currentPage - 1) * itemsPerPage, currentPage * itemsPerPage);
 
     const handlePageChange = (direction: "prev" | "next") => {
         if (direction === "prev" && currentPage > 1) {
@@ -217,13 +235,14 @@ const ItemPriceChecker = () => {
     };
 
     return (
-        <div className="max-w-4xl mx-auto p-6 bg-slate-950 text-slate-300">
-            <h1 className="text-2xl font-bold mb-4">Проверка цен предметов EVE Online</h1>
+        <div className="max-w-4xl mx-auto p-4">
+            <h1 className="text-2xl font-bold mb-4 text-slate-300">Проверка цен предметов EVE Online</h1>
             <p className="text-slate-300">Введите названия предметов (по одному в строке), будет отображена цена предметов которые вы хотите проверить.</p>
             <p className="text-slate-300">Необходимо вводить точное название предмета, например Tritanium или Cobalt.</p>
-            <p className="mb-4 text-slate-300">Интерактивный поиск предметов по частичному совпадению еще в разработке, также планируется добавить подсчет предметов по типу и количеству.</p>
+            <p className="mb-4 text-slate-300">Вы также можете скопировать все предметы в ангаре Ctrl+A(выделить) Ctrl+C(копировать) и Ctrl+V(вставить) в поле. На MacBook Command+A(выделить) Command+C(копировать) и Command+V вставить в поле.</p>
+{/* <p className="mb-4 text-slate-300">Интерактивный поиск предметов по частичному совпадению еще в разработке, также планируется добавить подсчет предметов по типу и количеству.</p> */}
 
-            <form onSubmit={(e) => e.preventDefault()} className="mb-6">
+            <form onSubmit={(e) => e.preventDefault()}>
                 <textarea
                     value={inputValue}
                     onChange={(e) => setInputValue(e.target.value)}
@@ -231,68 +250,73 @@ const ItemPriceChecker = () => {
                     rows={5}
                     className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-800 text-slate-300"
                 />
-                <Button onClick={handleCheckPrices} disabled={loading} className="mt-4">
+                <Button onClick={handleCheckPrices} disabled={loading}>
                     {loading ? "Загрузка..." : "Проверить цены"}
                 </Button>
             </form>
 
-            {error && <p className="text-red-500 mb-4">{error}</p>}
+            {error && <div className="text-red-500 mt-2">{error}</div>}
 
             {results.length > 0 && (
-                <div>
-                    <table className="min-w-full divide-y divide-slate-700 bg-slate-950 text-slate-300">
-                        <thead>
-                            <tr className="border-b border-slate-700">
-                                <th className="px-6 py-3">#</th>
-                                <th className="px-6 py-3">Название</th>
-                                <th className="px-6 py-3">Базовая цена</th>
-                                <th className="px-6 py-3">Средняя цена</th>
+                <div className="overflow-x-auto mt-4">
+                    <table className="min-w-full border-collapse">
+                        <thead className="bg-gray-700 text-white">
+                            <tr>
+                                <th className="p-2">#</th>
+                                <th className="p-2">Название</th>
+                                <th className="p-2 hidden md:table-cell">Количество</th>
+                                <th className="p-2 hidden md:table-cell">Базовая цена</th>
+                                <th className="p-2 hidden md:table-cell">Средняя цена</th>
+                                <th className="p-2">Итого (Базовая)</th>
+                                <th className="p-2">Итого (Средняя)</th>
                             </tr>
                         </thead>
                         <tbody>
                             {paginatedResults.map((item, index) => (
                                 <tr
                                     key={index}
-                                    className={`border-b border-slate-700 ${index % 2 === 0 ? "bg-slate-900" : "bg-slate-800"
-                                        }`}
+                                    className="odd:bg-gray-800 even:bg-gray-900 text-white"
                                 >
-                                    <td className="px-6 py-4 text-center">{(currentPage - 1) * itemsPerPage + index + 1}</td>
-                                    <td className="px-6 py-4">{item.name}</td>
-                                    <td className="px-6 py-4 text-right">{item.adjustedPrice}</td>
-                                    <td className="px-6 py-4 text-right">{item.averagePrice}</td>
+                                    <td className="p-2">{(currentPage - 1) * itemsPerPage + index + 1}</td>
+                                    <td className="p-2">{item.name}</td>
+                                    <td className="p-2 hidden md:table-cell">{item.quantity}</td>
+                                    <td className="p-2 hidden md:table-cell">{item.adjustedPrice}</td>
+                                    <td className="p-2 hidden md:table-cell">{item.averagePrice}</td>
+                                    <td className="p-2">{item.totalAdjustedPrice}</td>
+                                    <td className="p-2">{item.totalAveragePrice}</td>
                                 </tr>
                             ))}
                         </tbody>
+                        <tfoot className="bg-gray-700 text-white">
+                            <tr>
+                                <td colSpan={5} className="p-2 text-right">
+                                    Итого:
+                                </td>
+                                <td className="p-2">{formatNumber(totalAdjustedPrice)}</td>
+                                <td className="p-2">{formatNumber(totalAveragePrice)}</td>
+                            </tr>
+                        </tfoot>
                     </table>
+                </div>
+            )}
 
-                    {/* Итоговая строка */}
-                    <div className="flex justify-between mt-4 px-6 py-3 bg-slate-800 border-t border-slate-700">
-                        <span className="font-bold">Итого:</span>
-                        <span className="font-bold text-right">
-                            {formatNumber(totalAdjustedPrice)} / {formatNumber(totalAveragePrice)}
-                        </span>
-                    </div>
-
-                    {/* Пагинация */}
-                    <div className="flex justify-center mt-4">
-                        <Button
-                            onClick={() => handlePageChange("prev")}
-                            disabled={currentPage === 1}
-                            className="bg-slate-800 hover:bg-slate-700"
-                        >
-                            Назад
-                        </Button>
-                        <span className="mx-2 text-slate-300">
-                            Страница {currentPage} из {totalPages}
-                        </span>
-                        <Button
-                            onClick={() => handlePageChange("next")}
-                            disabled={currentPage === totalPages}
-                            className="bg-slate-800 hover:bg-slate-700"
-                        >
-                            Вперед
-                        </Button>
-                    </div>
+            {totalPages > 1 && (
+                <div className="flex justify-center mt-4">
+                    <Button
+                        onClick={() => handlePageChange("prev")}
+                        disabled={currentPage === 1}
+                        className="mr-2 bg-slate-800 hover:bg-slate-700 text-white"
+                    >
+                        Назад
+                    </Button>
+                    <span className="mx-2 text-gray-300">Страница {currentPage} из {totalPages}</span>
+                    <Button
+                        onClick={() => handlePageChange("next")}
+                        disabled={currentPage === totalPages}
+                        className="ml-2 bg-slate-800 hover:bg-slate-700 text-white"
+                    >
+                        Вперед
+                    </Button>
                 </div>
             )}
         </div>
@@ -300,281 +324,3 @@ const ItemPriceChecker = () => {
 };
 
 export default ItemPriceChecker;
-
-
-
-// import { useState } from "react";
-// import { Button } from "@/components/ui/button"; // Используем кнопку из shadcn
-// import axios from "axios";
-
-// // Типы данных
-// interface TypeData {
-//   [key: string]: {
-//     id: number;
-//     iconID: null | number;
-//     graphicID: number;
-//     name: {
-//       en: string;
-//       ru: string;
-//     };
-//     basePrice: number;
-//   };
-// }
-
-// interface PriceData {
-//   adjusted_price: number;
-//   average_price: number;
-//   type_id: number;
-// }
-
-// // Форматирование чисел с разделением на тысячи и добавлением "ISK"
-// const formatNumber = (num: number): string => {
-//   const formatted = new Intl.NumberFormat("ru-RU", {
-//     minimumFractionDigits: 2,
-//     maximumFractionDigits: 2,
-//   }).format(num);
-
-//   // Заменяем запятую на точку для десятичной части
-//   return formatted.replace(/,/g, ".") + " ISK";
-// };
-
-// // Нормализация строки
-// const normalizeString = (str: string): string => {
-//   return str
-//     .toLowerCase()
-//     .replace(/[\(\[].*?[\)\]]/g, "") // Удаляем все, что находится внутри скобок
-//     .replace(/[-]/g, " ") // Заменяем тире на пробелы
-//     .trim();
-// };
-
-// // Поиск ближайших совпадений
-// const findCloseMatches = (itemName: string, typeData: TypeData): string[] => {
-//   const normalizedItemName = normalizeString(itemName);
-//   return Object.values(typeData)
-//     .filter((type) => {
-//       const normalizedEnName = normalizeString(type.name.en);
-//       const normalizedRuName = normalizeString(type.name.ru);
-//       return (
-//         normalizedEnName.includes(normalizedItemName) || normalizedRuName.includes(normalizedItemName)
-//       );
-//     })
-//     .map((type) => type.name.ru || type.name.en)
-//     .slice(0, 3); // Возвращаем до 3 ближайших совпадений
-// };
-
-// const ItemPriceChecker = () => {
-//   const [inputValue, setInputValue] = useState<string>("");
-//   const [results, setResults] = useState<{ name: string; adjustedPrice: string; averagePrice: string }[]>([]);
-//   const [loading, setLoading] = useState<boolean>(false);
-//   const [error, setError] = useState<string | null>(null);
-//   const [currentPage, setCurrentPage] = useState<number>(1);
-//   const [totalAdjustedPrice, setTotalAdjustedPrice] = useState<number>(0); // Состояние для текущей цены
-//   const [totalAveragePrice, setTotalAveragePrice] = useState<number>(0); // Состояние для средней цены
-//   const itemsPerPage = 10;
-
-//   const fetchTypeData = async (): Promise<TypeData> => {
-//     const response = await import("../../src/data/typesnew.json");
-//     return "default" in response && typeof response.default === "object"
-//       ? (response.default as TypeData)
-//       : {};
-//   };
-
-//   const handleCheckPrices = async () => {
-//     try {
-//       setLoading(true);
-//       setError(null);
-
-//       setResults([]);
-//       setTotalAdjustedPrice(0); // Сбрасываем общую сумму текущей цены
-//       setTotalAveragePrice(0); // Сбрасываем общую сумму средней цены
-
-//       const itemNames = inputValue.split("\n").map((name) => name.trim()).filter(Boolean);
-
-//       if (!itemNames.length) {
-//         throw new Error("Введите хотя бы одно название предмета.");
-//       }
-
-//       const typeData = await fetchTypeData();
-
-//       const typeIds: number[] = [];
-//       const namesNotFound: string[] = [];
-
-//       for (const itemName of itemNames) {
-//         let found = false;
-//         const normalizedItemName = normalizeString(itemName);
-
-//         for (const [id, type] of Object.entries(typeData)) {
-//           const normalizedEnName = normalizeString(type.name.en);
-//           const normalizedRuName = normalizeString(type.name.ru);
-
-//           if (normalizedEnName === normalizedItemName || normalizedRuName === normalizedItemName) {
-//             typeIds.push(Number(id));
-//             found = true;
-//             break;
-//           }
-//         }
-
-//         if (!found) {
-//           namesNotFound.push(itemName);
-//         }
-//       }
-
-//       if (namesNotFound.length > 0) {
-//         const suggestions = namesNotFound
-//           .map((name) => {
-//             const matches = findCloseMatches(name, typeData);
-//             return matches.length > 0 ? `${name}: ${matches.join(", ")}` : name;
-//           })
-//           .join("; ");
-
-//         throw new Error(`Не найдены предметы: ${suggestions}`);
-//       }
-
-//       if (!typeIds.length) {
-//         throw new Error("Нет соответствующих предметов.");
-//       }
-
-//       const pricesResponse = await axios.get("https://esi.evetech.net/dev/markets/prices/", {
-//         params: {
-//           datasource: "tranquility",
-//         },
-//       });
-
-//       const prices: PriceData[] = pricesResponse.data;
-
-//       const resultData: { name: string; adjustedPrice: string; averagePrice: string }[] = [];
-//       let currentTotalAdjustedPrice = 0; // Локальная переменная для подсчета сумм
-//       let currentTotalAveragePrice = 0;
-
-//       for (const typeId of typeIds) {
-//         const price = prices.find((p) => p.type_id === typeId);
-//         if (price) {
-//           const typeName = typeData[typeId]?.name.ru || typeData[typeId]?.name.en || "Unknown";
-//           const formattedAdjustedPrice = formatNumber(price.adjusted_price);
-//           const formattedAveragePrice = formatNumber(price.average_price);
-
-//           resultData.push({
-//             name: typeName,
-//             adjustedPrice: formattedAdjustedPrice,
-//             averagePrice: formattedAveragePrice,
-//           });
-
-//           currentTotalAdjustedPrice += price.adjusted_price; // Суммируем текущие цены
-//           currentTotalAveragePrice += price.average_price; // Суммируем средние цены
-//         }
-//       }
-
-//       setResults(resultData);
-//       setTotalAdjustedPrice(currentTotalAdjustedPrice); // Обновляем состояние общей суммы текущей цены
-//       setTotalAveragePrice(currentTotalAveragePrice); // Обновляем состояние общей суммы средней цены
-//     } catch (err: unknown) {
-//       if (err instanceof Error) {
-//         setError(err.message || "Произошла ошибка при получении цен.");
-//       } else {
-//         setError("Произошла неизвестная ошибка.");
-//       }
-//     } finally {
-//       setLoading(false);
-//     }
-//   };
-
-//   const totalPages = Math.ceil(results.length / itemsPerPage);
-//   const paginatedResults = results.slice(
-//     (currentPage - 1) * itemsPerPage,
-//     currentPage * itemsPerPage
-//   );
-
-//   const handlePageChange = (direction: "prev" | "next") => {
-//     if (direction === "prev" && currentPage > 1) {
-//       setCurrentPage(currentPage - 1);
-//     } else if (direction === "next" && currentPage < totalPages) {
-//       setCurrentPage(currentPage + 1);
-//     }
-//   };
-
-//   return (
-//     <div className="max-w-4xl mx-auto p-6 bg-slate-950 text-slate-300">
-//       <h1 className="mx-auto text-2xl font-bold mb-4">Проверка цен предметов</h1>
-
-//       <p className="text-slate-300">Введите названия предметов (по одному в строке), будет отображена цена предметов которые вы хотите проверить.</p>
-//       <p className="text-slate-300">Необходимо вводить точное название предмета, например Tritanium или Cobalt.</p>
-//       <p className="mb-4 text-slate-300">Интерактивный поиск предметов по частичному совпадению еще в разработке, также планируется добавить подсчет предметов по типу и количеству.</p>
-//       <form onSubmit={(e) => e.preventDefault()} className="mb-6">
-//         <textarea
-//           value={inputValue}
-//           onChange={(e) => setInputValue(e.target.value)}
-//           placeholder="Введите названия предметов (по одному в строке)"
-//           rows={5}
-//           className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-800 text-slate-300"
-//         />
-//         <Button onClick={handleCheckPrices} disabled={loading} className="mt-4">
-//           {loading ? "Загрузка..." : "Проверить цены"}
-//         </Button>
-//       </form>
-
-//       {error && <p className="text-red-500 mb-4">{error}</p>}
-
-//       {results.length > 0 && (
-//         <div>
-//           <table className="min-w-full divide-y divide-slate-700 bg-slate-950 text-slate-300">
-//             <thead>
-//               <tr className="border-b border-slate-700">
-//                 <th className="px-6 py-3">#</th>
-//                 <th className="px-6 py-3">Название</th>
-//                 <th className="px-6 py-3">Текущая цена</th>
-//                 <th className="px-6 py-3">Средняя цена</th>
-//               </tr>
-//             </thead>
-//             <tbody>
-//               {paginatedResults.map((item, index) => (
-//                 <tr
-//                   key={index}
-//                   className={`border-b border-slate-700 ${
-//                     index % 2 === 0 ? "bg-slate-900" : "bg-slate-800"
-//                   }`}
-//                 >
-//                   <td className="px-6 py-4 text-center">{(currentPage - 1) * itemsPerPage + index + 1}</td>
-//                   <td className="px-6 py-4">{item.name}</td>
-//                   <td className="px-6 py-4 text-right">{item.adjustedPrice}</td>
-//                   <td className="px-6 py-4 text-right">{item.averagePrice}</td>
-//                 </tr>
-//               ))}
-//             </tbody>
-//           </table>
-
-//           {/* Итоговая строка */}
-//           <div className="flex justify-between mt-4 px-6 py-3 bg-slate-800 border-t border-slate-700">
-//             <span className="font-bold">Итого:</span>
-//             <span className="font-bold text-right">
-//               {formatNumber(totalAdjustedPrice)} / {formatNumber(totalAveragePrice)}
-//             </span>
-//           </div>
-
-//           {/* Пагинация */}
-//           <div className="flex justify-center mt-4">
-//             <Button
-//               onClick={() => handlePageChange("prev")}
-//               disabled={currentPage === 1}
-//               className="bg-slate-800 hover:bg-slate-700"
-//             >
-//               Назад
-//             </Button>
-//             <span className="mx-2 text-slate-300">
-//               Страница {currentPage} из {totalPages}
-//             </span>
-//             <Button
-//               onClick={() => handlePageChange("next")}
-//               disabled={currentPage === totalPages}
-//               className="bg-slate-800 hover:bg-slate-700"
-//             >
-//               Вперед
-//             </Button>
-//           </div>
-//         </div>
-//       )}
-//     </div>
-//   );
-// };
-
-// export default ItemPriceChecker;
-

@@ -1,0 +1,1622 @@
+[
+  {
+    "en": "Amarr Shuttle",
+    "ru": "Amarr Shuttle"
+  },
+  {
+    "en": "Minmatar Shuttle",
+    "ru": "Minmatar Shuttle"
+  },
+  {
+    "en": "Gallente Shuttle",
+    "ru": "Gallente Shuttle"
+  },
+  {
+    "en": "Caldari Shuttle",
+    "ru": "Caldari Shuttle"
+  },
+  {
+    "en": "Goru's Shuttle",
+    "ru": "Goru's Shuttle"
+  },
+  {
+    "en": "Guristas Shuttle",
+    "ru": "Guristas Shuttle"
+  },
+  {
+    "en": "Bantam",
+    "ru": "Bantam"
+  },
+  {
+    "en": "Condor",
+    "ru": "Condor"
+  },
+  {
+    "en": "Griffin",
+    "ru": "Griffin"
+  },
+  {
+    "en": "Kestrel",
+    "ru": "Kestrel"
+  },
+  {
+    "en": "Merlin",
+    "ru": "Merlin"
+  },
+  {
+    "en": "Heron",
+    "ru": "Heron"
+  },
+  {
+    "en": "Slasher",
+    "ru": "Slasher"
+  },
+  {
+    "en": "Probe",
+    "ru": "Probe"
+  },
+  {
+    "en": "Rifter",
+    "ru": "Rifter"
+  },
+  {
+    "en": "Breacher",
+    "ru": "Breacher"
+  },
+  {
+    "en": "Burst",
+    "ru": "Burst"
+  },
+  {
+    "en": "Vigil",
+    "ru": "Vigil"
+  },
+  {
+    "en": "Executioner",
+    "ru": "Executioner"
+  },
+  {
+    "en": "Inquisitor",
+    "ru": "Inquisitor"
+  },
+  {
+    "en": "Tormentor",
+    "ru": "Tormentor"
+  },
+  {
+    "en": "Punisher",
+    "ru": "Punisher"
+  },
+  {
+    "en": "Crucifier",
+    "ru": "Crucifier"
+  },
+  {
+    "en": "Magnate",
+    "ru": "Magnate"
+  },
+  {
+    "en": "Navitas",
+    "ru": "Navitas"
+  },
+  {
+    "en": "Tristan",
+    "ru": "Tristan"
+  },
+  {
+    "en": "Incursus",
+    "ru": "Incursus"
+  },
+  {
+    "en": "Imicus",
+    "ru": "Imicus"
+  },
+  {
+    "en": "Atron",
+    "ru": "Atron"
+  },
+  {
+    "en": "Maulus",
+    "ru": "Maulus"
+  },
+  {
+    "en": "Venture",
+    "ru": "Venture"
+  },
+  {
+    "en": "Citizen Venture",
+    "ru": "Citizen Venture"
+  },
+  {
+    "en": "Succubus",
+    "ru": "Succubus"
+  },
+  {
+    "en": "Cruor",
+    "ru": "Cruor"
+  },
+  {
+    "en": "Daredevil",
+    "ru": "Daredevil"
+  },
+  {
+    "en": "Worm",
+    "ru": "Worm"
+  },
+  {
+    "en": "Dramiel",
+    "ru": "Dramiel"
+  },
+  {
+    "en": "Astero",
+    "ru": "Astero"
+  },
+  {
+    "en": "Garmur",
+    "ru": "Garmur"
+  },
+  {
+    "en": "Caldari Navy Hookbill",
+    "ru": "Caldari Navy Hookbill"
+  },
+  {
+    "en": "Imperial Navy Slicer",
+    "ru": "Imperial Navy Slicer"
+  },
+  {
+    "en": "Republic Fleet Firetail",
+    "ru": "Republic Fleet Firetail"
+  },
+  {
+    "en": "Federation Navy Comet",
+    "ru": "Federation Navy Comet"
+  },
+  {
+    "en": "Police Pursuit Comet",
+    "ru": "Police Pursuit Comet"
+  },
+  {
+    "en": "Crucifier Navy Issue",
+    "ru": "Crucifier Navy Issue"
+  },
+  {
+    "en": "Vigil Fleet Issue",
+    "ru": "Vigil Fleet Issue"
+  },
+  {
+    "en": "Griffin Navy Issue",
+    "ru": "Griffin Navy Issue"
+  },
+  {
+    "en": "Maulus Navy Issue",
+    "ru": "Maulus Navy Issue"
+  },
+  {
+    "en": "Probe Fleet Issue",
+    "ru": "Probe Fleet Issue"
+  },
+  {
+    "en": "Heron Navy Issue",
+    "ru": "Heron Navy Issue"
+  },
+  {
+    "en": "Magnate Navy Issue",
+    "ru": "Magnate Navy Issue"
+  },
+  {
+    "en": "Imicus Navy Issue",
+    "ru": "Imicus Navy Issue"
+  },
+  {
+    "en": "Skybreaker",
+    "ru": "Skybreaker"
+  },
+  {
+    "en": "Crusader",
+    "ru": "Crusader"
+  },
+  {
+    "en": "Malediction",
+    "ru": "Malediction"
+  },
+  {
+    "en": "Crow",
+    "ru": "Crow"
+  },
+  {
+    "en": "Raptor",
+    "ru": "Raptor"
+  },
+  {
+    "en": "Taranis",
+    "ru": "Taranis"
+  },
+  {
+    "en": "Ares",
+    "ru": "Ares"
+  },
+  {
+    "en": "Claw",
+    "ru": "Claw"
+  },
+  {
+    "en": "Stiletto",
+    "ru": "Stiletto"
+  },
+  {
+    "en": "Anathema",
+    "ru": "Anathema"
+  },
+  {
+    "en": "Purifier",
+    "ru": "Purifier"
+  },
+  {
+    "en": "Buzzard",
+    "ru": "Buzzard"
+  },
+  {
+    "en": "Manticore",
+    "ru": "Manticore"
+  },
+  {
+    "en": "Helios",
+    "ru": "Helios"
+  },
+  {
+    "en": "Nemesis",
+    "ru": "Nemesis"
+  },
+  {
+    "en": "Cheetah",
+    "ru": "Cheetah"
+  },
+  {
+    "en": "Hound",
+    "ru": "Hound"
+  },
+  {
+    "en": "Vengeance",
+    "ru": "Vengeance"
+  },
+  {
+    "en": "Retribution",
+    "ru": "Retribution"
+  },
+  {
+    "en": "Hawk",
+    "ru": "Hawk"
+  },
+  {
+    "en": "Harpy",
+    "ru": "Harpy"
+  },
+  {
+    "en": "Ishkur",
+    "ru": "Ishkur"
+  },
+  {
+    "en": "Enyo",
+    "ru": "Enyo"
+  },
+  {
+    "en": "Wolf",
+    "ru": "Wolf"
+  },
+  {
+    "en": "Jaguar",
+    "ru": "Jaguar"
+  },
+  {
+    "en": "Nergal",
+    "ru": "Nergal"
+  },
+  {
+    "en": "Sentinel",
+    "ru": "Sentinel"
+  },
+  {
+    "en": "Kitsune",
+    "ru": "Kitsune"
+  },
+  {
+    "en": "Keres",
+    "ru": "Keres"
+  },
+  {
+    "en": "Hyena",
+    "ru": "Hyena"
+  },
+  {
+    "en": "Prospect",
+    "ru": "Prospect"
+  },
+  {
+    "en": "Endurance",
+    "ru": "Endurance"
+  },
+  {
+    "en": "Deacon",
+    "ru": "Deacon"
+  },
+  {
+    "en": "Kirin",
+    "ru": "Kirin"
+  },
+  {
+    "en": "Thalia",
+    "ru": "Thalia"
+  },
+  {
+    "en": "Scalpel",
+    "ru": "Scalpel"
+  },
+  {
+    "en": "Damavik",
+    "ru": "Damavik"
+  },
+  {
+    "en": "Stabber",
+    "ru": "Stabber"
+  },
+  {
+    "en": "Rupture",
+    "ru": "Rupture"
+  },
+  {
+    "en": "Bellicose",
+    "ru": "Bellicose"
+  },
+  {
+    "en": "Scythe",
+    "ru": "Scythe"
+  },
+  {
+    "en": "Maller",
+    "ru": "Maller"
+  },
+  {
+    "en": "Augoror",
+    "ru": "Augoror"
+  },
+  {
+    "en": "Arbitrator",
+    "ru": "Arbitrator"
+  },
+  {
+    "en": "Omen",
+    "ru": "Omen"
+  },
+  {
+    "en": "Test Site Maller",
+    "ru": "Test Site Maller"
+  },
+  {
+    "en": "Osprey",
+    "ru": "Osprey"
+  },
+  {
+    "en": "Caracal",
+    "ru": "Caracal"
+  },
+  {
+    "en": "Moa",
+    "ru": "Moa"
+  },
+  {
+    "en": "Blackbird",
+    "ru": "Blackbird"
+  },
+  {
+    "en": "Vexor",
+    "ru": "Vexor"
+  },
+  {
+    "en": "Thorax",
+    "ru": "Thorax"
+  },
+  {
+    "en": "Celestis",
+    "ru": "Celestis"
+  },
+  {
+    "en": "Exequror",
+    "ru": "Exequror"
+  },
+  {
+    "en": "Guardian",
+    "ru": "Guardian"
+  },
+  {
+    "en": "Basilisk",
+    "ru": "Basilisk"
+  },
+  {
+    "en": "Oneiros",
+    "ru": "Oneiros"
+  },
+  {
+    "en": "Scimitar",
+    "ru": "Scimitar"
+  },
+  {
+    "en": "Zarmazd",
+    "ru": "Zarmazd"
+  },
+  {
+    "en": "Zealot",
+    "ru": "Zealot"
+  },
+  {
+    "en": "Sacrilege",
+    "ru": "Sacrilege"
+  },
+  {
+    "en": "Cerberus",
+    "ru": "Cerberus"
+  },
+  {
+    "en": "Eagle",
+    "ru": "Eagle"
+  },
+  {
+    "en": "Ishtar",
+    "ru": "Ishtar"
+  },
+  {
+    "en": "Deimos",
+    "ru": "Deimos"
+  },
+  {
+    "en": "Vagabond",
+    "ru": "Vagabond"
+  },
+  {
+    "en": "Muninn",
+    "ru": "Muninn"
+  },
+  {
+    "en": "Ikitursa",
+    "ru": "Ikitursa"
+  },
+  {
+    "en": "Pilgrim",
+    "ru": "Pilgrim"
+  },
+  {
+    "en": "Curse",
+    "ru": "Curse"
+  },
+  {
+    "en": "Falcon",
+    "ru": "Falcon"
+  },
+  {
+    "en": "Rook",
+    "ru": "Rook"
+  },
+  {
+    "en": "Arazu",
+    "ru": "Arazu"
+  },
+  {
+    "en": "Lachesis",
+    "ru": "Lachesis"
+  },
+  {
+    "en": "Huginn",
+    "ru": "Huginn"
+  },
+  {
+    "en": "Rapier",
+    "ru": "Rapier"
+  },
+  {
+    "en": "Devoter",
+    "ru": "Devoter"
+  },
+  {
+    "en": "Onyx",
+    "ru": "Onyx"
+  },
+  {
+    "en": "Phobos",
+    "ru": "Phobos"
+  },
+  {
+    "en": "Broadsword",
+    "ru": "Broadsword"
+  },
+  {
+    "en": "Legion",
+    "ru": "Legion"
+  },
+  {
+    "en": "Tengu",
+    "ru": "Tengu"
+  },
+  {
+    "en": "Proteus",
+    "ru": "Proteus"
+  },
+  {
+    "en": "Loki",
+    "ru": "Loki"
+  },
+  {
+    "en": "Monitor",
+    "ru": "Monitor"
+  },
+  {
+    "en": "Caracal Navy Issue",
+    "ru": "Caracal Navy Issue"
+  },
+  {
+    "en": "Omen Navy Issue",
+    "ru": "Omen Navy Issue"
+  },
+  {
+    "en": "Stabber Fleet Issue",
+    "ru": "Stabber Fleet Issue"
+  },
+  {
+    "en": "Vexor Navy Issue",
+    "ru": "Vexor Navy Issue"
+  },
+  {
+    "en": "Scythe Fleet Issue",
+    "ru": "Scythe Fleet Issue"
+  },
+  {
+    "en": "Augoror Navy Issue",
+    "ru": "Augoror Navy Issue"
+  },
+  {
+    "en": "Osprey Navy Issue",
+    "ru": "Osprey Navy Issue"
+  },
+  {
+    "en": "Exequror Navy Issue",
+    "ru": "Exequror Navy Issue"
+  },
+  {
+    "en": "Gila",
+    "ru": "Gila"
+  },
+  {
+    "en": "Phantasm",
+    "ru": "Phantasm"
+  },
+  {
+    "en": "Cynabal",
+    "ru": "Cynabal"
+  },
+  {
+    "en": "Vigilant",
+    "ru": "Vigilant"
+  },
+  {
+    "en": "Ashimmu",
+    "ru": "Ashimmu"
+  },
+  {
+    "en": "Stratios",
+    "ru": "Stratios"
+  },
+  {
+    "en": "Orthrus",
+    "ru": "Orthrus"
+  },
+  {
+    "en": "Stormbringer",
+    "ru": "Stormbringer"
+  },
+  {
+    "en": "Vedmak",
+    "ru": "Vedmak"
+  },
+  {
+    "en": "Rodiva",
+    "ru": "Rodiva"
+  },
+  {
+    "en": "Coercer",
+    "ru": "Coercer"
+  },
+  {
+    "en": "Dragoon",
+    "ru": "Dragoon"
+  },
+  {
+    "en": "Cormorant",
+    "ru": "Cormorant"
+  },
+  {
+    "en": "Corax",
+    "ru": "Corax"
+  },
+  {
+    "en": "Catalyst",
+    "ru": "Catalyst"
+  },
+  {
+    "en": "Algos",
+    "ru": "Algos"
+  },
+  {
+    "en": "Thrasher",
+    "ru": "Thrasher"
+  },
+  {
+    "en": "Talwar",
+    "ru": "Talwar"
+  },
+  {
+    "en": "Heretic",
+    "ru": "Heretic"
+  },
+  {
+    "en": "Flycatcher",
+    "ru": "Flycatcher"
+  },
+  {
+    "en": "Eris",
+    "ru": "Eris"
+  },
+  {
+    "en": "Sabre",
+    "ru": "Sabre"
+  },
+  {
+    "en": "Confessor",
+    "ru": "Confessor"
+  },
+  {
+    "en": "Svipul",
+    "ru": "Svipul"
+  },
+  {
+    "en": "Jackdaw",
+    "ru": "Jackdaw"
+  },
+  {
+    "en": "Hecate",
+    "ru": "Hecate"
+  },
+  {
+    "en": "Pontifex",
+    "ru": "Pontifex"
+  },
+  {
+    "en": "Stork",
+    "ru": "Stork"
+  },
+  {
+    "en": "Magus",
+    "ru": "Magus"
+  },
+  {
+    "en": "Bifrost",
+    "ru": "Bifrost"
+  },
+  {
+    "en": "Draugur",
+    "ru": "Draugur"
+  },
+  {
+    "en": "Kikimora",
+    "ru": "Kikimora"
+  },
+  {
+    "en": "Coercer Navy Issue",
+    "ru": "Coercer Navy Issue"
+  },
+  {
+    "en": "Thrasher Fleet Issue",
+    "ru": "Thrasher Fleet Issue"
+  },
+  {
+    "en": "Cormorant Navy Issue",
+    "ru": "Cormorant Navy Issue"
+  },
+  {
+    "en": "Catalyst Navy Issue",
+    "ru": "Catalyst Navy Issue"
+  },
+  {
+    "en": "Mekubal",
+    "ru": "Mekubal"
+  },
+  {
+    "en": "Mamba",
+    "ru": "Mamba"
+  },
+  {
+    "en": "Tholos",
+    "ru": "Tholos"
+  },
+  {
+    "en": "Oracle",
+    "ru": "Oracle"
+  },
+  {
+    "en": "Prophecy",
+    "ru": "Prophecy"
+  },
+  {
+    "en": "Harbinger",
+    "ru": "Harbinger"
+  },
+  {
+    "en": "Naga",
+    "ru": "Naga"
+  },
+  {
+    "en": "Ferox",
+    "ru": "Ferox"
+  },
+  {
+    "en": "Drake",
+    "ru": "Drake"
+  },
+  {
+    "en": "Talos",
+    "ru": "Talos"
+  },
+  {
+    "en": "Brutix",
+    "ru": "Brutix"
+  },
+  {
+    "en": "Myrmidon",
+    "ru": "Myrmidon"
+  },
+  {
+    "en": "Tornado",
+    "ru": "Tornado"
+  },
+  {
+    "en": "Cyclone",
+    "ru": "Cyclone"
+  },
+  {
+    "en": "Hurricane",
+    "ru": "Hurricane"
+  },
+  {
+    "en": "Absolution",
+    "ru": "Absolution"
+  },
+  {
+    "en": "Damnation",
+    "ru": "Damnation"
+  },
+  {
+    "en": "Vulture",
+    "ru": "Vulture"
+  },
+  {
+    "en": "Nighthawk",
+    "ru": "Nighthawk"
+  },
+  {
+    "en": "Eos",
+    "ru": "Eos"
+  },
+  {
+    "en": "Astarte",
+    "ru": "Astarte"
+  },
+  {
+    "en": "Sleipnir",
+    "ru": "Sleipnir"
+  },
+  {
+    "en": "Claymore",
+    "ru": "Claymore"
+  },
+  {
+    "en": "Brutix Navy Issue",
+    "ru": "Brutix Navy Issue"
+  },
+  {
+    "en": "Drake Navy Issue",
+    "ru": "Drake Navy Issue"
+  },
+  {
+    "en": "Harbinger Navy Issue",
+    "ru": "Harbinger Navy Issue"
+  },
+  {
+    "en": "Hurricane Fleet Issue",
+    "ru": "Hurricane Fleet Issue"
+  },
+  {
+    "en": "Cyclone Fleet Issue",
+    "ru": "Cyclone Fleet Issue"
+  },
+  {
+    "en": "Ferox Navy Issue",
+    "ru": "Ferox Navy Issue"
+  },
+  {
+    "en": "Myrmidon Navy Issue",
+    "ru": "Myrmidon Navy Issue"
+  },
+  {
+    "en": "Prophecy Navy Issue",
+    "ru": "Prophecy Navy Issue"
+  },
+  {
+    "en": "Alligator",
+    "ru": "Alligator"
+  },
+  {
+    "en": "Khizriel",
+    "ru": "Khizriel"
+  },
+  {
+    "en": "Cenotaph",
+    "ru": "Cenotaph"
+  },
+  {
+    "en": "Drekavac",
+    "ru": "Drekavac"
+  },
+  {
+    "en": "Tempest",
+    "ru": "Tempest"
+  },
+  {
+    "en": "Typhoon",
+    "ru": "Typhoon"
+  },
+  {
+    "en": "Maelstrom",
+    "ru": "Maelstrom"
+  },
+  {
+    "en": "Apocalypse",
+    "ru": "Apocalypse"
+  },
+  {
+    "en": "Armageddon",
+    "ru": "Armageddon"
+  },
+  {
+    "en": "Abaddon",
+    "ru": "Abaddon"
+  },
+  {
+    "en": "Raven",
+    "ru": "Raven"
+  },
+  {
+    "en": "Scorpion",
+    "ru": "Scorpion"
+  },
+  {
+    "en": "Rokh",
+    "ru": "Rokh"
+  },
+  {
+    "en": "Megathron",
+    "ru": "Megathron"
+  },
+  {
+    "en": "Dominix",
+    "ru": "Dominix"
+  },
+  {
+    "en": "Hyperion",
+    "ru": "Hyperion"
+  },
+  {
+    "en": "Redeemer",
+    "ru": "Redeemer"
+  },
+  {
+    "en": "Widow",
+    "ru": "Widow"
+  },
+  {
+    "en": "Sin",
+    "ru": "Sin"
+  },
+  {
+    "en": "Panther",
+    "ru": "Panther"
+  },
+  {
+    "en": "Paladin",
+    "ru": "Paladin"
+  },
+  {
+    "en": "Golem",
+    "ru": "Golem"
+  },
+  {
+    "en": "Kronos",
+    "ru": "Kronos"
+  },
+  {
+    "en": "Vargur",
+    "ru": "Vargur"
+  },
+  {
+    "en": "Raven Navy Issue",
+    "ru": "Raven Navy Issue"
+  },
+  {
+    "en": "Apocalypse Navy Issue",
+    "ru": "Apocalypse Navy Issue"
+  },
+  {
+    "en": "Megathron Navy Issue",
+    "ru": "Megathron Navy Issue"
+  },
+  {
+    "en": "Tempest Fleet Issue",
+    "ru": "Tempest Fleet Issue"
+  },
+  {
+    "en": "Armageddon Navy Issue",
+    "ru": "Armageddon Navy Issue"
+  },
+  {
+    "en": "Dominix Navy Issue",
+    "ru": "Dominix Navy Issue"
+  },
+  {
+    "en": "Scorpion Navy Issue",
+    "ru": "Scorpion Navy Issue"
+  },
+  {
+    "en": "Typhoon Fleet Issue",
+    "ru": "Typhoon Fleet Issue"
+  },
+  {
+    "en": "Nightmare",
+    "ru": "Nightmare"
+  },
+  {
+    "en": "Machariel",
+    "ru": "Machariel"
+  },
+  {
+    "en": "Vindicator",
+    "ru": "Vindicator"
+  },
+  {
+    "en": "Rattlesnake",
+    "ru": "Rattlesnake"
+  },
+  {
+    "en": "Bhaalgorn",
+    "ru": "Bhaalgorn"
+  },
+  {
+    "en": "Nestor",
+    "ru": "Nestor"
+  },
+  {
+    "en": "Barghest",
+    "ru": "Barghest"
+  },
+  {
+    "en": "Thunderchild",
+    "ru": "Thunderchild"
+  },
+  {
+    "en": "Leshak",
+    "ru": "Leshak"
+  },
+  {
+    "en": "Vehement",
+    "ru": "Vehement"
+  },
+  {
+    "en": "Chemosh",
+    "ru": "Chemosh"
+  },
+  {
+    "en": "Caiman",
+    "ru": "Caiman"
+  },
+  {
+    "en": "Naglfar Fleet Issue",
+    "ru": "Naglfar Fleet Issue"
+  },
+  {
+    "en": "Revelation Navy Issue",
+    "ru": "Revelation Navy Issue"
+  },
+  {
+    "en": "Moros Navy Issue",
+    "ru": "Moros Navy Issue"
+  },
+  {
+    "en": "Phoenix Navy Issue",
+    "ru": "Phoenix Navy Issue"
+  },
+  {
+    "en": "Zirnitra",
+    "ru": "Zirnitra"
+  },
+  {
+    "en": "Revelation",
+    "ru": "Revelation"
+  },
+  {
+    "en": "Phoenix",
+    "ru": "Phoenix"
+  },
+  {
+    "en": "Moros",
+    "ru": "Moros"
+  },
+  {
+    "en": "Naglfar",
+    "ru": "Naglfar"
+  },
+  {
+    "en": "Bane",
+    "ru": "Bane"
+  },
+  {
+    "en": "Karura",
+    "ru": "Karura"
+  },
+  {
+    "en": "Valravn",
+    "ru": "Valravn"
+  },
+  {
+    "en": "Hubris",
+    "ru": "Hubris"
+  },
+  {
+    "en": "Providence",
+    "ru": "Providence"
+  },
+  {
+    "en": "Charon",
+    "ru": "Charon"
+  },
+  {
+    "en": "Obelisk",
+    "ru": "Obelisk"
+  },
+  {
+    "en": "Fenrir",
+    "ru": "Fenrir"
+  },
+  {
+    "en": "Bowhead",
+    "ru": "Bowhead"
+  },
+  {
+    "en": "Avalanche",
+    "ru": "Avalanche"
+  },
+  {
+    "en": "Avatar",
+    "ru": "Avatar"
+  },
+  {
+    "en": "Leviathan",
+    "ru": "Leviathan"
+  },
+  {
+    "en": "Erebus",
+    "ru": "Erebus"
+  },
+  {
+    "en": "Ragnarok",
+    "ru": "Ragnarok"
+  },
+  {
+    "en": "Vanquisher",
+    "ru": "Vanquisher"
+  },
+  {
+    "en": "Molok",
+    "ru": "Molok"
+  },
+  {
+    "en": "Komodo",
+    "ru": "Komodo"
+  },
+  {
+    "en": "Azariel",
+    "ru": "Azariel"
+  },
+  {
+    "en": "Archon",
+    "ru": "Archon"
+  },
+  {
+    "en": "Aeon",
+    "ru": "Aeon"
+  },
+  {
+    "en": "Chimera",
+    "ru": "Chimera"
+  },
+  {
+    "en": "Wyvern",
+    "ru": "Wyvern"
+  },
+  {
+    "en": "Thanatos",
+    "ru": "Thanatos"
+  },
+  {
+    "en": "Nyx",
+    "ru": "Nyx"
+  },
+  {
+    "en": "Vanguard",
+    "ru": "Vanguard"
+  },
+  {
+    "en": "Hel",
+    "ru": "Hel"
+  },
+  {
+    "en": "Nidhoggur",
+    "ru": "Nidhoggur"
+  },
+  {
+    "en": "Revenant",
+    "ru": "Revenant"
+  },
+  {
+    "en": "Vendetta",
+    "ru": "Vendetta"
+  },
+  {
+    "en": "Rorqual",
+    "ru": "Rorqual"
+  },
+  {
+    "en": "Ark",
+    "ru": "Ark"
+  },
+  {
+    "en": "Rhea",
+    "ru": "Rhea"
+  },
+  {
+    "en": "Anshar",
+    "ru": "Anshar"
+  },
+  {
+    "en": "Nomad",
+    "ru": "Nomad"
+  },
+  {
+    "en": "Apostle",
+    "ru": "Apostle"
+  },
+  {
+    "en": "Minokawa",
+    "ru": "Minokawa"
+  },
+  {
+    "en": "Ninazu",
+    "ru": "Ninazu"
+  },
+  {
+    "en": "Venerable",
+    "ru": "Venerable"
+  },
+  {
+    "en": "Lif",
+    "ru": "Lif"
+  },
+  {
+    "en": "Dagon",
+    "ru": "Dagon"
+  },
+  {
+    "en": "Loggerhead",
+    "ru": "Loggerhead"
+  },
+  {
+    "en": "Hoarder",
+    "ru": "Hoarder"
+  },
+  {
+    "en": "Mammoth",
+    "ru": "Mammoth"
+  },
+  {
+    "en": "Wreathe",
+    "ru": "Wreathe"
+  },
+  {
+    "en": "Nereus",
+    "ru": "Nereus"
+  },
+  {
+    "en": "Kryos",
+    "ru": "Kryos"
+  },
+  {
+    "en": "Epithal",
+    "ru": "Epithal"
+  },
+  {
+    "en": "Miasmos",
+    "ru": "Miasmos"
+  },
+  {
+    "en": "Iteron Mark V",
+    "ru": "Iteron Mark V"
+  },
+  {
+    "en": "Badger",
+    "ru": "Badger"
+  },
+  {
+    "en": "Tayra",
+    "ru": "Tayra"
+  },
+  {
+    "en": "Bestower",
+    "ru": "Bestower"
+  },
+  {
+    "en": "Sigil",
+    "ru": "Sigil"
+  },
+  {
+    "en": "Noctis",
+    "ru": "Noctis"
+  },
+  {
+    "en": "Squall",
+    "ru": "Squall"
+  },
+  {
+    "en": "Prorator",
+    "ru": "Prorator"
+  },
+  {
+    "en": "Impel",
+    "ru": "Impel"
+  },
+  {
+    "en": "Crane",
+    "ru": "Crane"
+  },
+  {
+    "en": "Bustard",
+    "ru": "Bustard"
+  },
+  {
+    "en": "Viator",
+    "ru": "Viator"
+  },
+  {
+    "en": "Occator",
+    "ru": "Occator"
+  },
+  {
+    "en": "Prowler",
+    "ru": "Prowler"
+  },
+  {
+    "en": "Mastodon",
+    "ru": "Mastodon"
+  },
+  {
+    "en": "Deluge",
+    "ru": "Deluge"
+  },
+  {
+    "en": "Torrent",
+    "ru": "Torrent"
+  },
+  {
+    "en": "Orca",
+    "ru": "Orca"
+  },
+  {
+    "en": "Porpoise",
+    "ru": "Porpoise"
+  },
+  {
+    "en": "Covetor",
+    "ru": "Covetor"
+  },
+  {
+    "en": "Retriever",
+    "ru": "Retriever"
+  },
+  {
+    "en": "Procurer",
+    "ru": "Procurer"
+  },
+  {
+    "en": "Hulk",
+    "ru": "Hulk"
+  },
+  {
+    "en": "Skiff",
+    "ru": "Skiff"
+  },
+  {
+    "en": "Mackinaw",
+    "ru": "Mackinaw"
+  },
+  {
+    "en": "Primae",
+    "ru": "Primae"
+  },
+  {
+    "en": "Miasmos Quafe Ultra Edition",
+    "ru": "Miasmos Quafe Ultra Edition"
+  },
+  {
+    "en": "Miasmos Quafe Ultramarine Edition",
+    "ru": "Miasmos Quafe Ultramarine Edition"
+  },
+  {
+    "en": "Miasmos Amastris Edition",
+    "ru": "Miasmos Amastris Edition"
+  },
+  {
+    "en": "Apotheosis",
+    "ru": "Apotheosis"
+  },
+  {
+    "en": "InterBus Shuttle",
+    "ru": "Interbus Shuttle"
+  },
+  {
+    "en": "Leopard",
+    "ru": "Leopard"
+  },
+  {
+    "en": "Council Diplomatic Shuttle",
+    "ru": "Council Diplomatic Shuttle"
+  },
+  {
+    "en": "Boobook",
+    "ru": "Boobook"
+  },
+  {
+    "en": "Zephyr",
+    "ru": "Zephyr"
+  },
+  {
+    "en": "Echelon",
+    "ru": "Echelon"
+  },
+  {
+    "en": "Gold Magnate",
+    "ru": "Gold Magnate"
+  },
+  {
+    "en": "Silver Magnate",
+    "ru": "Silver Magnate"
+  },
+  {
+    "en": "Metamorphosis",
+    "ru": "Metamorphosis"
+  },
+  {
+    "en": "Scorpion Ishukone Watch",
+    "ru": "Scorpion Ishukone Watch"
+  },
+  {
+    "en": "Apocalypse Imperial Issue",
+    "ru": "Apocalypse Imperial Issue"
+  },
+  {
+    "en": "Armageddon Imperial Issue",
+    "ru": "Armageddon Imperial Issue"
+  },
+  {
+    "en": "Megathron Federate Issue",
+    "ru": "Megathron Federate Issue"
+  },
+  {
+    "en": "Raven State Issue",
+    "ru": "Raven State Issue"
+  },
+  {
+    "en": "Tempest Tribal Issue",
+    "ru": "Tempest Tribal Issue"
+  },
+  {
+    "en": "Marshal",
+    "ru": "Marshal"
+  },
+  {
+    "en": "Praxis",
+    "ru": "Praxis"
+  },
+  {
+    "en": "Python",
+    "ru": "Python"
+  },
+  {
+    "en": "Adrestia",
+    "ru": "Adrestia"
+  },
+  {
+    "en": "Vangel",
+    "ru": "Vangel"
+  },
+  {
+    "en": "Mimir",
+    "ru": "Mimir"
+  },
+  {
+    "en": "Bestla",
+    "ru": "Bestla"
+  },
+  {
+    "en": "Cybele",
+    "ru": "Cybele"
+  },
+  {
+    "en": "Utu",
+    "ru": "Utu"
+  },
+  {
+    "en": "Malice",
+    "ru": "Malice"
+  },
+  {
+    "en": "Freki",
+    "ru": "Freki"
+  },
+  {
+    "en": "Cambion",
+    "ru": "Cambion"
+  },
+  {
+    "en": "Geri",
+    "ru": "Geri"
+  },
+  {
+    "en": "Shapash",
+    "ru": "Shapash"
+  },
+  {
+    "en": "Etana",
+    "ru": "Etana"
+  },
+  {
+    "en": "Rabisu",
+    "ru": "Rabisu"
+  },
+  {
+    "en": "Gnosis",
+    "ru": "Gnosis"
+  },
+  {
+    "en": "Opux Luxury Yacht",
+    "ru": "Opux Luxury Yacht"
+  },
+  {
+    "en": "Guardian-Vexor",
+    "ru": "Guardian-Vexor"
+  },
+  {
+    "en": "Victorieux Luxury Yacht",
+    "ru": "Victorieux Luxury Yacht"
+  },
+  {
+    "en": "Moracha",
+    "ru": "Moracha"
+  },
+  {
+    "en": "Chameleon",
+    "ru": "Chameleon"
+  },
+  {
+    "en": "Enforcer",
+    "ru": "Enforcer"
+  },
+  {
+    "en": "Victor",
+    "ru": "Victor"
+  },
+  {
+    "en": "Tiamat",
+    "ru": "Tiamat"
+  },
+  {
+    "en": "Cobra",
+    "ru": "Cobra"
+  },
+  {
+    "en": "Chremoas",
+    "ru": "Chremoas"
+  },
+  {
+    "en": "Caedes",
+    "ru": "Caedes"
+  },
+  {
+    "en": "Pacifier",
+    "ru": "Pacifier"
+  },
+  {
+    "en": "Virtuoso",
+    "ru": "Virtuoso"
+  },
+  {
+    "en": "Hydra",
+    "ru": "Hydra"
+  },
+  {
+    "en": "Sidewinder",
+    "ru": "Sidewinder"
+  },
+  {
+    "en": "Whiptail",
+    "ru": "Whiptail"
+  },
+  {
+    "en": "Imp",
+    "ru": "Imp"
+  },
+  {
+    "en": "Fiend",
+    "ru": "Fiend"
+  },
+  {
+    "en": "Laelaps",
+    "ru": "Laelaps"
+  },
+  {
+    "en": "Sunesis",
+    "ru": "Sunesis"
+  },
+  {
+    "en": "Immolator",
+    "ru": "Immolator"
+  },
+  {
+    "en": "Echo",
+    "ru": "Echo"
+  },
+  {
+    "en": "Hematos",
+    "ru": "Hematos"
+  },
+  {
+    "en": "Taipan",
+    "ru": "Taipan"
+  },
+  {
+    "en": "Violator",
+    "ru": "Violator"
+  },
+  {
+    "en": "Raiju",
+    "ru": "Raiju"
+  },
+  {
+    "en": "Impairor",
+    "ru": "Impairor"
+  },
+  {
+    "en": "Ibis",
+    "ru": "Ibis"
+  },
+  {
+    "en": "Velator",
+    "ru": "Velator"
+  },
+  {
+    "en": "Reaper",
+    "ru": "Reaper"
+  }
+]
