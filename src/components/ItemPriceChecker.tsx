@@ -2,6 +2,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button"; // Используем кнопку из shadcn
 import axios from "axios";
+import { CheckSquare, Trash2} from 'lucide-react';
 
 // Типы данных
 interface TypeData {
@@ -234,13 +235,21 @@ const ItemPriceChecker = () => {
         }
     };
 
+    const handleClearInput = () => {
+        setInputValue("");
+        setResults([]);
+        setTotalAdjustedPrice(0);
+        setTotalAveragePrice(0);
+        setCurrentPage(1);
+    };
+
     return (
-        <div className="max-w-4xl mx-auto p-4">
+        <div className="mx-auto p-4 max-md:px-5 bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg">
             <h1 className="text-2xl font-bold mb-4 text-slate-300">Проверка цен предметов EVE Online</h1>
             <p className="text-slate-300">Введите названия предметов (по одному в строке), будет отображена цена предметов которые вы хотите проверить.</p>
             <p className="text-slate-300">Необходимо вводить точное название предмета, например Tritanium или Cobalt.</p>
             <p className="mb-4 text-slate-300">Вы также можете скопировать все предметы в ангаре Ctrl+A(выделить) Ctrl+C(копировать) и Ctrl+V(вставить) в поле. На MacBook Command+A(выделить) Command+C(копировать) и Command+V вставить в поле.</p>
-{/* <p className="mb-4 text-slate-300">Интерактивный поиск предметов по частичному совпадению еще в разработке, также планируется добавить подсчет предметов по типу и количеству.</p> */}
+            {/* <p className="mb-4 text-slate-300">Интерактивный поиск предметов по частичному совпадению еще в разработке, также планируется добавить подсчет предметов по типу и количеству.</p> */}
 
             <form onSubmit={(e) => e.preventDefault()}>
                 <textarea
@@ -250,9 +259,25 @@ const ItemPriceChecker = () => {
                     rows={5}
                     className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-800 text-slate-300"
                 />
-                <Button onClick={handleCheckPrices} disabled={loading}>
+                {/* <Button onClick={handleCheckPrices} disabled={loading}>
                     {loading ? "Загрузка..." : "Проверить цены"}
-                </Button>
+                </Button> */} 
+                <div className="flex gap-2 justify-center">
+                    <Button
+                        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center"
+                        onClick={handleCheckPrices}
+                    >
+                        <CheckSquare className="mr-2" size={16} />
+                        {loading ? "Загрузка..." : "Проверить цены"}
+                    </Button>
+                    <Button
+                        className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded flex items-center"
+                        onClick={handleClearInput}
+                    >
+                        <Trash2 className="mr-2" size={16} />
+                        Очистить
+                    </Button>
+                </div>
             </form>
 
             {error && <div className="text-red-500 mt-2">{error}</div>}

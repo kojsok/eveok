@@ -98,7 +98,7 @@ const Dscan = () => {
   };
 
   return (
-    <div className="p-4 bg-slate-900 text-slate-300">
+    <div className="p-4 bg-slate-950 text-slate-300 max-md:px-5 bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg">
       <h1 className="text-2xl font-bold mb-4">D-Scan Parser - быстрый анализ тактической ситуации в системе</h1>
       <textarea
         value={inputValue}
@@ -109,7 +109,7 @@ const Dscan = () => {
       />
 
       {/* Блок с кнопками */}
-      <div className="flex space-x-2 mt-4">
+      <div className="flex space-x-2 mt-4 justify-center">
         <button
           onClick={handleParseDscan}
           className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300 flex items-center"
@@ -131,7 +131,7 @@ const Dscan = () => {
             onClick={copyLinkToClipboard}
             className="px-4 py-2 bg-green-500 text-white rounded-md hover:bg-green-600 transition duration-300 flex items-center"
           >
-            <Copy className="mr-2 h-5 w-5" /> Скопировать ссылку
+            <Copy className="mr-2 h-5 w-5" /> Поделиться
           </button>
         )}
       </div>

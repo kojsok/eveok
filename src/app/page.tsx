@@ -1,4 +1,5 @@
 import Hero from "@/components/Hero";
+import IntellectualPropertyNotice from "@/components/IntellectualPropertyNotice";
 
 
 export default function Home() {
@@ -16,12 +17,12 @@ export default function Home() {
       </main>
 
       {/* Футер */}
-      {/* <footer className="w-full flex justify-center items-center p-4 bg-muted text-muted-foreground">
+      <footer className="w-full flex justify-center items-center p-4">
         <div className="max-w-screen-xl w-full flex justify-center items-center gap-6">
-         
-          <span>&copy; 2023 Your Company</span>
+        <IntellectualPropertyNotice />
+          {/* <span>&copy; 2023 Your Company</span> */}
         </div>
-      </footer> */}
+      </footer>
     </div>
   );
 }
