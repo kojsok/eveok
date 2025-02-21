@@ -2,7 +2,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button"; // Используем кнопку из shadcn
 import axios from "axios";
-import { CheckSquare, Trash2} from 'lucide-react';
+import { CheckSquare, Trash2 } from 'lucide-react';
 
 // Типы данных
 interface TypeData {
@@ -261,20 +261,20 @@ const ItemPriceChecker = () => {
                 />
                 {/* <Button onClick={handleCheckPrices} disabled={loading}>
                     {loading ? "Загрузка..." : "Проверить цены"}
-                </Button> */} 
-                <div className="flex gap-2 justify-center">
+                </Button> */}
+                <div className="flex gap-4 mt-2 justify-center">
                     <Button
-                        className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center"
+                        className="inline-flex gap-2 justify-center items-center w-48 px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
                         onClick={handleCheckPrices}
                     >
-                        <CheckSquare className="mr-2" size={16} />
+                        <CheckSquare className="mr-0" size={16} />
                         {loading ? "Загрузка..." : "Проверить цены"}
                     </Button>
                     <Button
-                        className="bg-red-500 hover:bg-red-700 text-white font-bold py-2 px-4 rounded flex items-center"
+                        className="inline-flex gap-2 justify-center items-center w-48 px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
                         onClick={handleClearInput}
                     >
-                        <Trash2 className="mr-2" size={16} />
+                        <Trash2 className="mr-0" size={16} />
                         Очистить
                     </Button>
                 </div>

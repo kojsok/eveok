@@ -109,7 +109,7 @@ const Dscan = () => {
       />
 
       {/* Блок с кнопками */}
-      <div className="flex space-x-2 mt-4 justify-center">
+      {/* <div className="flex space-x-2 mt-4 justify-center">
         <button
           onClick={handleParseDscan}
           className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 transition duration-300 flex items-center"
@@ -134,7 +134,36 @@ const Dscan = () => {
             <Copy className="mr-2 h-5 w-5" /> Поделиться
           </button>
         )}
-      </div>
+      </div> */}
+      <div className="flex gap-4 mt-2 justify-center">
+            <button
+              onClick={handleParseDscan}
+              className="inline-flex gap-2 justify-center items-center w-48 px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
+            >
+              <RefreshCw className="h-4 w-4" />
+              Проанализировать
+            </button>
+              <button
+                onClick={() => {
+                  setInputValue("");
+                  setResults([]);
+                  setResultId(null);
+                }}
+                className="inline-flex gap-2 justify-center items-center w-48 px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
+              >
+                <Trash2 className="h-4 w-4" />
+                Очистить
+              </button>
+        {resultId && (
+          <button
+            onClick={copyLinkToClipboard}
+            className="inline-flex gap-2 justify-center items-center w-48 px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
+          >
+            <Copy className="h-4 w-4" />
+            Поделиться
+          </button>
+        )}
+</div>
 
       {error && <p className="text-red-500 mt-2">{error}</p>}
 
