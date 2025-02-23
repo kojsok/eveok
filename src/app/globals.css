@@ -85,3 +85,14 @@ body {
   --scrollbar-thumb-hover: #4338ca;
   --scrollbar-thumb-active: #3730a3;
 }
+
+
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
