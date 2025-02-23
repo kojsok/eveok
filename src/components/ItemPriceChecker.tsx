@@ -282,7 +282,7 @@ const ItemPriceChecker = () => {
 
             {error && <div className="text-red-500 mt-2">{error}</div>}
 
-            {results.length > 0 && (
+            {/* {results.length > 0 && (
                 <div className="overflow-x-auto mt-4">
                     <table className="min-w-full border-collapse">
                         <thead className="bg-gray-700 text-white">
@@ -323,7 +323,53 @@ const ItemPriceChecker = () => {
                         </tfoot>
                     </table>
                 </div>
-            )}
+            )} */}
+
+{results.length > 0 && (
+  <div className="overflow-x-auto mt-4">
+    <table className="min-w-full border-collapse">
+      <thead className="bg-gray-700 text-white">
+        <tr>
+          <th className="p-2 text-center">#</th>
+          <th className="p-2 text-center">Название</th>
+          <th className="p-2 text-center hidden md:table-cell">Количество</th>
+          <th className="p-2 text-center hidden md:table-cell">Базовая цена</th>
+          <th className="p-2 text-center hidden md:table-cell">Средняя цена</th>
+          <th className="p-2 text-center">Итого (Базовая)</th>
+          <th className="p-2 text-center">Итого (Средняя)</th>
+        </tr>
+      </thead>
+      <tbody>
+        {paginatedResults.map((item, index) => (
+          <tr key={index} className="odd:bg-gray-800 even:bg-gray-900 text-white">
+            <td className="p-2 text-center">{(currentPage - 1) * itemsPerPage + index + 1}</td>
+            <td className="p-2 text-center">{item.name}</td>
+            <td className="p-2 text-center hidden md:table-cell">{item.quantity}</td>
+            <td className="p-2 text-center hidden md:table-cell">{item.adjustedPrice}</td>
+            <td className="p-2 text-center hidden md:table-cell">{item.averagePrice}</td>
+            <td className="p-2 text-center">{item.totalAdjustedPrice}</td>
+            <td className="p-2 text-center">{item.totalAveragePrice}</td>
+          </tr>
+        ))}
+      </tbody>
+      <tfoot className="bg-gray-700 text-white">
+  <tr>
+    <td className="p-2 "></td>
+    <td className="p-2 hidden md:table-cell"></td>
+    <td className="p-2 hidden md:table-cell"></td>
+    <td className="p-2 hidden md:table-cell"></td>
+    <td className="p-2 text-right font-bold">Итого:</td>
+    <td className="p-2 text-center font-bold">{formatNumber(totalAdjustedPrice)}</td>
+    <td className="p-2 text-center font-bold">{formatNumber(totalAveragePrice)}</td>
+  </tr>
+</tfoot>
+
+
+
+    </table>
+  </div>
+)}
+
 
             {totalPages > 1 && (
                 <div className="flex justify-center mt-4">
