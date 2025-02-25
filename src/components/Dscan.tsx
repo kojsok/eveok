@@ -1,7 +1,7 @@
 
 "use client";
 import { shipList } from "@/lib/ArrayShipsOnly";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { Copy, Trash2, RefreshCw } from "lucide-react"; // Импортируем иконки
 
@@ -42,7 +42,7 @@ const Dscan = () => {
   const [results, setResults] = useState<ShipResult[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [resultId, setResultId] = useState<string | null>(null);
-  const [isClient, setIsClient] = useState(false);
+  // const [isClient, setIsClient] = useState(false);
 
   const handleParseDscan = async () => {
     try {
@@ -92,35 +92,33 @@ const Dscan = () => {
     }
   };
 
-  const copyLinkToClipboard = () => {
-    if (isClient && navigator.clipboard) {
-      if (resultId) {
-        const link = `${window.location.origin}/dscan/result/${resultId}`;
-        navigator.clipboard.writeText(link);
-      }
-    } else {
-      console.error("Clipboard API не поддерживается в этом браузере.");
-    }
-  };
-
   // const copyLinkToClipboard = () => {
-
   //   if (isClient && navigator.clipboard) {
-  //     // Копирование ссылки
   //     if (resultId) {
   //       const link = `${window.location.origin}/dscan/result/${resultId}`;
   //       navigator.clipboard.writeText(link);
   //     }
+  //   } else {
+  //     console.error("Clipboard API не поддерживается в этом браузере.");
   //   }
-  //   // if (resultId) {
-  //   //   const link = `${window.location.origin}/dscan/result/${resultId}`;
-  //   //   navigator.clipboard.writeText(link);
-  //   // }
   // };
 
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
+  // const copyLinkToClipboard = () => {
+  //  if (resultId) {
+  //     const link = `${window.location.origin}/dscan/result/${resultId}`;
+  //     navigator.clipboard.writeText(link);
+  //   }
+  // };
+
+  const redirectToResult = () => {
+    if (resultId) {
+      window.location.href = `${window.location.origin}/dscan/result/${resultId}`;
+    }
+  };
+
+  // useEffect(() => {
+  //   setIsClient(true);
+  // }, []);
 
   return (
     <div className="p-4 bg-slate-950 text-slate-300 max-md:px-5 bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg">
@@ -216,7 +214,8 @@ const Dscan = () => {
 
   {resultId && (
     <button
-      onClick={copyLinkToClipboard}
+      // onClick={copyLinkToClipboard}
+      onClick={redirectToResult}
       className="inline-flex gap-2 justify-center items-center w-full sm:w-48 px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
     >
       <Copy className="h-4 w-4" />
