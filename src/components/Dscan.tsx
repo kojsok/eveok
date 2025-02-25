@@ -1,9 +1,10 @@
 
 "use client";
 import { shipList } from "@/lib/ArrayShipsOnly";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 import { Copy, Trash2, RefreshCw } from "lucide-react"; // Импортируем иконки
+
 
 interface ShipResult {
   name: string;
@@ -41,6 +42,7 @@ const Dscan = () => {
   const [results, setResults] = useState<ShipResult[]>([]);
   const [error, setError] = useState<string | null>(null);
   const [resultId, setResultId] = useState<string | null>(null);
+  const [isClient, setIsClient] = useState(false);
 
   const handleParseDscan = async () => {
     try {
@@ -91,11 +93,34 @@ const Dscan = () => {
   };
 
   const copyLinkToClipboard = () => {
-    if (resultId) {
-      const link = `${window.location.origin}/dscan/result/${resultId}`;
-      navigator.clipboard.writeText(link);
+    if (isClient && navigator.clipboard) {
+      if (resultId) {
+        const link = `${window.location.origin}/dscan/result/${resultId}`;
+        navigator.clipboard.writeText(link);
+      }
+    } else {
+      console.error("Clipboard API не поддерживается в этом браузере.");
     }
   };
+
+  // const copyLinkToClipboard = () => {
+
+  //   if (isClient && navigator.clipboard) {
+  //     // Копирование ссылки
+  //     if (resultId) {
+  //       const link = `${window.location.origin}/dscan/result/${resultId}`;
+  //       navigator.clipboard.writeText(link);
+  //     }
+  //   }
+  //   // if (resultId) {
+  //   //   const link = `${window.location.origin}/dscan/result/${resultId}`;
+  //   //   navigator.clipboard.writeText(link);
+  //   // }
+  // };
+
+  useEffect(() => {
+    setIsClient(true);
+  }, []);
 
   return (
     <div className="p-4 bg-slate-950 text-slate-300 max-md:px-5 bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg">
