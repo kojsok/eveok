@@ -34,14 +34,14 @@ export default async function ResultPage({
       </p>
 
       {/* Вывод карточек с кораблями */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-6">
         {results.map((result: { name: string; count: number }, index: number) => (
           <div
             key={index}
             className="bg-slate-800 p-1 rounded-lg shadow-md flex items-center justify-between w-full transition-colors duration-300 hover:bg-gray-500"
           >
             {/* Название корабля */}
-            <h3 className="text-lg font-semibold text-slate-300">{result.name}</h3>
+            <h3 className="ml-4 text-lg font-semibold text-slate-300">{result.name}</h3>
             {/* Количество кораблей */}
             <span className="text-2xl font-bold text-yellow-400 bg-slate-900 px-2 py-1 rounded-md">
               {result.count}

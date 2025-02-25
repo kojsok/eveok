@@ -25,7 +25,48 @@ interface Order {
 const REGIONS: Record<string, number> = {
   Jita: 10000002,
   Amarr: 10000043,
+  Curse: 10000049,
+  Domain: 10000032,
+  Fountain: 10000028,
+  Syndicate: 10000030,   // Нейтральный регион с высокой активностью
+  Placid: 10000067,
+  Cache: 10000048,
 };
+
+// const REGIONS: Record<string, number> = {
+//   // Классические регионы низкой безопасности (0.0)
+//   Delve: 10000043,       // Родной регион Амарр
+//   Fountain: 10000028,
+//   Querious: 10000059,    // Известен своими moon mining и PI
+//   Syndicate: 10000030,   // Нейтральный регион с высокой активностью
+//   Providence: 10000062, // Null-sec регион с интенсивной деятельностью
+
+//   // Регионы высокой безопасности (High-Sec)
+//   Jita: 10000002,        // Главный торговый хаб
+//   Amarr: 10000043,       // Столичный регион Амарр
+//   SinqLaison: 10000068, // Родной регион Минматар
+//   Domain: 10000032,      // Родной регион Калдари
+//   Heimatar: 10000031,    // Родной регион Галенте
+
+//   // Null-Sec регионы
+//   Fade: 10000057,
+//   CloudRing: 10000001,  // Родной регион Калдари
+//   Immensea: 10000034,
+//   Metropolis: 10000033,  // Родной регион Галенте
+//   Catch: 10000058,
+
+//   // Low-Sec регионы
+//   Placid: 10000067,
+//   TheForge: 10000002,   // Включает в себя систему Jita
+//   VergeVendor: 10000017,
+//   Cache: 10000048,
+
+//   // Фракционные войны
+//   PureBlind: 10000060,
+//   Detorid: 10000046,
+//   Esoteria: 10000047,
+//   Curse: 10000049,
+// };
 
 export default function MarketOrders() {
   const [search, setSearch] = useState("");
@@ -142,6 +183,7 @@ export default function MarketOrders() {
 
   return (
     <div className="mx-auto p-4 w-full max-w-screen-xl bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg text-slate-300">
+      <h1 className="text-2xl font-bold mb-4 text-slate-300">Поиск предмета в маркете EVE Online</h1>
       <div className="flex gap-2 mb-2">
         <Input
           className="w-full max-w-screen-xl p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-800 text-slate-300"
@@ -182,17 +224,24 @@ export default function MarketOrders() {
           <h2 className="text-lg font-semibold">{selectedItem.name.ru || selectedItem.name.en}</h2>
           <div className="mt-2 flex gap-4">
             {Object.entries(REGIONS).map(([name, id]) => (
+              // <button
+              //   key={id}
+              //   className={`px-4 py-2 border rounded-md ${region === id ? "bg-blue-500 text-white" : ""}`}
+              //   onClick={() => setRegion(id)}
+              // >
+              //   {name}
+              // </button>
               <button
-                key={id}
-                className={`px-4 py-2 border rounded-md ${region === id ? "bg-blue-500 text-white" : ""}`}
-                onClick={() => setRegion(id)}
-              >
-                {name}
-              </button>
+      key={id}
+      className={`inline-flex gap-2 justify-center items-center w-48 px-3 py-2 text-sm font-medium tracking-tight leading-tight rounded-[10px] border border-[rgba(105,113,162,0.4)] ${region === id ? "bg-blue-500 text-white" : "bg-gradient-to-r from-[#161A31] to-[#06091F] text-white"} transition-all duration-300 ease-in-out transform hover:scale-105 shadow-md hover:shadow-lg`}
+      onClick={() => setRegion(id)}
+    >
+      {name}
+    </button>
             ))}
           </div>
 
-          <Tabs defaultValue="sell" className="mt-4">
+          {/* <Tabs defaultValue="sell" className="mt-4">
             <TabsList>
               <TabsTrigger value="sell">Sell Orders</TabsTrigger>
               <TabsTrigger value="buy">Buy Orders</TabsTrigger>
@@ -204,9 +253,39 @@ export default function MarketOrders() {
             <TabsContent value="buy">
               <OrderTable orders={orders.buy} stationNames={stationNames} />
             </TabsContent>
-          </Tabs>
+          </Tabs> */}
+            <Tabs defaultValue="sell" className="w-full">
+  <TabsList className="mt-8 inline-flex gap-2 justify-center items-center w-full bg-transparent">
+    <TabsTrigger 
+      value="sell" 
+      className="inline-flex justify-center items-center w-48 px-4 py-2 text-sm font-medium text-white rounded-t-lg border border-transparent border-b-2 transition-colors duration-300 ease-in-out 
+        data-[state=active]:bg-blue-500 data-[state=active]:text-white data-[state=active]:border-b-blue-500 hover:border-b-white"
+    >
+      Sell Orders
+    </TabsTrigger>
+    <TabsTrigger 
+      value="buy" 
+      className="inline-flex justify-center items-center w-48 px-4 py-2 text-sm font-medium text-white rounded-t-lg border border-transparent border-b-2 transition-colors duration-300 ease-in-out 
+        data-[state=active]:bg-blue-500 data-[state=active]:text-white data-[state=active]:border-b-blue-500 hover:border-b-white"
+    >
+      Buy Orders
+    </TabsTrigger>
+  </TabsList>
+  <TabsContent value="sell" className="mt-4">
+    <OrderTable orders={orders.sell} stationNames={stationNames} />
+  </TabsContent>
+  <TabsContent value="buy" className="mt-4">
+    <OrderTable orders={orders.buy} stationNames={stationNames} />
+  </TabsContent>
+</Tabs>
         </div>
       )}
+      <div className="text-slate-300 mt-8">
+                <p>Инструкция по поиску в марете в EVE Online:</p>
+                <p className="text-slate-300">Введите названия предмета, будет отображена цена с возможностью проверки стоимости в разных регионах Eve online.</p>
+                {/* <p className="text-slate-300">Необходимо вводить точное название предмета, например Tritanium или Cobalt.</p>
+                <p className="mb-4 text-slate-300">Вы также можете скопировать все предметы в ангаре Ctrl+A(выделить) Ctrl+C(копировать) и Ctrl+V(вставить) в поле. На MacBook Command+A(выделить) Command+C(копировать) и Command+V вставить в поле.</p> */}
+            </div>
     </div>
   );
 }
@@ -218,10 +297,10 @@ function OrderTable({ orders, stationNames }: { orders: Order[]; stationNames: R
         <thead className="bg-gray-700 text-white">
           <tr>
             <th className="p-2 text-center">Order</th>
-            <th className="p-2 text-center">Station</th>
-            <th className="p-2 text-center">Price (ISK)</th>
-            <th className="p-2 text-center">Quantity</th>
-            <th className="p-2 text-center">Expires</th>
+            <th className="p-2 text-center">Станция</th>
+            <th className="p-2 text-center">Цена (ISK)</th>
+            <th className="p-2 text-center">Количество</th>
+            <th className="p-2 text-center">Дата размещения</th>
           </tr>
         </thead>
         <tbody>
@@ -237,6 +316,8 @@ function OrderTable({ orders, stationNames }: { orders: Order[]; stationNames: R
           ))}
         </tbody>
       </table>
+
+      
     </div>
   );
 }
