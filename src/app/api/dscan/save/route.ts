@@ -30,25 +30,3 @@ export async function POST(request: Request) {
         return new Response("Ошибка сервера", { status: 500 });
     }
 }
-
-
-
-// import { saveToDatabase } from "@/lib/db";
-
-// export async function POST(request: Request) {
-//     try {
-//         const { id, data }: { id: string; data: Record<string, any>[] } = await request.json();
-
-//         if (!id || !data) {
-//             return new Response("Недостаточно данных", { status: 400 });
-//         }
-
-//         // Сохраняем данные в базу данных
-//         await saveToDatabase(id, data);
-
-//         return new Response("Данные успешно сохранены", { status: 200 });
-//     } catch (error) {
-//         console.error("Ошибка при сохранении данных:", error);
-//         return new Response("Ошибка сервера", { status: 500 });
-//     }
-// }

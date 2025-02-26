@@ -6,15 +6,6 @@ import Link from 'next/link';
 const Hero: React.FC = () => {
   return (
     <section id="about" className="relative flex flex-col items-center px-4 pt-32 pb-12 mt-0 w-full max-w-[1260px] max-md:pt-24 max-md:mt-0 max-md:max-w-full">
-      {/* Background Image */}
-      {/* <Image 
-        src="/background.svg" 
-        alt="Фон"
-        layout="fill"
-        className="object-cover absolute inset-0 w-full h-full z-10" 
-        style={{ objectPosition: 'top', top: '-0px' }} // Сдвигаем изображение вверх на 150 пикселей
-      /> */}
-
       <Image
         src="/background.svg"
         alt="Фон"

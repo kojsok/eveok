@@ -21,16 +21,3 @@ export async function GET(request: Request, { params }: { params: Promise<{ id: 
     });
 }
 
-
-//!работает но не билдится
-// import { getFromDatabase } from "@/lib/db";
-
-// export async function GET(request: Request, { params }: { params: { id: string } }) {
-//     const results = await getFromDatabase(params.id);
-
-//     if (!results) {
-//         return new Response("Not Found", { status: 404 });
-//     }
-
-//     return new Response(JSON.stringify(results), { status: 200 });
-// }
