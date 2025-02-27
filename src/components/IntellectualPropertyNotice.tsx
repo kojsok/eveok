@@ -3,9 +3,9 @@ import React from 'react';
 
 const IntellectualPropertyNotice: React.FC = () => {
   return (
-    <section className="relative flex flex-col items-center justify-center px-4 py-12 mt-0 w-full max-w-[1260px] max-md:py-8 max-md:max-w-full">
+    <section className="relative flex flex-col items-center justify-center px-4 py-2 mt-0 w-full max-w-[1260px] max-md:py-8 max-md:max-w-full">
       {/* Content */}
-      <div className="relative z-20 text-center text-sm leading-relaxed text-indigo-100 max-md:text-xs max-sm:text-[10px]">
+      <div className="relative z-20 text-center text-xs leading-relaxed text-indigo-100 max-md:text-xs max-sm:text-[10px]">
         <p>
           EVE Online, логотип EVE, EVE и все ассоциированные логотипы и дизайны являются интеллектуальной собственностью компании CCP ehf.
           Вся графика и скриншоты, персонажи, транспортные средства, сюжеты, внутриигровые факты и прочие распознаваемые особенности,
