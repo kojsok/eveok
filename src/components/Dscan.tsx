@@ -171,7 +171,7 @@ const Dscan = () => {
 
       {/* Общее количество кораблей */}
       {results.length > 0 && (
-        <p className="mt-4 text-lg font-semibold">
+        <p className="mt-4 text-2xl font-semibold  text-center">
           Всего кораблей:{" "}
           <span className="text-yellow-400">{results.reduce((sum, result) => sum + result.count, 0)}</span>
         </p>
@@ -179,19 +179,22 @@ const Dscan = () => {
 
       {/* Результаты анализа */}
       {results.length > 0 && (
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 mt-6">
-          {results.map((result, index) => (
-            <div
-              key={index}
-              className="bg-slate-800 p-1 rounded-lg shadow-md flex items-center justify-between w-full transition-colors duration-300 hover:bg-gray-500"
-            >
-              <h3 className="text-lg font-semibold text-slate-300">{result.name}</h3>
-              <span className="text-2xl font-bold text-yellow-400 bg-slate-900 px-2 py-1 rounded-md">
-                {result.count}
-              </span>
-            </div>
-          ))}
+        <div className="max-w-2xl mx-auto mt-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-4">
+            {results.map((result, index) => (
+              <div
+                key={index}
+                className="bg-slate-800 p-2 rounded-lg shadow-md flex items-center justify-between w-full transition-colors duration-300 hover:bg-gray-500"
+              >
+                <h3 className="text-lg font-semibold text-slate-300">{result.name}</h3>
+                <span className="text-2xl font-bold text-yellow-400 bg-slate-900 px-2 py-1 rounded-md">
+                  {result.count}
+                </span>
+              </div>
+            ))}
+          </div>
         </div>
+
       )}
 
       {/* Динамическая ссылка */}

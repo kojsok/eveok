@@ -1,3 +1,4 @@
+import CopyLinkButton from "@/components/CopyLinkButton";
 import { getFromDatabase } from "@/lib/db";
 
 // Компонент страницы
@@ -23,31 +24,45 @@ export default async function ResultPage({
   // Вычисляем общее количество кораблей
   const totalShips = results.reduce((sum, result) => sum + result.count, 0);
 
+  // Генерация текущей URL-адрес страницы
+  // const currentUrl = `${window.location.origin}/result/${id}`;
+  // Передаем только относительный путь
+  // const relativeUrl = `/result/${id}`;
+   // Передаем только относительный путь
+   const relativeUrl = `/dscan/result/${id}`;
+
   return (
-    <div className="p-4 bg-slate-900 text-slate-300">
-      <h1 className="text-2xl font-bold mb-4">Результаты D-Scan</h1>
+    <div className="p-4 bg-slate-900 text-slate-300  bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg ">
+      {/* <h1 className="text-2xl font-bold mb-4 text-center">Результаты D-Scan</h1> */}
+
+      {/* Кнопка "Поделиться ссылкой" */}
+      <div className="flex justify-center mt-6">
+        <CopyLinkButton url={relativeUrl} />
+      </div>
 
       {/* Общее количество кораблей */}
-      <p className="mt-4 text-lg font-semibold">
+      <p className="mt-4 text-2xl font-semibold text-center">
         Всего кораблей:{" "}
         <span className="text-yellow-400">{totalShips}</span>
       </p>
 
       {/* Вывод карточек с кораблями */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4 mt-6">
-        {results.map((result: { name: string; count: number }, index: number) => (
-          <div
-            key={index}
-            className="bg-slate-800 p-1 rounded-lg shadow-md flex items-center justify-between w-full transition-colors duration-300 hover:bg-gray-500"
-          >
-            {/* Название корабля */}
-            <h3 className="ml-4 text-lg font-semibold text-slate-300">{result.name}</h3>
-            {/* Количество кораблей */}
-            <span className="text-2xl font-bold text-yellow-400 bg-slate-900 px-2 py-1 rounded-md">
-              {result.count}
-            </span>
-          </div>
-        ))}
+      <div className="max-w-2xl mx-auto mt-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-4">
+          {results.map((result: { name: string; count: number }, index: number) => (
+            <div
+              key={index}
+              className="bg-slate-800 px-4 py-2 rounded-lg shadow-md flex  items-center justify-between transition-colors duration-300 hover:bg-gray-500"
+            >
+              {/* Название корабля */}
+              <h3 className="text-center text-lg font-semibold text-slate-300">{result.name}</h3>
+              {/* Количество кораблей */}
+              <span className="text-lg font-bold text-yellow-400 bg-slate-900 px-4 py-2 rounded-md">
+                {result.count}
+              </span>
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );
