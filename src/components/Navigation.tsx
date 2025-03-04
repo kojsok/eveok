@@ -88,6 +88,15 @@ const Navigation: React.FC = () => {
           </li>
           <li className="group relative">
             <Link
+              href="/courier"
+              className="text-slate-300 hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-red-500 after:transition-all after:duration-300 group-hover:after:w-full"
+              onClick={toggleMenu}
+            >
+              LOGISTICS
+            </Link>
+          </li>
+          <li className="group relative">
+            <Link
               href="/about"
               className="text-slate-300 hover:text-white after:content-[''] after:absolute after:left-0 after:-bottom-1 after:w-0 after:h-[2px] after:bg-red-500 after:transition-all after:duration-300 group-hover:after:w-full"
               onClick={toggleMenu}

@@ -5,6 +5,7 @@ import { ThemeProvider } from "@/components/theme-provider"
 import Navigation from "@/components/Navigation";
 import IntellectualPropertyNotice from "@/components/IntellectualPropertyNotice";
 import Promo from "@/components/Promo";
+import DonationPanel from "@/components/DonationPanel";
 
 
 
@@ -61,9 +62,10 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
                 {/* Навигация справа на мобильных экранах */}
                 <div className="ml-auto md:mx-auto">
                   <Navigation />
+                  
                 </div>
               </div>
-
+              <DonationPanel />
               {/* Основной контент */}
               <div className="flex-1">{children}</div>
 
