@@ -244,7 +244,7 @@ const ItemPriceChecker = () => {
     };
 
     return (
-        <div className="mx-auto p-4 max-md:px-5 bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg">
+        <div className="mx-auto p-4 w-full max-w-screen-xl bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg text-slate-300">
             <h1 className="text-2xl font-bold mb-4 text-slate-300">Проверка цен предметов EVE Online</h1>
             <form onSubmit={(e) => e.preventDefault()}>
                 <textarea

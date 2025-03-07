@@ -100,7 +100,7 @@ const CourierContract: React.FC = () => {
 
     return (
         <div className="flex flex-col items-center space-y-8 p-4 bg-slate-950 text-slate-300 max-md:px-5 bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg">
-            <h1 className="text-2xl font-bold">EVE-OK LOGISTIC</h1>
+            <h1 className="text-2xl font-bold">Создай контракт на корпорацию - EVE-OK</h1>
 
             {/* Form Section */}
             <div className="flex flex-col items-center space-y-4 w-full max-w-sm">
