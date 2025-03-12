@@ -12,6 +12,15 @@ export default function AboutPage() {
           <span className="font-bold text-violet-300">EVE Online</span>, чтобы предоставить им комплексные инструменты и утилиты для более эффективной игры.
         </p>
         <p className="text-lg text-gray-300 leading-relaxed">
+          Мы собрали данные о всех кораблях, которые находятся в сети EVE Online, и предоставляем пользователям эту информацию в удобном для чтения виде.
+        </p>
+        <p className="text-lg text-gray-300 leading-relaxed">
+          Мы стараемся предоставлять игрокам Eve Online максимально полезную и информативную информацию о механнике игры и окружении.
+        </p>
+        <p className="text-lg text-gray-300 leading-relaxed">
+          Мы всегда рады ответить на ваши вопросы и помочь вам. Вступай в нашу корпорацию <span className="font-bold text-violet-300">EVE-OK</span> или пиши в in game.
+        </p>
+        <p className="text-lg text-gray-300 leading-relaxed">
           На нашем сайте вы найдете следующие функции:
         </p>
         <ul className="grid grid-cols-1 gap-4 max-w-[800px] text-left text-base text-gray-300 leading-relaxed">
@@ -33,7 +42,7 @@ export default function AboutPage() {
           <span className="font-bold text-violet-300">EVE Online</span>{' '}
           еще более захватывающей, информативной и легкой в восприятии! 
         </p>
-        <p className="text-lg text-gray-300 leading-relaxed">Мы будем улучшать дизайн и наращивать функционал, а также увеличивать набор утилит. Нам важно ваше мнение, делитесь с нами вашими рекомендациями и пожеланиями.</p>
+        <p className="text-lg text-gray-300 leading-relaxed">Мы будем улучшать дизайн и наращивать функционал, а также увеличивать набор утилит. Нам важно ваше мнение, делитесь с нами вашими рекомендациями и пожеланиями в игре, Наша корпорация <span className="font-bold text-violet-300">EVE-OK</span>.</p>
         {/* <button className="inline-flex items-center justify-center px-6 py-3 text-lg font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#1F243C] to-[#161A31] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#161A31] hover:to-[#1F243C] shadow-md hover:shadow-lg">
           Узнать больше
         </button> */}
