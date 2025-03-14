@@ -266,7 +266,7 @@ export default function MarketOrders() {
         </div>
       )}
       <div className="text-slate-300 mt-8">
-        <p>Инструкция по поиску в марете в EVE Online:</p>
+        <p>Инструкция по поиску в маркете в EVE Online:</p>
         <p className="text-slate-300">Введите названия предмета, будет отображена цена с возможностью проверки стоимости в разных регионах Eve online.</p>
       </div>
     </div>

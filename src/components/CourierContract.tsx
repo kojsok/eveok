@@ -21,10 +21,14 @@ const parseNumber = (formatted: string): number => {
 // Массив станций с указанием удаленности от Amarr
 const stations = [
     { name: "Amarr VIII (Oris) - Emperor Family Academy", distanceFromAmarr: 0 },
+    { name: "Choonka X - Moon 6 - Imperial Armaments Factory", distanceFromAmarr: 1 },
     { name: "Huola VI - 24th Imperial Crusade Logistic Support", distanceFromAmarr: 1 },
     { name: "Kamela V - 24th Imperial Crusade Logistic Support", distanceFromAmarr: 1 },
-    { name: "Turnur II - Moon 5 - Republic Security Services Assembly Plant", distanceFromAmarr: 2 },
+    { name: "Kourmonen IV - Moon 18 - Ishukone Corporation Factory", distanceFromAmarr: 3 },
+    { name: "Sosala IV - 24th Imperial Crusade Logistic Support", distanceFromAmarr: 3 },
+    { name: "Turnur II - Moon 5 - Republic Security Services Assembly Plant", distanceFromAmarr: 3 },
     { name: "XHQ-7V - Astrahus - Curatores Veritatis Alliance", distanceFromAmarr: 3 },
+    { name: "G-5EN2 - Astrahus - Curatores Veritatis Alliance", distanceFromAmarr: 3 },
     { name: "ERVK-P - Keepstar - Red Alliance", distanceFromAmarr: 3 },
     // ... добавьте остальные станции
 ];
@@ -100,7 +104,7 @@ const CourierContract: React.FC = () => {
 
     return (
         <div className="flex flex-col items-center space-y-8 p-4 bg-slate-950 text-slate-300 max-md:px-5 bg-gradient-to-r from-[#04071D] via-[#04071D] to-[#0C0E23] border border-[rgba(105,113,162,0.16)] shadow-lg backdrop-blur-md transition-colors duration-300 rounded-lg">
-            <h1 className="text-2xl font-bold">Создай контракт на корпорацию - EVE-OK</h1>
+            <h1 className="text-2xl font-bold">Создай контракт на корпорацию - <span className="font-bold text-violet-300">EVE-OK</span></h1>
 
             {/* Form Section */}
             <div className="flex flex-col items-center space-y-4 w-full max-w-sm">
@@ -141,7 +145,7 @@ const CourierContract: React.FC = () => {
                 {/* Отображение текущего тарифа */}
                 <Label className="text-slate-300 text-xl flex items-center justify-center">
                     Текущий тариф: {" "}
-                    <span className="text-[#4F97FF] text-xl font-semibold">
+                    <span className="text-[#4F97FF] text-xl font-semibold ml-1">
                         {currentRate ? `${formatNumber(currentRate.toString())} ISK за м³` : "Не выбран"}
                     </span>
                 </Label>
@@ -170,25 +174,30 @@ const CourierContract: React.FC = () => {
                         />
                     </div>
 
-                    <div>
-                        <Label className="text-slate-300">Итоговая стоимость доставки</Label>
-                    </div>
+                    <div className="space-y-2">
+                        {/* Лейбл над полем */}
+                        <Label className="text-slate-300 block">Итоговая стоимость доставки</Label>
 
-                    <div className="flex items-center space-x-2">
-                        {/* Поле "Стоимость доставки" */}
-                        {/* <Label className="text-slate-300">Итоговая стоиомсть доставки</Label> */}
-                        <Input
-                            type="text"
-                            value={formatNumber(totalCost.toString())}
-                            readOnly
-                            placeholder="Стоимость рассчитается автоматически"
-                            className="w-full text-slate-300 bg-slate-800 border border-[rgba(105,113,162,0.4)] rounded-md"
-                        />
+                        <div className="flex items-center space-x-2">
+                            {/* Поле "Стоимость доставки" */}
+                            <Input
+                                type="text"
+                                value={formatNumber(totalCost.toString())}
+                                readOnly
+                                placeholder="Стоимость рассчитается автоматически"
+                                className="w-full text-slate-300 bg-slate-800 border border-[rgba(105,113,162,0.4)] rounded-md"
+                            />
 
-                        {/* Кнопка "копировать" */}
-                        <Button onClick={handleCopy} variant="outline" size="icon" className="inline-flex px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg">
-                            <Copy className="h-4 w-4" />
-                        </Button>
+                            {/* Кнопка "копировать" */}
+                            <Button
+                                onClick={handleCopy}
+                                variant="outline"
+                                size="icon"
+                                className="inline-flex px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
+                            >
+                                <Copy className="h-4 w-4" />
+                            </Button>
+                        </div>
                     </div>
                 </div>
 
