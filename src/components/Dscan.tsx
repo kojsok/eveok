@@ -219,6 +219,22 @@ const Dscan = () => {
           
         </div>
       )}
+
+       {/* Инструкция */}
+        <div className="text-slate-300 mt-8">
+          <p>Инструкция по использованию парсера D-Scan в EVE Online:</p>
+          <p className="text-slate-300">В игре откройте окно D-Scan (Alt+D)</p>
+          <p className="text-slate-300">
+            Выделите весь текст в окне D-Scan: Для Windows: нажмите Ctrl+A Для macOS: нажмите Command+A<br />
+          </p>
+          <p className="text-slate-300">
+            Скопируйте выделенный текст: нажмите Ctrl+C либо Command+C<br />
+          </p>
+          <p className="text-slate-300">
+            Вставьте скопированный текст в поле парсера: нажмите Ctrl+V либо Command+V<br />
+          </p>
+          <p className="text-slate-300">Нажмите кнопку Проанализировать для обработки данных</p>
+        </div>
     </div>
   );
 };
