@@ -1,0 +1,2027 @@
+[
+    {
+        "shipName": "Amarr Shuttle",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Minmatar Shuttle",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Gallente Shuttle",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Caldari Shuttle",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Goru's Shuttle",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Guristas Shuttle",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Bantam",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Condor",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Griffin",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Kestrel",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Merlin",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Heron",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Slasher",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Probe",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Rifter",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Breacher",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Burst",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Vigil",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Executioner",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Inquisitor",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Tormentor",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Punisher",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Crucifier",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Magnate",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Navitas",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Tristan",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Incursus",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Imicus",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Atron",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Maulus",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Venture",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Citizen Venture",
+        "groupID": 2001,
+        "groupName": "Группа не найдена"
+    },
+    {
+        "shipName": "Succubus",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Cruor",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Daredevil",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Worm",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Dramiel",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Astero",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Garmur",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Caldari Navy Hookbill",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Imperial Navy Slicer",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Republic Fleet Firetail",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Federation Navy Comet",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Police Pursuit Comet",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Crucifier Navy Issue",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Vigil Fleet Issue",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Griffin Navy Issue",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Maulus Navy Issue",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Probe Fleet Issue",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Heron Navy Issue",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Magnate Navy Issue",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Imicus Navy Issue",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Skybreaker",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Crusader",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Malediction",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Crow",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Raptor",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Taranis",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Ares",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Claw",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Stiletto",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Anathema",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Purifier",
+        "groupID": 834,
+        "groupName": "Ударно-диверсионный бомбардировщик"
+    },
+    {
+        "shipName": "Buzzard",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Manticore",
+        "groupID": 834,
+        "groupName": "Ударно-диверсионный бомбардировщик"
+    },
+    {
+        "shipName": "Helios",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Nemesis",
+        "groupID": 834,
+        "groupName": "Ударно-диверсионный бомбардировщик"
+    },
+    {
+        "shipName": "Cheetah",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Hound",
+        "groupID": 834,
+        "groupName": "Ударно-диверсионный бомбардировщик"
+    },
+    {
+        "shipName": "Vengeance",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Retribution",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Hawk",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Harpy",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Ishkur",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Enyo",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Wolf",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Jaguar",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Nergal",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Sentinel",
+        "groupID": 893,
+        "groupName": "Дозорный фрегат"
+    },
+    {
+        "shipName": "Kitsune",
+        "groupID": 893,
+        "groupName": "Дозорный фрегат"
+    },
+    {
+        "shipName": "Keres",
+        "groupID": 893,
+        "groupName": "Дозорный фрегат"
+    },
+    {
+        "shipName": "Hyena",
+        "groupID": 893,
+        "groupName": "Дозорный фрегат"
+    },
+    {
+        "shipName": "Prospect",
+        "groupID": 1283,
+        "groupName": "Разведочно-буровой фрегат"
+    },
+    {
+        "shipName": "Endurance",
+        "groupID": 1283,
+        "groupName": "Разведочно-буровой фрегат"
+    },
+    {
+        "shipName": "Deacon",
+        "groupID": 1527,
+        "groupName": "Фрегаты обеспечения"
+    },
+    {
+        "shipName": "Kirin",
+        "groupID": 1527,
+        "groupName": "Фрегаты обеспечения"
+    },
+    {
+        "shipName": "Thalia",
+        "groupID": 1527,
+        "groupName": "Фрегаты обеспечения"
+    },
+    {
+        "shipName": "Scalpel",
+        "groupID": 1527,
+        "groupName": "Фрегаты обеспечения"
+    },
+    {
+        "shipName": "Damavik",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Stabber",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Rupture",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Bellicose",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Scythe",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Maller",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Augoror",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Arbitrator",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Omen",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Test Site Maller",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Osprey",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Caracal",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Moa",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Blackbird",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Vexor",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Thorax",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Celestis",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Exequror",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Guardian",
+        "groupID": 832,
+        "groupName": "Корабль обеспечения"
+    },
+    {
+        "shipName": "Basilisk",
+        "groupID": 832,
+        "groupName": "Корабль обеспечения"
+    },
+    {
+        "shipName": "Oneiros",
+        "groupID": 832,
+        "groupName": "Корабль обеспечения"
+    },
+    {
+        "shipName": "Scimitar",
+        "groupID": 832,
+        "groupName": "Корабль обеспечения"
+    },
+    {
+        "shipName": "Zarmazd",
+        "groupID": 832,
+        "groupName": "Корабль обеспечения"
+    },
+    {
+        "shipName": "Zealot",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Sacrilege",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Cerberus",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Eagle",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Ishtar",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Deimos",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Vagabond",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Muninn",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Ikitursa",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Pilgrim",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Curse",
+        "groupID": 906,
+        "groupName": "Дозорный крейсер"
+    },
+    {
+        "shipName": "Falcon",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Rook",
+        "groupID": 906,
+        "groupName": "Дозорный крейсер"
+    },
+    {
+        "shipName": "Arazu",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Lachesis",
+        "groupID": 906,
+        "groupName": "Дозорный крейсер"
+    },
+    {
+        "shipName": "Huginn",
+        "groupID": 906,
+        "groupName": "Дозорный крейсер"
+    },
+    {
+        "shipName": "Rapier",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Devoter",
+        "groupID": 894,
+        "groupName": "Тяжёлый заградительный крейсер"
+    },
+    {
+        "shipName": "Onyx",
+        "groupID": 894,
+        "groupName": "Тяжёлый заградительный крейсер"
+    },
+    {
+        "shipName": "Phobos",
+        "groupID": 894,
+        "groupName": "Тяжёлый заградительный крейсер"
+    },
+    {
+        "shipName": "Broadsword",
+        "groupID": 894,
+        "groupName": "Тяжёлый заградительный крейсер"
+    },
+    {
+        "shipName": "Legion",
+        "groupID": 963,
+        "groupName": "Стратегический крейсер"
+    },
+    {
+        "shipName": "Tengu",
+        "groupID": 963,
+        "groupName": "Стратегический крейсер"
+    },
+    {
+        "shipName": "Proteus",
+        "groupID": 963,
+        "groupName": "Стратегический крейсер"
+    },
+    {
+        "shipName": "Loki",
+        "groupID": 963,
+        "groupName": "Стратегический крейсер"
+    },
+    {
+        "shipName": "Monitor",
+        "groupID": 1972,
+        "groupName": "Флагманский крейсер"
+    },
+    {
+        "shipName": "Caracal Navy Issue",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Omen Navy Issue",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Stabber Fleet Issue",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Vexor Navy Issue",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Scythe Fleet Issue",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Augoror Navy Issue",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Osprey Navy Issue",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Exequror Navy Issue",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Gila",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Phantasm",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Cynabal",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Vigilant",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Ashimmu",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Stratios",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Orthrus",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Stormbringer",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Vedmak",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Rodiva",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Coercer",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Dragoon",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Cormorant",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Corax",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Catalyst",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Algos",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Thrasher",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Talwar",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Heretic",
+        "groupID": 541,
+        "groupName": "Заградитель"
+    },
+    {
+        "shipName": "Flycatcher",
+        "groupID": 541,
+        "groupName": "Заградитель"
+    },
+    {
+        "shipName": "Eris",
+        "groupID": 541,
+        "groupName": "Заградитель"
+    },
+    {
+        "shipName": "Sabre",
+        "groupID": 541,
+        "groupName": "Заградитель"
+    },
+    {
+        "shipName": "Confessor",
+        "groupID": 1305,
+        "groupName": "Многорежимный эсминец"
+    },
+    {
+        "shipName": "Svipul",
+        "groupID": 1305,
+        "groupName": "Многорежимный эсминец"
+    },
+    {
+        "shipName": "Jackdaw",
+        "groupID": 1305,
+        "groupName": "Многорежимный эсминец"
+    },
+    {
+        "shipName": "Hecate",
+        "groupID": 1305,
+        "groupName": "Многорежимный эсминец"
+    },
+    {
+        "shipName": "Pontifex",
+        "groupID": 1534,
+        "groupName": "Лидеры"
+    },
+    {
+        "shipName": "Stork",
+        "groupID": 1534,
+        "groupName": "Лидеры"
+    },
+    {
+        "shipName": "Magus",
+        "groupID": 1534,
+        "groupName": "Лидеры"
+    },
+    {
+        "shipName": "Bifrost",
+        "groupID": 1534,
+        "groupName": "Лидеры"
+    },
+    {
+        "shipName": "Draugur",
+        "groupID": 1534,
+        "groupName": "Лидеры"
+    },
+    {
+        "shipName": "Kikimora",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Coercer Navy Issue",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Thrasher Fleet Issue",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Cormorant Navy Issue",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Catalyst Navy Issue",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Mekubal",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Mamba",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Tholos",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Oracle",
+        "groupID": 1201,
+        "groupName": "Быстроходный линейный крейсер"
+    },
+    {
+        "shipName": "Prophecy",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Harbinger",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Naga",
+        "groupID": 1201,
+        "groupName": "Быстроходный линейный крейсер"
+    },
+    {
+        "shipName": "Ferox",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Drake",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Talos",
+        "groupID": 1201,
+        "groupName": "Быстроходный линейный крейсер"
+    },
+    {
+        "shipName": "Brutix",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Myrmidon",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Tornado",
+        "groupID": 1201,
+        "groupName": "Быстроходный линейный крейсер"
+    },
+    {
+        "shipName": "Cyclone",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Hurricane",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Absolution",
+        "groupID": 540,
+        "groupName": "Корабль управления"
+    },
+    {
+        "shipName": "Damnation",
+        "groupID": 540,
+        "groupName": "Корабль управления"
+    },
+    {
+        "shipName": "Vulture",
+        "groupID": 540,
+        "groupName": "Корабль управления"
+    },
+    {
+        "shipName": "Nighthawk",
+        "groupID": 540,
+        "groupName": "Корабль управления"
+    },
+    {
+        "shipName": "Eos",
+        "groupID": 540,
+        "groupName": "Корабль управления"
+    },
+    {
+        "shipName": "Astarte",
+        "groupID": 540,
+        "groupName": "Корабль управления"
+    },
+    {
+        "shipName": "Sleipnir",
+        "groupID": 540,
+        "groupName": "Корабль управления"
+    },
+    {
+        "shipName": "Claymore",
+        "groupID": 540,
+        "groupName": "Корабль управления"
+    },
+    {
+        "shipName": "Brutix Navy Issue",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Drake Navy Issue",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Harbinger Navy Issue",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Hurricane Fleet Issue",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Cyclone Fleet Issue",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Ferox Navy Issue",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Myrmidon Navy Issue",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Prophecy Navy Issue",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Alligator",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Khizriel",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Cenotaph",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Drekavac",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Tempest",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Typhoon",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Maelstrom",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Apocalypse",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Armageddon",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Abaddon",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Raven",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Scorpion",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Rokh",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Megathron",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Dominix",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Hyperion",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Redeemer",
+        "groupID": 898,
+        "groupName": "Тяжёлый диверсионный корабль"
+    },
+    {
+        "shipName": "Widow",
+        "groupID": 898,
+        "groupName": "Тяжёлый диверсионный корабль"
+    },
+    {
+        "shipName": "Sin",
+        "groupID": 898,
+        "groupName": "Тяжёлый диверсионный корабль"
+    },
+    {
+        "shipName": "Panther",
+        "groupID": 898,
+        "groupName": "Тяжёлый диверсионный корабль"
+    },
+    {
+        "shipName": "Paladin",
+        "groupID": 900,
+        "groupName": "Рейдер"
+    },
+    {
+        "shipName": "Golem",
+        "groupID": 900,
+        "groupName": "Рейдер"
+    },
+    {
+        "shipName": "Kronos",
+        "groupID": 900,
+        "groupName": "Рейдер"
+    },
+    {
+        "shipName": "Vargur",
+        "groupID": 900,
+        "groupName": "Рейдер"
+    },
+    {
+        "shipName": "Raven Navy Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Apocalypse Navy Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Megathron Navy Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Tempest Fleet Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Armageddon Navy Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Dominix Navy Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Scorpion Navy Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Typhoon Fleet Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Nightmare",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Machariel",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Vindicator",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Rattlesnake",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Bhaalgorn",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Nestor",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Barghest",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Thunderchild",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Leshak",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Vehement",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Chemosh",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Caiman",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Naglfar Fleet Issue",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Revelation Navy Issue",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Moros Navy Issue",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Phoenix Navy Issue",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Zirnitra",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Revelation",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Phoenix",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Moros",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Naglfar",
+        "groupID": 485,
+        "groupName": "Дредноут"
+    },
+    {
+        "shipName": "Bane",
+        "groupID": 4594,
+        "groupName": "Дредноут-лансер"
+    },
+    {
+        "shipName": "Karura",
+        "groupID": 4594,
+        "groupName": "Дредноут-лансер"
+    },
+    {
+        "shipName": "Valravn",
+        "groupID": 4594,
+        "groupName": "Дредноут-лансер"
+    },
+    {
+        "shipName": "Hubris",
+        "groupID": 4594,
+        "groupName": "Дредноут-лансер"
+    },
+    {
+        "shipName": "Providence",
+        "groupID": 513,
+        "groupName": "Фрейтер"
+    },
+    {
+        "shipName": "Charon",
+        "groupID": 513,
+        "groupName": "Фрейтер"
+    },
+    {
+        "shipName": "Obelisk",
+        "groupID": 513,
+        "groupName": "Фрейтер"
+    },
+    {
+        "shipName": "Fenrir",
+        "groupID": 513,
+        "groupName": "Фрейтер"
+    },
+    {
+        "shipName": "Bowhead",
+        "groupID": 513,
+        "groupName": "Фрейтер"
+    },
+    {
+        "shipName": "Avalanche",
+        "groupID": 513,
+        "groupName": "Фрейтер"
+    },
+    {
+        "shipName": "Avatar",
+        "groupID": 30,
+        "groupName": "Титан"
+    },
+    {
+        "shipName": "Leviathan",
+        "groupID": 30,
+        "groupName": "Титан"
+    },
+    {
+        "shipName": "Erebus",
+        "groupID": 30,
+        "groupName": "Титан"
+    },
+    {
+        "shipName": "Ragnarok",
+        "groupID": 30,
+        "groupName": "Титан"
+    },
+    {
+        "shipName": "Vanquisher",
+        "groupID": 30,
+        "groupName": "Титан"
+    },
+    {
+        "shipName": "Molok",
+        "groupID": 30,
+        "groupName": "Титан"
+    },
+    {
+        "shipName": "Komodo",
+        "groupID": 30,
+        "groupName": "Титан"
+    },
+    {
+        "shipName": "Azariel",
+        "groupID": 30,
+        "groupName": "Титан"
+    },
+    {
+        "shipName": "Archon",
+        "groupID": 547,
+        "groupName": "КАР (корабль автономного развёртывания)"
+    },
+    {
+        "shipName": "Aeon",
+        "groupID": 659,
+        "groupName": "КАР сверхбольшого тоннажа"
+    },
+    {
+        "shipName": "Chimera",
+        "groupID": 547,
+        "groupName": "КАР (корабль автономного развёртывания)"
+    },
+    {
+        "shipName": "Wyvern",
+        "groupID": 659,
+        "groupName": "КАР сверхбольшого тоннажа"
+    },
+    {
+        "shipName": "Thanatos",
+        "groupID": 547,
+        "groupName": "КАР (корабль автономного развёртывания)"
+    },
+    {
+        "shipName": "Nyx",
+        "groupID": 659,
+        "groupName": "КАР сверхбольшого тоннажа"
+    },
+    {
+        "shipName": "Vanguard",
+        "groupID": 547,
+        "groupName": "КАР (корабль автономного развёртывания)"
+    },
+    {
+        "shipName": "Hel",
+        "groupID": 659,
+        "groupName": "КАР сверхбольшого тоннажа"
+    },
+    {
+        "shipName": "Nidhoggur",
+        "groupID": 547,
+        "groupName": "КАР (корабль автономного развёртывания)"
+    },
+    {
+        "shipName": "Revenant",
+        "groupID": 659,
+        "groupName": "КАР сверхбольшого тоннажа"
+    },
+    {
+        "shipName": "Vendetta",
+        "groupID": 659,
+        "groupName": "КАР сверхбольшого тоннажа"
+    },
+    {
+        "shipName": "Rorqual",
+        "groupID": 883,
+        "groupName": "Промышленный корабль"
+    },
+    {
+        "shipName": "Ark",
+        "groupID": 902,
+        "groupName": "Джамп-фрейтер"
+    },
+    {
+        "shipName": "Rhea",
+        "groupID": 902,
+        "groupName": "Джамп-фрейтер"
+    },
+    {
+        "shipName": "Anshar",
+        "groupID": 902,
+        "groupName": "Джамп-фрейтер"
+    },
+    {
+        "shipName": "Nomad",
+        "groupID": 902,
+        "groupName": "Джамп-фрейтер"
+    },
+    {
+        "shipName": "Apostle",
+        "groupID": 1538,
+        "groupName": "Вспомогательные КБТ"
+    },
+    {
+        "shipName": "Minokawa",
+        "groupID": 1538,
+        "groupName": "Вспомогательные КБТ"
+    },
+    {
+        "shipName": "Ninazu",
+        "groupID": 1538,
+        "groupName": "Вспомогательные КБТ"
+    },
+    {
+        "shipName": "Venerable",
+        "groupID": 1538,
+        "groupName": "Вспомогательные КБТ"
+    },
+    {
+        "shipName": "Lif",
+        "groupID": 1538,
+        "groupName": "Вспомогательные КБТ"
+    },
+    {
+        "shipName": "Dagon",
+        "groupID": 1538,
+        "groupName": "Вспомогательные КБТ"
+    },
+    {
+        "shipName": "Loggerhead",
+        "groupID": 1538,
+        "groupName": "Вспомогательные КБТ"
+    },
+    {
+        "shipName": "Hoarder",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Mammoth",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Wreathe",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Nereus",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Kryos",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Epithal",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Miasmos",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Iteron Mark V",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Badger",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Tayra",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Bestower",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Sigil",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Noctis",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Squall",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Prorator",
+        "groupID": 1202,
+        "groupName": "Корабль прорыва блокады"
+    },
+    {
+        "shipName": "Impel",
+        "groupID": 380,
+        "groupName": "Транспорт фронтирного типа"
+    },
+    {
+        "shipName": "Crane",
+        "groupID": 1202,
+        "groupName": "Корабль прорыва блокады"
+    },
+    {
+        "shipName": "Bustard",
+        "groupID": 380,
+        "groupName": "Транспорт фронтирного типа"
+    },
+    {
+        "shipName": "Viator",
+        "groupID": 1202,
+        "groupName": "Корабль прорыва блокады"
+    },
+    {
+        "shipName": "Occator",
+        "groupID": 380,
+        "groupName": "Транспорт фронтирного типа"
+    },
+    {
+        "shipName": "Prowler",
+        "groupID": 1202,
+        "groupName": "Корабль прорыва блокады"
+    },
+    {
+        "shipName": "Mastodon",
+        "groupID": 380,
+        "groupName": "Транспорт фронтирного типа"
+    },
+    {
+        "shipName": "Deluge",
+        "groupID": 1202,
+        "groupName": "Корабль прорыва блокады"
+    },
+    {
+        "shipName": "Torrent",
+        "groupID": 380,
+        "groupName": "Транспорт фронтирного типа"
+    },
+    {
+        "shipName": "Orca",
+        "groupID": 941,
+        "groupName": "Флагман буровой флотилии"
+    },
+    {
+        "shipName": "Porpoise",
+        "groupID": 941,
+        "groupName": "Флагман буровой флотилии"
+    },
+    {
+        "shipName": "Covetor",
+        "groupID": 463,
+        "groupName": "Буровой корабль"
+    },
+    {
+        "shipName": "Retriever",
+        "groupID": 463,
+        "groupName": "Буровой корабль"
+    },
+    {
+        "shipName": "Procurer",
+        "groupID": 463,
+        "groupName": "Буровой корабль"
+    },
+    {
+        "shipName": "Hulk",
+        "groupID": 543,
+        "groupName": "Тяжёлый буровой корабль"
+    },
+    {
+        "shipName": "Skiff",
+        "groupID": 543,
+        "groupName": "Тяжёлый буровой корабль"
+    },
+    {
+        "shipName": "Mackinaw",
+        "groupID": 543,
+        "groupName": "Тяжёлый буровой корабль"
+    },
+    {
+        "shipName": "Primae",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Miasmos Quafe Ultra Edition",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Miasmos Quafe Ultramarine Edition",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Miasmos Amastris Edition",
+        "groupID": 28,
+        "groupName": "Перевозчик"
+    },
+    {
+        "shipName": "Apotheosis",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "InterBus Shuttle",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Leopard",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Council Diplomatic Shuttle",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Boobook",
+        "groupID": 31,
+        "groupName": "Личный катер"
+    },
+    {
+        "shipName": "Zephyr",
+        "groupID": 1022,
+        "groupName": "Экспериментальный экспедиционный корабль"
+    },
+    {
+        "shipName": "Echelon",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Gold Magnate",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Silver Magnate",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Metamorphosis",
+        "groupID": 25,
+        "groupName": "Фрегат"
+    },
+    {
+        "shipName": "Scorpion Ishukone Watch",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Apocalypse Imperial Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Armageddon Imperial Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Megathron Federate Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Raven State Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Tempest Tribal Issue",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Marshal",
+        "groupID": 898,
+        "groupName": "Тяжёлый диверсионный корабль"
+    },
+    {
+        "shipName": "Praxis",
+        "groupID": 27,
+        "groupName": "Линкор"
+    },
+    {
+        "shipName": "Python",
+        "groupID": 898,
+        "groupName": "Тяжёлый диверсионный корабль"
+    },
+    {
+        "shipName": "Adrestia",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Vangel",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Mimir",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Bestla",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Cybele",
+        "groupID": 358,
+        "groupName": "Тяжёлый ударный крейсер"
+    },
+    {
+        "shipName": "Utu",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Malice",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Freki",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Cambion",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Geri",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Shapash",
+        "groupID": 324,
+        "groupName": "Ударный фрегат"
+    },
+    {
+        "shipName": "Etana",
+        "groupID": 832,
+        "groupName": "Корабль обеспечения"
+    },
+    {
+        "shipName": "Rabisu",
+        "groupID": 832,
+        "groupName": "Корабль обеспечения"
+    },
+    {
+        "shipName": "Gnosis",
+        "groupID": 419,
+        "groupName": "Линейный крейсер общего назначения"
+    },
+    {
+        "shipName": "Opux Luxury Yacht",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Guardian-Vexor",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Victorieux Luxury Yacht",
+        "groupID": 26,
+        "groupName": "Крейсер"
+    },
+    {
+        "shipName": "Moracha",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Chameleon",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Enforcer",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Victor",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Tiamat",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Cobra",
+        "groupID": 833,
+        "groupName": "Дозорно-диверсионный крейсер"
+    },
+    {
+        "shipName": "Chremoas",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Caedes",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Pacifier",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Virtuoso",
+        "groupID": 834,
+        "groupName": "Ударно-диверсионный бомбардировщик"
+    },
+    {
+        "shipName": "Hydra",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Sidewinder",
+        "groupID": 830,
+        "groupName": "Лёгкий диверсионный корабль"
+    },
+    {
+        "shipName": "Whiptail",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Imp",
+        "groupID": 831,
+        "groupName": "Перехватчик"
+    },
+    {
+        "shipName": "Fiend",
+        "groupID": 894,
+        "groupName": "Тяжёлый заградительный крейсер"
+    },
+    {
+        "shipName": "Laelaps",
+        "groupID": 894,
+        "groupName": "Тяжёлый заградительный крейсер"
+    },
+    {
+        "shipName": "Sunesis",
+        "groupID": 420,
+        "groupName": "Эсминец"
+    },
+    {
+        "shipName": "Immolator",
+        "groupID": 237,
+        "groupName": "Корветы"
+    },
+    {
+        "shipName": "Echo",
+        "groupID": 237,
+        "groupName": "Корветы"
+    },
+    {
+        "shipName": "Hematos",
+        "groupID": 237,
+        "groupName": "Корветы"
+    },
+    {
+        "shipName": "Taipan",
+        "groupID": 237,
+        "groupName": "Корветы"
+    },
+    {
+        "shipName": "Violator",
+        "groupID": 237,
+        "groupName": "Корветы"
+    },
+    {
+        "shipName": "Raiju",
+        "groupID": 893,
+        "groupName": "Дозорный фрегат"
+    },
+    {
+        "shipName": "Impairor",
+        "groupID": 237,
+        "groupName": "Корветы"
+    },
+    {
+        "shipName": "Ibis",
+        "groupID": 237,
+        "groupName": "Корветы"
+    },
+    {
+        "shipName": "Velator",
+        "groupID": 237,
+        "groupName": "Корветы"
+    },
+    {
+        "shipName": "Reaper",
+        "groupID": 237,
+        "groupName": "Корветы"
+    }
+]

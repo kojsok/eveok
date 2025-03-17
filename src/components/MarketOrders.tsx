@@ -50,7 +50,7 @@ export default function MarketOrders() {
         setLoading(true);
         // const res = await fetch(`/api/market-items?search=${encodeURIComponent(search)}`);
         // const res = await fetch(`/api/market-items?search=${search}&limit=50`);
-        const res = await fetch(`/api/market-items?search=${encodeURIComponent(search)}&limit=50`);
+        const res = await fetch(`/api/market-items?search=${encodeURIComponent(search)}&limit=500`);
         const data = await res.json();
         setAllItems(data);
       } catch (error) {

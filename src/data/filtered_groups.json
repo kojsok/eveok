@@ -1,0 +1,6575 @@
+[
+    {
+        "id": 12,
+        "name": {
+            "en": "Cargo Container",
+            "ru": "Грузовой контейнер"
+        }
+    },
+    {
+        "id": 14,
+        "name": {
+            "en": "Biomass",
+            "ru": "Биомасса"
+        }
+    },
+    {
+        "id": 17,
+        "name": {
+            "en": "Money",
+            "ru": "Деньги"
+        }
+    },
+    {
+        "id": 18,
+        "name": {
+            "en": "Mineral",
+            "ru": "Минералы"
+        }
+    },
+    {
+        "id": 25,
+        "name": {
+            "en": "Frigate",
+            "ru": "Фрегат"
+        }
+    },
+    {
+        "id": 26,
+        "name": {
+            "en": "Cruiser",
+            "ru": "Крейсер"
+        }
+    },
+    {
+        "id": 27,
+        "name": {
+            "en": "Battleship",
+            "ru": "Линкор"
+        }
+    },
+    {
+        "id": 28,
+        "name": {
+            "en": "Hauler",
+            "ru": "Перевозчик"
+        }
+    },
+    {
+        "id": 29,
+        "name": {
+            "en": "Capsule",
+            "ru": "Капсула"
+        }
+    },
+    {
+        "id": 30,
+        "name": {
+            "en": "Titan",
+            "ru": "Титан"
+        }
+    },
+    {
+        "id": 31,
+        "name": {
+            "en": "Shuttle",
+            "ru": "Личный катер"
+        }
+    },
+    {
+        "id": 38,
+        "name": {
+            "en": "Shield Extender",
+            "ru": "Расширитель щита"
+        }
+    },
+    {
+        "id": 39,
+        "name": {
+            "en": "Shield Recharger",
+            "ru": "Система подзарядки щита"
+        }
+    },
+    {
+        "id": 40,
+        "name": {
+            "en": "Shield Booster",
+            "ru": "Установка накачки силового поля"
+        }
+    },
+    {
+        "id": 41,
+        "name": {
+            "en": "Remote Shield Booster",
+            "ru": "Установка дистанционной накачки силовых полей"
+        }
+    },
+    {
+        "id": 43,
+        "name": {
+            "en": "Capacitor Recharger",
+            "ru": "Система подзарядки конденсатора"
+        }
+    },
+    {
+        "id": 46,
+        "name": {
+            "en": "Propulsion Module",
+            "ru": "Движительные модули"
+        }
+    },
+    {
+        "id": 47,
+        "name": {
+            "en": "Cargo Scanner",
+            "ru": "Комплекс для досмотра грузов"
+        }
+    },
+    {
+        "id": 48,
+        "name": {
+            "en": "Ship Scanner",
+            "ru": "Сканер кораблей"
+        }
+    },
+    {
+        "id": 49,
+        "name": {
+            "en": "Survey Scanner",
+            "ru": "Комплекс для оценки размеров залежей"
+        }
+    },
+    {
+        "id": 52,
+        "name": {
+            "en": "Warp Scrambler",
+            "ru": "Варп-глушитель"
+        }
+    },
+    {
+        "id": 53,
+        "name": {
+            "en": "Energy Weapon",
+            "ru": "Лазерное орудие"
+        }
+    },
+    {
+        "id": 54,
+        "name": {
+            "en": "Mining Laser",
+            "ru": "Буровой лазер"
+        }
+    },
+    {
+        "id": 55,
+        "name": {
+            "en": "Projectile Weapon",
+            "ru": "Баллистическое орудие"
+        }
+    },
+    {
+        "id": 57,
+        "name": {
+            "en": "Shield Power Relay",
+            "ru": "Модуль передачи мощности на щит"
+        }
+    },
+    {
+        "id": 59,
+        "name": {
+            "en": "Gyrostabilizer",
+            "ru": "Гиростабилизатор"
+        }
+    },
+    {
+        "id": 60,
+        "name": {
+            "en": "Damage Control",
+            "ru": "Модуль боевой живучести"
+        }
+    },
+    {
+        "id": 61,
+        "name": {
+            "en": "Capacitor Battery",
+            "ru": "Батарея конденсатора"
+        }
+    },
+    {
+        "id": 62,
+        "name": {
+            "en": "Armor Repair Unit",
+            "ru": "Установка ремонта брони"
+        }
+    },
+    {
+        "id": 63,
+        "name": {
+            "en": "Hull Repair Unit",
+            "ru": "Система ремонта корпуса"
+        }
+    },
+    {
+        "id": 65,
+        "name": {
+            "en": "Stasis Web",
+            "ru": "Генератор стазис-поля"
+        }
+    },
+    {
+        "id": 67,
+        "name": {
+            "en": "Remote Capacitor Transmitter",
+            "ru": "Установка дистанционного энергоснабжения"
+        }
+    },
+    {
+        "id": 68,
+        "name": {
+            "en": "Energy Nosferatu",
+            "ru": "Устройства паразитной подзарядки"
+        }
+    },
+    {
+        "id": 71,
+        "name": {
+            "en": "Energy Neutralizer",
+            "ru": "Дистанционные нейтрализаторы заряда"
+        }
+    },
+    {
+        "id": 72,
+        "name": {
+            "en": "Smart Bomb",
+            "ru": "Импульсный излучатель"
+        }
+    },
+    {
+        "id": 74,
+        "name": {
+            "en": "Hybrid Weapon",
+            "ru": "Гибридное орудие"
+        }
+    },
+    {
+        "id": 76,
+        "name": {
+            "en": "Capacitor Booster",
+            "ru": "Система подкачки конденсатора"
+        }
+    },
+    {
+        "id": 77,
+        "name": {
+            "en": "Shield Hardener",
+            "ru": "Система настройки щита"
+        }
+    },
+    {
+        "id": 78,
+        "name": {
+            "en": "Reinforced Bulkhead",
+            "ru": "Усиленная переборка"
+        }
+    },
+    {
+        "id": 80,
+        "name": {
+            "en": "Burst Jammer",
+            "ru": "Генератор импульсных помех"
+        }
+    },
+    {
+        "id": 82,
+        "name": {
+            "en": "Passive Targeting System",
+            "ru": "Пассивная система целеуказания"
+        }
+    },
+    {
+        "id": 83,
+        "name": {
+            "en": "Projectile Ammo",
+            "ru": "Снаряды"
+        }
+    },
+    {
+        "id": 85,
+        "name": {
+            "en": "Hybrid Charge",
+            "ru": "Гибридные заряды"
+        }
+    },
+    {
+        "id": 86,
+        "name": {
+            "en": "Frequency Crystal",
+            "ru": "Частотный кристалл"
+        }
+    },
+    {
+        "id": 87,
+        "name": {
+            "en": "Capacitor Booster Charge",
+            "ru": "Заряд системы пополнения накопителя"
+        }
+    },
+    {
+        "id": 88,
+        "name": {
+            "en": "Defender Missiles",
+            "ru": "Противоракеты"
+        }
+    },
+    {
+        "id": 89,
+        "name": {
+            "en": "Torpedo",
+            "ru": "Торпеда"
+        }
+    },
+    {
+        "id": 90,
+        "name": {
+            "en": "Bomb",
+            "ru": "Бомба"
+        }
+    },
+    {
+        "id": 96,
+        "name": {
+            "en": "Automated Targeting System",
+            "ru": "Автоматическая система целеуказания"
+        }
+    },
+    {
+        "id": 98,
+        "name": {
+            "en": "Armor Coating",
+            "ru": "Защитное покрытие брони"
+        }
+    },
+    {
+        "id": 100,
+        "name": {
+            "en": "Combat Drone",
+            "ru": "Боевой дрон"
+        }
+    },
+    {
+        "id": 101,
+        "name": {
+            "en": "Mining Drone",
+            "ru": "Буровой дрон"
+        }
+    },
+    {
+        "id": 104,
+        "name": {
+            "en": "Clone Blueprint",
+            "ru": "Чертеж клона"
+        }
+    },
+    {
+        "id": 105,
+        "name": {
+            "en": "Frigate Blueprint",
+            "ru": "Чертежи фрегата"
+        }
+    },
+    {
+        "id": 106,
+        "name": {
+            "en": "Cruiser Blueprint",
+            "ru": "Чертежи крейсера"
+        }
+    },
+    {
+        "id": 107,
+        "name": {
+            "en": "Battleship Blueprint",
+            "ru": "Чертежи линкора"
+        }
+    },
+    {
+        "id": 108,
+        "name": {
+            "en": "Hauler Blueprint",
+            "ru": "Hauler Blueprint"
+        }
+    },
+    {
+        "id": 109,
+        "name": {
+            "en": "Capsule Blueprint",
+            "ru": "Чертежи капсулы"
+        }
+    },
+    {
+        "id": 110,
+        "name": {
+            "en": "Titan Blueprint",
+            "ru": "Чертежи титана"
+        }
+    },
+    {
+        "id": 111,
+        "name": {
+            "en": "Shuttle Blueprint",
+            "ru": "Чертежи личного катера"
+        }
+    },
+    {
+        "id": 118,
+        "name": {
+            "en": "Shield Extender Blueprint",
+            "ru": "Чертеж расширителя щита"
+        }
+    },
+    {
+        "id": 119,
+        "name": {
+            "en": "Shield Recharger Blueprint",
+            "ru": "Чертеж системы подзарядки щита"
+        }
+    },
+    {
+        "id": 120,
+        "name": {
+            "en": "Shield Booster Blueprint",
+            "ru": "Чертежи установки накачки силового поля"
+        }
+    },
+    {
+        "id": 121,
+        "name": {
+            "en": "Remote Shield Booster Blueprint",
+            "ru": "Чертежи установки дистанционной накачки силовых полей"
+        }
+    },
+    {
+        "id": 123,
+        "name": {
+            "en": "Capacitor Recharger Blueprint",
+            "ru": "Чертеж системы подзарядки конденсатора"
+        }
+    },
+    {
+        "id": 126,
+        "name": {
+            "en": "Propulsion Module Blueprint",
+            "ru": "Propulsion Module Blueprint"
+        }
+    },
+    {
+        "id": 127,
+        "name": {
+            "en": "Cargo Scanner Blueprint",
+            "ru": "Чертежи комплекса для досмотра грузов"
+        }
+    },
+    {
+        "id": 128,
+        "name": {
+            "en": "Ship Scanner Blueprint",
+            "ru": "Чертеж сканера кораблей"
+        }
+    },
+    {
+        "id": 129,
+        "name": {
+            "en": "Survey Scanner Blueprint",
+            "ru": "Чертежи комплекса для оценки размеров залежей"
+        }
+    },
+    {
+        "id": 130,
+        "name": {
+            "en": "ECM Blueprint",
+            "ru": "Чертеж модуля РЭБ"
+        }
+    },
+    {
+        "id": 131,
+        "name": {
+            "en": "ECCM Blueprint",
+            "ru": "Чертеж модуля ПРЭБ"
+        }
+    },
+    {
+        "id": 132,
+        "name": {
+            "en": "Warp Scrambler Blueprint",
+            "ru": "Чертежи варп-глушителя"
+        }
+    },
+    {
+        "id": 133,
+        "name": {
+            "en": "Energy Weapon Blueprint",
+            "ru": "Чертежи лазерного орудия"
+        }
+    },
+    {
+        "id": 134,
+        "name": {
+            "en": "Mining Laser Blueprint",
+            "ru": "Чертежи бурового лазера"
+        }
+    },
+    {
+        "id": 135,
+        "name": {
+            "en": "Projectile Weapon Blueprint",
+            "ru": "Чертежи баллистического орудия"
+        }
+    },
+    {
+        "id": 136,
+        "name": {
+            "en": "Missile Launcher Blueprint",
+            "ru": "Чертежи ракетной установки"
+        }
+    },
+    {
+        "id": 137,
+        "name": {
+            "en": "Power Manager Blueprint",
+            "ru": "Чертеж системы управления питанием"
+        }
+    },
+    {
+        "id": 139,
+        "name": {
+            "en": "Gunnery Upgrade Blueprint",
+            "ru": "Чертежи пакетов усиления орудий"
+        }
+    },
+    {
+        "id": 140,
+        "name": {
+            "en": "Damage Control Blueprint",
+            "ru": "Чертеж модуля боевой живучести"
+        }
+    },
+    {
+        "id": 141,
+        "name": {
+            "en": "Capacitor Battery Blueprint",
+            "ru": "Чертеж батареи конденсатора"
+        }
+    },
+    {
+        "id": 142,
+        "name": {
+            "en": "Armor Repair Unit Blueprint",
+            "ru": "Чертежи установки ремонта брони"
+        }
+    },
+    {
+        "id": 143,
+        "name": {
+            "en": "Hull Repair Unit Blueprint",
+            "ru": "Чертеж системы ремонта корпуса"
+        }
+    },
+    {
+        "id": 145,
+        "name": {
+            "en": "Stasis Web Blueprint",
+            "ru": "Чертежи генератора стазис-поля"
+        }
+    },
+    {
+        "id": 147,
+        "name": {
+            "en": "Remote Capacitor Transmitter Blueprint",
+            "ru": "Чертежи установки дистанционного энергоснабжения"
+        }
+    },
+    {
+        "id": 148,
+        "name": {
+            "en": "Energy Nosferatu Blueprint",
+            "ru": "Чертежи устройств паразитной подзарядки"
+        }
+    },
+    {
+        "id": 151,
+        "name": {
+            "en": "Energy Neutralizer Blueprint",
+            "ru": "Чертежи дистанционных нейтрализаторов заряда"
+        }
+    },
+    {
+        "id": 152,
+        "name": {
+            "en": "Smart Bomb Blueprint",
+            "ru": "Чертеж импульсного излучателя"
+        }
+    },
+    {
+        "id": 154,
+        "name": {
+            "en": "Hybrid Weapon Blueprint",
+            "ru": "Чертежи гибридного орудия"
+        }
+    },
+    {
+        "id": 156,
+        "name": {
+            "en": "Capacitor Booster Blueprint",
+            "ru": "Чертежи системы пополнения накопителя"
+        }
+    },
+    {
+        "id": 157,
+        "name": {
+            "en": "Shield Hardener Blueprint",
+            "ru": "Чертеж системы настройки щита"
+        }
+    },
+    {
+        "id": 158,
+        "name": {
+            "en": "Hull Mods Blueprint",
+            "ru": "Чертеж модуля модернизации корпуса"
+        }
+    },
+    {
+        "id": 160,
+        "name": {
+            "en": "Burst Jammer Blueprint",
+            "ru": "Чертежи генераторов импульсных помех"
+        }
+    },
+    {
+        "id": 161,
+        "name": {
+            "en": "Passive Targeting System Blueprint",
+            "ru": "Чертеж пассивной системы целеуказания"
+        }
+    },
+    {
+        "id": 162,
+        "name": {
+            "en": "Automated Targeting System Blueprint",
+            "ru": "Чертеж автоматической системы целеуказания"
+        }
+    },
+    {
+        "id": 163,
+        "name": {
+            "en": "Armor Coating Blueprint",
+            "ru": "Чертеж защитного покрытия брони"
+        }
+    },
+    {
+        "id": 165,
+        "name": {
+            "en": "Projectile Ammo Blueprint",
+            "ru": "Чертеж снаряда"
+        }
+    },
+    {
+        "id": 166,
+        "name": {
+            "en": "Missile Blueprint",
+            "ru": "Чертежи ракеты"
+        }
+    },
+    {
+        "id": 167,
+        "name": {
+            "en": "Hybrid Charge Blueprint",
+            "ru": "Чертеж гибридных зарядов"
+        }
+    },
+    {
+        "id": 168,
+        "name": {
+            "en": "Frequency Crystal Blueprint",
+            "ru": "Чертеж частотного кристалла"
+        }
+    },
+    {
+        "id": 169,
+        "name": {
+            "en": "Capacitor Booster Charge Blueprint",
+            "ru": "Чертежи заряда системы пополнения накопителя"
+        }
+    },
+    {
+        "id": 170,
+        "name": {
+            "en": "Defender Missile Blueprint",
+            "ru": "Чертежи противоракеты"
+        }
+    },
+    {
+        "id": 172,
+        "name": {
+            "en": "Bomb Blueprint",
+            "ru": "Чертежи бомбы"
+        }
+    },
+    {
+        "id": 174,
+        "name": {
+            "en": "Mine Blueprint",
+            "ru": "Чертежи мины"
+        }
+    },
+    {
+        "id": 175,
+        "name": {
+            "en": "Proximity Drone Blueprint",
+            "ru": "Чертеж дрона Proximity"
+        }
+    },
+    {
+        "id": 176,
+        "name": {
+            "en": "Combat Drone Blueprint",
+            "ru": "Чертежи боевого дрона"
+        }
+    },
+    {
+        "id": 177,
+        "name": {
+            "en": "Mining Drone Blueprint",
+            "ru": "Чертежи бурового дрона"
+        }
+    },
+    {
+        "id": 178,
+        "name": {
+            "en": "Drug Blueprint",
+            "ru": "Чертеж наркотика"
+        }
+    },
+    {
+        "id": 201,
+        "name": {
+            "en": "ECM",
+            "ru": "Генератор помех системам сопровождения целей"
+        }
+    },
+    {
+        "id": 202,
+        "name": {
+            "en": "ECCM",
+            "ru": "Модуль ПРЭБ"
+        }
+    },
+    {
+        "id": 203,
+        "name": {
+            "en": "Sensor Backup Array",
+            "ru": "Резервная сенсорная система"
+        }
+    },
+    {
+        "id": 205,
+        "name": {
+            "en": "Heat Sink",
+            "ru": "Радиатор"
+        }
+    },
+    {
+        "id": 208,
+        "name": {
+            "en": "Sensor Dampener",
+            "ru": "Передатчик помех системам обнаружения целей"
+        }
+    },
+    {
+        "id": 209,
+        "name": {
+            "en": "Remote Tracking Computer",
+            "ru": "Ретранслятор системы целеуказания"
+        }
+    },
+    {
+        "id": 210,
+        "name": {
+            "en": "Signal Amplifier",
+            "ru": "Усилитель сигнала"
+        }
+    },
+    {
+        "id": 211,
+        "name": {
+            "en": "Tracking Enhancer",
+            "ru": "Приводы наводки орудий"
+        }
+    },
+    {
+        "id": 212,
+        "name": {
+            "en": "Sensor Booster",
+            "ru": "Активный усилитель для систем обнаружения целей"
+        }
+    },
+    {
+        "id": 213,
+        "name": {
+            "en": "Tracking Computer",
+            "ru": "Орудийный вычислитель"
+        }
+    },
+    {
+        "id": 218,
+        "name": {
+            "en": "Heat Sink Blueprint",
+            "ru": "Heat Sink Blueprint"
+        }
+    },
+    {
+        "id": 223,
+        "name": {
+            "en": "Sensor Booster Blueprint",
+            "ru": "Чертежи активного усилителя"
+        }
+    },
+    {
+        "id": 224,
+        "name": {
+            "en": "Tracking Computer Blueprint",
+            "ru": "Tracking Computer Blueprint"
+        }
+    },
+    {
+        "id": 237,
+        "name": {
+            "en": "Corvette",
+            "ru": "Корветы"
+        }
+    },
+    {
+        "id": 255,
+        "name": {
+            "en": "Gunnery",
+            "ru": "Ведение орудийного огня"
+        }
+    },
+    {
+        "id": 256,
+        "name": {
+            "en": "Missiles",
+            "ru": "Ведение ракетного огня"
+        }
+    },
+    {
+        "id": 257,
+        "name": {
+            "en": "Spaceship Command",
+            "ru": "Допуски к управлению кораблями"
+        }
+    },
+    {
+        "id": 258,
+        "name": {
+            "en": "Fleet Support",
+            "ru": "Поддержка флотов"
+        }
+    },
+    {
+        "id": 266,
+        "name": {
+            "en": "Corporation Management",
+            "ru": "Руководство корпорацией"
+        }
+    },
+    {
+        "id": 268,
+        "name": {
+            "en": "Production",
+            "ru": "Организация производства"
+        }
+    },
+    {
+        "id": 269,
+        "name": {
+            "en": "Rigging",
+            "ru": "Установка тюнинг-модулей"
+        }
+    },
+    {
+        "id": 270,
+        "name": {
+            "en": "Science",
+            "ru": "Научные дисциплины"
+        }
+    },
+    {
+        "id": 272,
+        "name": {
+            "en": "Electronic Systems",
+            "ru": "Работа с бортовой электроникой"
+        }
+    },
+    {
+        "id": 273,
+        "name": {
+            "en": "Drones",
+            "ru": "Управление дронами"
+        }
+    },
+    {
+        "id": 274,
+        "name": {
+            "en": "Trade",
+            "ru": "Торговля"
+        }
+    },
+    {
+        "id": 275,
+        "name": {
+            "en": "Navigation",
+            "ru": "Эксплуатация двигателей"
+        }
+    },
+    {
+        "id": 278,
+        "name": {
+            "en": "Social",
+            "ru": "Развитие деловых отношений"
+        }
+    },
+    {
+        "id": 280,
+        "name": {
+            "en": "General",
+            "ru": "Товары общего потребления"
+        }
+    },
+    {
+        "id": 281,
+        "name": {
+            "en": "Frozen",
+            "ru": "Замороженные продукты"
+        }
+    },
+    {
+        "id": 282,
+        "name": {
+            "en": "Radioactive",
+            "ru": "Радиоактивные материалы"
+        }
+    },
+    {
+        "id": 283,
+        "name": {
+            "en": "Livestock",
+            "ru": "Живой груз"
+        }
+    },
+    {
+        "id": 284,
+        "name": {
+            "en": "Biohazard",
+            "ru": "Биологически опасные материалы"
+        }
+    },
+    {
+        "id": 285,
+        "name": {
+            "en": "CPU Enhancer",
+            "ru": "Модуль апгрейда процессора"
+        }
+    },
+    {
+        "id": 289,
+        "name": {
+            "en": "Projected ECCM",
+            "ru": "Проекционный модуль ПРЭБ"
+        }
+    },
+    {
+        "id": 290,
+        "name": {
+            "en": "Remote Sensor Booster",
+            "ru": "Ретранслятор системы обнаружения целей"
+        }
+    },
+    {
+        "id": 291,
+        "name": {
+            "en": "Weapon Disruptor",
+            "ru": "Помехопостановщики наводке орудий"
+        }
+    },
+    {
+        "id": 295,
+        "name": {
+            "en": "Shield Resistance Amplifier",
+            "ru": "Энергонезависимые модуляторы сопротивляемости полей"
+        }
+    },
+    {
+        "id": 296,
+        "name": {
+            "en": "Shield Resistance Amplifier Blueprint",
+            "ru": "Чертежи энергонезависимых модуляторов сопротивляемости полей"
+        }
+    },
+    {
+        "id": 300,
+        "name": {
+            "en": "Cyberimplant",
+            "ru": "Кибернетический имплантат"
+        }
+    },
+    {
+        "id": 302,
+        "name": {
+            "en": "Magnetic Field Stabilizer",
+            "ru": "Стабилизатор магнитного поля"
+        }
+    },
+    {
+        "id": 303,
+        "name": {
+            "en": "Booster",
+            "ru": "Бустер"
+        }
+    },
+    {
+        "id": 307,
+        "name": {
+            "en": "Construction Platform",
+            "ru": "Строительная платформа"
+        }
+    },
+    {
+        "id": 311,
+        "name": {
+            "en": "Reprocessing Array",
+            "ru": "Reprocessing Array"
+        }
+    },
+    {
+        "id": 313,
+        "name": {
+            "en": "Drugs",
+            "ru": "Наркотики"
+        }
+    },
+    {
+        "id": 314,
+        "name": {
+            "en": "Miscellaneous",
+            "ru": "Разное"
+        }
+    },
+    {
+        "id": 315,
+        "name": {
+            "en": "Warp Core Stabilizer",
+            "ru": "Стабилизатор квантового ядра"
+        }
+    },
+    {
+        "id": 321,
+        "name": {
+            "en": "Shield Disruptor",
+            "ru": "Модуль дестабилизации щита"
+        }
+    },
+    {
+        "id": 324,
+        "name": {
+            "en": "Assault Frigate",
+            "ru": "Ударный фрегат"
+        }
+    },
+    {
+        "id": 325,
+        "name": {
+            "en": "Remote Armor Repairer",
+            "ru": "Установка дистанционного ремонта брони"
+        }
+    },
+    {
+        "id": 326,
+        "name": {
+            "en": "Energized Armor Membrane",
+            "ru": "Подзаряжающаяся мембрана брони"
+        }
+    },
+    {
+        "id": 328,
+        "name": {
+            "en": "Armor Hardener",
+            "ru": "Система укрепления брони"
+        }
+    },
+    {
+        "id": 329,
+        "name": {
+            "en": "Armor Plate",
+            "ru": "Бронеплита"
+        }
+    },
+    {
+        "id": 330,
+        "name": {
+            "en": "Cloaking Device",
+            "ru": "Система маскировки"
+        }
+    },
+    {
+        "id": 332,
+        "name": {
+            "en": "Tool",
+            "ru": "Инструмент"
+        }
+    },
+    {
+        "id": 333,
+        "name": {
+            "en": "Datacores",
+            "ru": "Инфоблоки"
+        }
+    },
+    {
+        "id": 334,
+        "name": {
+            "en": "Construction Components",
+            "ru": "Производственные компоненты"
+        }
+    },
+    {
+        "id": 338,
+        "name": {
+            "en": "Shield Boost Amplifier",
+            "ru": "Усилитель накачки щита"
+        }
+    },
+    {
+        "id": 339,
+        "name": {
+            "en": "Auxiliary Power Core",
+            "ru": "Вспомогательный реактор"
+        }
+    },
+    {
+        "id": 340,
+        "name": {
+            "en": "Secure Cargo Container",
+            "ru": "Защищенный грузовой контейнер"
+        }
+    },
+    {
+        "id": 342,
+        "name": {
+            "en": "Anti Warp Scrambler Blueprint",
+            "ru": "Чертеж системы противодействия квантовому подавлению"
+        }
+    },
+    {
+        "id": 343,
+        "name": {
+            "en": "Weapon Disruptor Blueprint",
+            "ru": "Чертежи помехопостановщика наводке орудий"
+        }
+    },
+    {
+        "id": 344,
+        "name": {
+            "en": "Tracking Enhancer Blueprint",
+            "ru": "Чертежи приводов наводки орудий"
+        }
+    },
+    {
+        "id": 345,
+        "name": {
+            "en": "Remote Tracking Computer Blueprint",
+            "ru": "Чертеж ретранслятора системы целеуказания"
+        }
+    },
+    {
+        "id": 346,
+        "name": {
+            "en": "Co-Processor Blueprint",
+            "ru": "Чертеж сопроцессора"
+        }
+    },
+    {
+        "id": 347,
+        "name": {
+            "en": "Signal Amplifier Blueprint",
+            "ru": "Чертеж усилителя сигнала"
+        }
+    },
+    {
+        "id": 348,
+        "name": {
+            "en": "Armor Hardener Blueprint",
+            "ru": "Чертеж системы укрепления брони"
+        }
+    },
+    {
+        "id": 349,
+        "name": {
+            "en": "Armor Plate Blueprint",
+            "ru": "Чертёж бронеплиты"
+        }
+    },
+    {
+        "id": 350,
+        "name": {
+            "en": "Remote Armor Repairer Blueprint",
+            "ru": "Чертеж системы дистанционного ремонта брони"
+        }
+    },
+    {
+        "id": 352,
+        "name": {
+            "en": "Auxiliary Power Core Blueprint",
+            "ru": "Чертеж вспомогательной силовой установки"
+        }
+    },
+    {
+        "id": 355,
+        "name": {
+            "en": "Refinables",
+            "ru": "Обогащаемые вещества"
+        }
+    },
+    {
+        "id": 356,
+        "name": {
+            "en": "Tool Blueprint",
+            "ru": "Чертеж инструмента"
+        }
+    },
+    {
+        "id": 358,
+        "name": {
+            "en": "Heavy Assault Cruiser",
+            "ru": "Тяжёлый ударный крейсер"
+        }
+    },
+    {
+        "id": 360,
+        "name": {
+            "en": "Shield Boost Amplifier Blueprint",
+            "ru": "Чертеж усилителя накачки щита"
+        }
+    },
+    {
+        "id": 361,
+        "name": {
+            "en": "Mobile Warp Disruptor",
+            "ru": "Автономный генератор варп-помех"
+        }
+    },
+    {
+        "id": 363,
+        "name": {
+            "en": "Ship Maintenance Array",
+            "ru": "Ангарный блок"
+        }
+    },
+    {
+        "id": 365,
+        "name": {
+            "en": "Control Tower",
+            "ru": "Башня управления базой"
+        }
+    },
+    {
+        "id": 367,
+        "name": {
+            "en": "Ballistic Control system",
+            "ru": "Баллистические вычислители"
+        }
+    },
+    {
+        "id": 369,
+        "name": {
+            "en": "Ship Logs",
+            "ru": "Корабельные журналы"
+        }
+    },
+    {
+        "id": 370,
+        "name": {
+            "en": "Criminal Tags",
+            "ru": "Личные жетоны преступников"
+        }
+    },
+    {
+        "id": 371,
+        "name": {
+            "en": "Mobile Warp Disruptor Blueprint",
+            "ru": "Чертежи автономного генератора варп-помех"
+        }
+    },
+    {
+        "id": 372,
+        "name": {
+            "en": "Advanced Autocannon Ammo",
+            "ru": "Спецбоеприпасы для автопушек"
+        }
+    },
+    {
+        "id": 373,
+        "name": {
+            "en": "Advanced Railgun Charge",
+            "ru": "Спецбоеприпасы для рельсотронов"
+        }
+    },
+    {
+        "id": 374,
+        "name": {
+            "en": "Advanced Beam Laser Crystal",
+            "ru": "Спецкристаллы для лазеров непрерывного действия"
+        }
+    },
+    {
+        "id": 375,
+        "name": {
+            "en": "Advanced Pulse Laser Crystal",
+            "ru": "Спецкристаллы для импульсных лазеров"
+        }
+    },
+    {
+        "id": 376,
+        "name": {
+            "en": "Advanced Artillery Ammo",
+            "ru": "Спецбоеприпасы для артиллерийских орудий"
+        }
+    },
+    {
+        "id": 377,
+        "name": {
+            "en": "Advanced Blaster Charge",
+            "ru": "Спецбоеприпасы для бластеров"
+        }
+    },
+    {
+        "id": 379,
+        "name": {
+            "en": "Target Painter",
+            "ru": "Система подсветки целей"
+        }
+    },
+    {
+        "id": 380,
+        "name": {
+            "en": "Deep Space Transport",
+            "ru": "Транспорт фронтирного типа"
+        }
+    },
+    {
+        "id": 384,
+        "name": {
+            "en": "Light Missile",
+            "ru": "Ракета малой мощности"
+        }
+    },
+    {
+        "id": 385,
+        "name": {
+            "en": "Heavy Missile",
+            "ru": "Ракета большой мощности"
+        }
+    },
+    {
+        "id": 386,
+        "name": {
+            "en": "Cruise Missile",
+            "ru": "Ракета дальнего боя"
+        }
+    },
+    {
+        "id": 387,
+        "name": {
+            "en": "Rocket",
+            "ru": "Ракета ближнего боя"
+        }
+    },
+    {
+        "id": 394,
+        "name": {
+            "en": "Auto-Targeting Light Missile",
+            "ru": "Лёгкая ракета с авто-наведением"
+        }
+    },
+    {
+        "id": 395,
+        "name": {
+            "en": "Auto-Targeting Heavy Missile",
+            "ru": "Тяжёлая ракета с авто-наведением"
+        }
+    },
+    {
+        "id": 396,
+        "name": {
+            "en": "Auto-Targeting Cruise Missile",
+            "ru": "Дальнобойная ракета с авто-наведением"
+        }
+    },
+    {
+        "id": 397,
+        "name": {
+            "en": "Assembly Array",
+            "ru": "Сборочная линия"
+        }
+    },
+    {
+        "id": 400,
+        "name": {
+            "en": "Ballistic Control System Blueprint",
+            "ru": "Чертеж баллистического вычислителя"
+        }
+    },
+    {
+        "id": 401,
+        "name": {
+            "en": "Cloaking Device Blueprint",
+            "ru": "Чертежи системы маскировки"
+        }
+    },
+    {
+        "id": 404,
+        "name": {
+            "en": "Silo",
+            "ru": "Хранилище"
+        }
+    },
+    {
+        "id": 407,
+        "name": {
+            "en": "Fighter Support Unit",
+            "ru": "Модуль поддержки истребителей"
+        }
+    },
+    {
+        "id": 408,
+        "name": {
+            "en": "Drone Upgrade Blueprint",
+            "ru": "Чертежи пакетов усиления дронов"
+        }
+    },
+    {
+        "id": 409,
+        "name": {
+            "en": "Empire Insignia Drops",
+            "ru": "Идентификаторы офицеров флота"
+        }
+    },
+    {
+        "id": 413,
+        "name": {
+            "en": "Laboratory",
+            "ru": "Лаборатория"
+        }
+    },
+    {
+        "id": 416,
+        "name": {
+            "en": "Moon Mining",
+            "ru": "Комплекс экстракции со спутника"
+        }
+    },
+    {
+        "id": 417,
+        "name": {
+            "en": "Mobile Missile Sentry",
+            "ru": "Передвижная автоматическая ракетная установка"
+        }
+    },
+    {
+        "id": 419,
+        "name": {
+            "en": "Combat Battlecruiser",
+            "ru": "Линейный крейсер общего назначения"
+        }
+    },
+    {
+        "id": 420,
+        "name": {
+            "en": "Destroyer",
+            "ru": "Эсминец"
+        }
+    },
+    {
+        "id": 423,
+        "name": {
+            "en": "Ice Product",
+            "ru": "Замерзшие вещества"
+        }
+    },
+    {
+        "id": 426,
+        "name": {
+            "en": "Mobile Projectile Sentry",
+            "ru": "Передвижное автоматическое огнестрельное орудие"
+        }
+    },
+    {
+        "id": 427,
+        "name": {
+            "en": "Moon Materials",
+            "ru": "Материалы спутника"
+        }
+    },
+    {
+        "id": 428,
+        "name": {
+            "en": "Intermediate Materials",
+            "ru": "Полуфабрикаты"
+        }
+    },
+    {
+        "id": 429,
+        "name": {
+            "en": "Composite",
+            "ru": "Композитные вещества"
+        }
+    },
+    {
+        "id": 430,
+        "name": {
+            "en": "Mobile Laser Sentry",
+            "ru": "Передвижное автоматическое лазерное орудие"
+        }
+    },
+    {
+        "id": 436,
+        "name": {
+            "en": "Simple Reaction",
+            "ru": "Простая реакция"
+        }
+    },
+    {
+        "id": 438,
+        "name": {
+            "en": "Mobile Reactor",
+            "ru": "Передвижной реактор"
+        }
+    },
+    {
+        "id": 439,
+        "name": {
+            "en": "Electronic Warfare Battery",
+            "ru": "Батарея электронного противодействия"
+        }
+    },
+    {
+        "id": 440,
+        "name": {
+            "en": "Sensor Dampening Battery",
+            "ru": "Батарея подавления сенсорных систем"
+        }
+    },
+    {
+        "id": 441,
+        "name": {
+            "en": "Stasis Webification Battery",
+            "ru": "Батарея генерации стазис-сети"
+        }
+    },
+    {
+        "id": 443,
+        "name": {
+            "en": "Warp Scrambling Battery",
+            "ru": "Батарея глушения квантовых двигателей"
+        }
+    },
+    {
+        "id": 444,
+        "name": {
+            "en": "Shield Hardening Array",
+            "ru": "Комплекс усиления щита"
+        }
+    },
+    {
+        "id": 447,
+        "name": {
+            "en": "Construction Component Blueprints",
+            "ru": "Чертежи производственных компонентов"
+        }
+    },
+    {
+        "id": 448,
+        "name": {
+            "en": "Audit Log Secure Container",
+            "ru": "Защищенный контейнер с контролем доступа"
+        }
+    },
+    {
+        "id": 449,
+        "name": {
+            "en": "Mobile Hybrid Sentry",
+            "ru": "Передвижное автоматическое орудие гибридного действия"
+        }
+    },
+    {
+        "id": 450,
+        "name": {
+            "en": "Arkonor",
+            "ru": "Arkonor"
+        }
+    },
+    {
+        "id": 451,
+        "name": {
+            "en": "Bistot",
+            "ru": "Bistot"
+        }
+    },
+    {
+        "id": 452,
+        "name": {
+            "en": "Crokite",
+            "ru": "Crokite"
+        }
+    },
+    {
+        "id": 453,
+        "name": {
+            "en": "Dark Ochre",
+            "ru": "Dark Ochre"
+        }
+    },
+    {
+        "id": 454,
+        "name": {
+            "en": "Hedbergite",
+            "ru": "Hedbergite"
+        }
+    },
+    {
+        "id": 455,
+        "name": {
+            "en": "Hemorphite",
+            "ru": "Hemorphite"
+        }
+    },
+    {
+        "id": 456,
+        "name": {
+            "en": "Jaspet",
+            "ru": "Jaspet"
+        }
+    },
+    {
+        "id": 457,
+        "name": {
+            "en": "Kernite",
+            "ru": "Kernite"
+        }
+    },
+    {
+        "id": 458,
+        "name": {
+            "en": "Plagioclase",
+            "ru": "Plagioclase"
+        }
+    },
+    {
+        "id": 459,
+        "name": {
+            "en": "Pyroxeres",
+            "ru": "Pyroxeres"
+        }
+    },
+    {
+        "id": 460,
+        "name": {
+            "en": "Scordite",
+            "ru": "Scordite"
+        }
+    },
+    {
+        "id": 461,
+        "name": {
+            "en": "Spodumain",
+            "ru": "Spodumain"
+        }
+    },
+    {
+        "id": 462,
+        "name": {
+            "en": "Veldspar",
+            "ru": "Veldspar"
+        }
+    },
+    {
+        "id": 463,
+        "name": {
+            "en": "Mining Barge",
+            "ru": "Буровой корабль"
+        }
+    },
+    {
+        "id": 464,
+        "name": {
+            "en": "Strip Miner",
+            "ru": "Буровой лазер валовой выемки"
+        }
+    },
+    {
+        "id": 465,
+        "name": {
+            "en": "Ice",
+            "ru": "Лед"
+        }
+    },
+    {
+        "id": 467,
+        "name": {
+            "en": "Gneiss",
+            "ru": "Gneiss"
+        }
+    },
+    {
+        "id": 468,
+        "name": {
+            "en": "Mercoxit",
+            "ru": "Mercoxit"
+        }
+    },
+    {
+        "id": 469,
+        "name": {
+            "en": "Omber",
+            "ru": "Omber"
+        }
+    },
+    {
+        "id": 471,
+        "name": {
+            "en": "Corporate Hangar Array",
+            "ru": "Внешний корпоративный ангар"
+        }
+    },
+    {
+        "id": 472,
+        "name": {
+            "en": "System Scanner",
+            "ru": "Сканер систем"
+        }
+    },
+    {
+        "id": 473,
+        "name": {
+            "en": "Tracking Array",
+            "ru": "Система слежения"
+        }
+    },
+    {
+        "id": 474,
+        "name": {
+            "en": "Acceleration Gate Keys",
+            "ru": "Ключ от разгонных ворот"
+        }
+    },
+    {
+        "id": 476,
+        "name": {
+            "en": "XL Torpedo",
+            "ru": "Торпеды сверхбольшой мощности"
+        }
+    },
+    {
+        "id": 477,
+        "name": {
+            "en": "Mining Barge Blueprint",
+            "ru": "Чертежи бурового корабля"
+        }
+    },
+    {
+        "id": 478,
+        "name": {
+            "en": "System Scanner Blueprint",
+            "ru": "Чертеж сканера систем"
+        }
+    },
+    {
+        "id": 479,
+        "name": {
+            "en": "Scanner Probe",
+            "ru": "Разведывательный зонд"
+        }
+    },
+    {
+        "id": 481,
+        "name": {
+            "en": "Scan Probe Launcher",
+            "ru": "Пусковая установка разведзондов"
+        }
+    },
+    {
+        "id": 482,
+        "name": {
+            "en": "Mining Crystal",
+            "ru": "Кристалл настройки экстрактора"
+        }
+    },
+    {
+        "id": 483,
+        "name": {
+            "en": "Frequency Mining Laser",
+            "ru": "Мультичастотный экстрактор"
+        }
+    },
+    {
+        "id": 484,
+        "name": {
+            "en": "Complex Reactions",
+            "ru": "Сложные реакции"
+        }
+    },
+    {
+        "id": 485,
+        "name": {
+            "en": "Dreadnought",
+            "ru": "Дредноут"
+        }
+    },
+    {
+        "id": 486,
+        "name": {
+            "en": "Scan Probe Blueprint",
+            "ru": "Чертежи разведывательного зонда"
+        }
+    },
+    {
+        "id": 487,
+        "name": {
+            "en": "Destroyer Blueprint",
+            "ru": "Чертежи эсминца"
+        }
+    },
+    {
+        "id": 489,
+        "name": {
+            "en": "Battlecruiser Blueprint",
+            "ru": "Чертежи линейного крейсера"
+        }
+    },
+    {
+        "id": 490,
+        "name": {
+            "en": "Strip Miner Blueprint",
+            "ru": "Чертежи бурового лазера валовой выемки"
+        }
+    },
+    {
+        "id": 492,
+        "name": {
+            "en": "Survey Probe",
+            "ru": "Лунный зонд"
+        }
+    },
+    {
+        "id": 493,
+        "name": {
+            "en": "Overseer Personal Effects",
+            "ru": "Личные вещи смотрителя"
+        }
+    },
+    {
+        "id": 500,
+        "name": {
+            "en": "Festival Charges",
+            "ru": "Фестивальные снаряды"
+        }
+    },
+    {
+        "id": 501,
+        "name": {
+            "en": "Festival Launcher",
+            "ru": "Салютная пусковая установка"
+        }
+    },
+    {
+        "id": 503,
+        "name": {
+            "en": "Elite Hauler Blueprint",
+            "ru": "Elite Hauler Blueprint"
+        }
+    },
+    {
+        "id": 504,
+        "name": {
+            "en": "Target Painter Blueprint",
+            "ru": "Чертежи системы подсветки целей"
+        }
+    },
+    {
+        "id": 506,
+        "name": {
+            "en": "Missile Launcher Cruise",
+            "ru": "Пусковая установка ракет дальнего боя"
+        }
+    },
+    {
+        "id": 507,
+        "name": {
+            "en": "Missile Launcher Rocket",
+            "ru": "Пусковая установка ракет ближнего боя"
+        }
+    },
+    {
+        "id": 508,
+        "name": {
+            "en": "Missile Launcher Torpedo",
+            "ru": "Торпедный аппарат"
+        }
+    },
+    {
+        "id": 509,
+        "name": {
+            "en": "Missile Launcher Light",
+            "ru": "Пусковая установка ракет малой мощности"
+        }
+    },
+    {
+        "id": 510,
+        "name": {
+            "en": "Missile Launcher Heavy",
+            "ru": "Пусковая установка ракет большой мощности"
+        }
+    },
+    {
+        "id": 511,
+        "name": {
+            "en": "Missile Launcher Rapid Light",
+            "ru": "Скорострельная ПУ ракет малой мощности"
+        }
+    },
+    {
+        "id": 512,
+        "name": {
+            "en": "Missile Launcher Defender",
+            "ru": "Пусковая установка противоракет"
+        }
+    },
+    {
+        "id": 513,
+        "name": {
+            "en": "Freighter",
+            "ru": "Фрейтер"
+        }
+    },
+    {
+        "id": 514,
+        "name": {
+            "en": "ECM Stabilizer",
+            "ru": "Стабилизатор РЭБ"
+        }
+    },
+    {
+        "id": 515,
+        "name": {
+            "en": "Siege Module",
+            "ru": "Реконфигуратор"
+        }
+    },
+    {
+        "id": 516,
+        "name": {
+            "en": "Siege Module Blueprint",
+            "ru": "Чертежи реконфигуратора"
+        }
+    },
+    {
+        "id": 521,
+        "name": {
+            "en": "Identification",
+            "ru": "Удостоверение"
+        }
+    },
+    {
+        "id": 524,
+        "name": {
+            "en": "Missile Launcher XL Torpedo",
+            "ru": "Торпедные аппараты сверхбольшой мощности"
+        }
+    },
+    {
+        "id": 525,
+        "name": {
+            "en": "Freighter Blueprint",
+            "ru": "Чертежи фрейтера"
+        }
+    },
+    {
+        "id": 526,
+        "name": {
+            "en": "Commodities",
+            "ru": "Товары"
+        }
+    },
+    {
+        "id": 528,
+        "name": {
+            "en": "Artifacts and Prototypes",
+            "ru": "Артефакты и прототипы"
+        }
+    },
+    {
+        "id": 530,
+        "name": {
+            "en": "Materials and Compounds",
+            "ru": "Материалы и детали"
+        }
+    },
+    {
+        "id": 532,
+        "name": {
+            "en": "Gang Coordinator Blueprint",
+            "ru": "Чертежи модуля обеспечения флотского взаимодействия"
+        }
+    },
+    {
+        "id": 535,
+        "name": {
+            "en": "Construction Platform Blueprint",
+            "ru": "Чертеж строительной платформы"
+        }
+    },
+    {
+        "id": 536,
+        "name": {
+            "en": "Structure Components",
+            "ru": "Компоненты сооружения"
+        }
+    },
+    {
+        "id": 537,
+        "name": {
+            "en": "Dreadnought Blueprint",
+            "ru": "Чертежи дредноута"
+        }
+    },
+    {
+        "id": 538,
+        "name": {
+            "en": "Data Miners",
+            "ru": "Программно-аналитический комплекс"
+        }
+    },
+    {
+        "id": 540,
+        "name": {
+            "en": "Command Ship",
+            "ru": "Корабль управления"
+        }
+    },
+    {
+        "id": 541,
+        "name": {
+            "en": "Interdictor",
+            "ru": "Заградитель"
+        }
+    },
+    {
+        "id": 543,
+        "name": {
+            "en": "Exhumer",
+            "ru": "Тяжёлый буровой корабль"
+        }
+    },
+    {
+        "id": 544,
+        "name": {
+            "en": "Energy Neutralizer Drone",
+            "ru": "Дроны-нейтрализаторы энергии."
+        }
+    },
+    {
+        "id": 546,
+        "name": {
+            "en": "Mining Upgrade",
+            "ru": "Пакет модернизации экстракторов"
+        }
+    },
+    {
+        "id": 547,
+        "name": {
+            "en": "Carrier",
+            "ru": "КАР (корабль автономного развёртывания)"
+        }
+    },
+    {
+        "id": 548,
+        "name": {
+            "en": "Interdiction Probe",
+            "ru": "Зонд-генератор варп-помех"
+        }
+    },
+    {
+        "id": 585,
+        "name": {
+            "en": "Remote Hull Repairer",
+            "ru": "Система дистанционного ремонта корпуса"
+        }
+    },
+    {
+        "id": 588,
+        "name": {
+            "en": "Super Weapon",
+            "ru": "Супероружие"
+        }
+    },
+    {
+        "id": 589,
+        "name": {
+            "en": "Interdiction Sphere Launcher",
+            "ru": "Пусковая установка зондов-генераторов варп-помех"
+        }
+    },
+    {
+        "id": 590,
+        "name": {
+            "en": "Jump Portal Generator",
+            "ru": "Генератор гиперпорталов"
+        }
+    },
+    {
+        "id": 639,
+        "name": {
+            "en": "Electronic Warfare Drone",
+            "ru": "Дрон электронного противодействия"
+        }
+    },
+    {
+        "id": 640,
+        "name": {
+            "en": "Logistic Drone",
+            "ru": "Ремонтный дрон"
+        }
+    },
+    {
+        "id": 641,
+        "name": {
+            "en": "Stasis Webifying Drone",
+            "ru": "Дрон постановки стазис-сети"
+        }
+    },
+    {
+        "id": 643,
+        "name": {
+            "en": "Carrier Blueprint",
+            "ru": "Чертежи корабля автономного развёртывания"
+        }
+    },
+    {
+        "id": 644,
+        "name": {
+            "en": "Drone Navigation Computer",
+            "ru": "Навигационный компьютер дронов"
+        }
+    },
+    {
+        "id": 645,
+        "name": {
+            "en": "Drone Damage Modules",
+            "ru": "Усилители боевой эффективности дронов"
+        }
+    },
+    {
+        "id": 646,
+        "name": {
+            "en": "Drone Tracking Modules",
+            "ru": "Усилитель системы слежения дронов"
+        }
+    },
+    {
+        "id": 647,
+        "name": {
+            "en": "Drone Control Range Module",
+            "ru": "Ретранслятор системы управления дронами"
+        }
+    },
+    {
+        "id": 648,
+        "name": {
+            "en": "Advanced Rocket",
+            "ru": "Спецракеты ближнего боя"
+        }
+    },
+    {
+        "id": 649,
+        "name": {
+            "en": "Freight Container",
+            "ru": "Транспортный контейнер"
+        }
+    },
+    {
+        "id": 650,
+        "name": {
+            "en": "Tractor Beam",
+            "ru": "Гравизахват"
+        }
+    },
+    {
+        "id": 651,
+        "name": {
+            "en": "Super Weapon Blueprint",
+            "ru": "Чертеж супероружия"
+        }
+    },
+    {
+        "id": 652,
+        "name": {
+            "en": "Lease",
+            "ru": "Документы аренды"
+        }
+    },
+    {
+        "id": 653,
+        "name": {
+            "en": "Advanced Light Missile",
+            "ru": "Спецракеты малой мощности"
+        }
+    },
+    {
+        "id": 654,
+        "name": {
+            "en": "Advanced Heavy Assault Missile",
+            "ru": "Малогабаритные спецракеты большой мощности"
+        }
+    },
+    {
+        "id": 655,
+        "name": {
+            "en": "Advanced Heavy Missile",
+            "ru": "Спецракеты большой мощности"
+        }
+    },
+    {
+        "id": 656,
+        "name": {
+            "en": "Advanced Cruise Missile",
+            "ru": "Спецракеты дальнего боя"
+        }
+    },
+    {
+        "id": 657,
+        "name": {
+            "en": "Advanced Torpedo",
+            "ru": "Спецторпеды"
+        }
+    },
+    {
+        "id": 658,
+        "name": {
+            "en": "Cynosural Field Generator",
+            "ru": "Приводной маяк"
+        }
+    },
+    {
+        "id": 659,
+        "name": {
+            "en": "Supercarrier",
+            "ru": "КАР сверхбольшого тоннажа"
+        }
+    },
+    {
+        "id": 661,
+        "name": {
+            "en": "Simple Biochemical Reactions",
+            "ru": "Простые биохимические реакции"
+        }
+    },
+    {
+        "id": 662,
+        "name": {
+            "en": "Complex Biochemical Reactions",
+            "ru": "Сложные биохимические реакции"
+        }
+    },
+    {
+        "id": 663,
+        "name": {
+            "en": "Mercoxit Mining Crystal",
+            "ru": "Кристалл настройки экстрактора на меркоцит"
+        }
+    },
+    {
+        "id": 707,
+        "name": {
+            "en": "Jump Portal Array",
+            "ru": "Комплекс генерации гиперпортала"
+        }
+    },
+    {
+        "id": 709,
+        "name": {
+            "en": "Scanner Array",
+            "ru": "Локационная система"
+        }
+    },
+    {
+        "id": 711,
+        "name": {
+            "en": "Harvestable Cloud",
+            "ru": "Газовое облако"
+        }
+    },
+    {
+        "id": 712,
+        "name": {
+            "en": "Biochemical Material",
+            "ru": "Биохимические вещества"
+        }
+    },
+    {
+        "id": 716,
+        "name": {
+            "en": "Data Interfaces",
+            "ru": "Интерфейсы данных"
+        }
+    },
+    {
+        "id": 718,
+        "name": {
+            "en": "Booster Blueprints",
+            "ru": "Чертеж бустера"
+        }
+    },
+    {
+        "id": 722,
+        "name": {
+            "en": "Advanced Hybrid Charge Blueprint",
+            "ru": "Чертеж усовершенствованных гибридных зарядов"
+        }
+    },
+    {
+        "id": 723,
+        "name": {
+            "en": "Tractor Beam Blueprint",
+            "ru": "Чертежи гравизахвата"
+        }
+    },
+    {
+        "id": 724,
+        "name": {
+            "en": "Implant Blueprints",
+            "ru": "Чертежи имплантата"
+        }
+    },
+    {
+        "id": 725,
+        "name": {
+            "en": "Advanced Projectile Ammo Blueprint",
+            "ru": "Чертеж усовершенствованного снаряда"
+        }
+    },
+    {
+        "id": 726,
+        "name": {
+            "en": "Advanced Frequency Crystal Blueprint",
+            "ru": "Чертеж усовершенствованного частотного кристалла"
+        }
+    },
+    {
+        "id": 727,
+        "name": {
+            "en": "Mining Crystal Blueprint",
+            "ru": "Чертеж кристалла настройки экстрактора"
+        }
+    },
+    {
+        "id": 728,
+        "name": {
+            "en": "Decryptors - Amarr",
+            "ru": "Файлы данных — Amarr"
+        }
+    },
+    {
+        "id": 729,
+        "name": {
+            "en": "Decryptors - Minmatar",
+            "ru": "Файлы данных — Minmatar"
+        }
+    },
+    {
+        "id": 730,
+        "name": {
+            "en": "Decryptors - Gallente",
+            "ru": "Файлы данных — Gallente"
+        }
+    },
+    {
+        "id": 731,
+        "name": {
+            "en": "Decryptors - Caldari",
+            "ru": "Файлы данных — Caldari"
+        }
+    },
+    {
+        "id": 732,
+        "name": {
+            "en": "Decryptors - Sleepers",
+            "ru": "Файлы данных — Sleepers"
+        }
+    },
+    {
+        "id": 733,
+        "name": {
+            "en": "Decryptors - Yan Jung",
+            "ru": "Файлы данных — Yan Jung"
+        }
+    },
+    {
+        "id": 734,
+        "name": {
+            "en": "Decryptors - Takmahl",
+            "ru": "Файлы данных — Takmahl"
+        }
+    },
+    {
+        "id": 735,
+        "name": {
+            "en": "Decryptors - Talocan",
+            "ru": "Файлы данных — Talocan"
+        }
+    },
+    {
+        "id": 737,
+        "name": {
+            "en": "Gas Cloud Scoops",
+            "ru": "Газочерпатели"
+        }
+    },
+    {
+        "id": 738,
+        "name": {
+            "en": "Cyber Armor",
+            "ru": "Киберимплантат — броня"
+        }
+    },
+    {
+        "id": 739,
+        "name": {
+            "en": "Cyber Drones",
+            "ru": "Киберимплантат — дроны"
+        }
+    },
+    {
+        "id": 740,
+        "name": {
+            "en": "Cyber Electronic Systems",
+            "ru": "Киберимплантат — системы электронного противодействия"
+        }
+    },
+    {
+        "id": 741,
+        "name": {
+            "en": "Cyber Engineering",
+            "ru": "Киберимплантат — инженерные навыки"
+        }
+    },
+    {
+        "id": 742,
+        "name": {
+            "en": "Cyber Gunnery",
+            "ru": "Киберимплантат — управление орудиями"
+        }
+    },
+    {
+        "id": 743,
+        "name": {
+            "en": "Cyber Production",
+            "ru": "Киберимплантат — производство"
+        }
+    },
+    {
+        "id": 744,
+        "name": {
+            "en": "Cyber Leadership",
+            "ru": "Киберимплантат — лидерство"
+        }
+    },
+    {
+        "id": 745,
+        "name": {
+            "en": "Cyber Learning",
+            "ru": "Имплантируемый блок повышения обучаемости"
+        }
+    },
+    {
+        "id": 746,
+        "name": {
+            "en": "Cyber Missile",
+            "ru": "Киберимплантат — управление пусковыми установками"
+        }
+    },
+    {
+        "id": 747,
+        "name": {
+            "en": "Cyber Navigation",
+            "ru": "Киберимплантат — навыки навигации"
+        }
+    },
+    {
+        "id": 748,
+        "name": {
+            "en": "Cyber Science",
+            "ru": "Киберимплантат — научные знания"
+        }
+    },
+    {
+        "id": 749,
+        "name": {
+            "en": "Cyber Shields",
+            "ru": "Киберимплантат — щиты"
+        }
+    },
+    {
+        "id": 750,
+        "name": {
+            "en": "Cyber Social",
+            "ru": "Киберимплантат — социальные навыки"
+        }
+    },
+    {
+        "id": 751,
+        "name": {
+            "en": "Cyber Trade",
+            "ru": "Киберимплантат — навыки торговли"
+        }
+    },
+    {
+        "id": 754,
+        "name": {
+            "en": "Salvaged Materials",
+            "ru": "Демонтированные компоненты"
+        }
+    },
+    {
+        "id": 762,
+        "name": {
+            "en": "Inertial Stabilizer",
+            "ru": "Инерционный стабилизатор"
+        }
+    },
+    {
+        "id": 763,
+        "name": {
+            "en": "Nanofiber Internal Structure",
+            "ru": "Нановолоконная несущая конструкция"
+        }
+    },
+    {
+        "id": 764,
+        "name": {
+            "en": "Overdrive Injector System",
+            "ru": "Система форсирования силовой установки"
+        }
+    },
+    {
+        "id": 765,
+        "name": {
+            "en": "Expanded Cargohold",
+            "ru": "Расширение грузового отсека"
+        }
+    },
+    {
+        "id": 766,
+        "name": {
+            "en": "Power Diagnostic System",
+            "ru": "Диагностическая система энергосети"
+        }
+    },
+    {
+        "id": 767,
+        "name": {
+            "en": "Capacitor Power Relay",
+            "ru": "Модуль передачи мощности на конденсатор"
+        }
+    },
+    {
+        "id": 768,
+        "name": {
+            "en": "Capacitor Flux Coil",
+            "ru": "Ускоритель подзарядки конденсатора"
+        }
+    },
+    {
+        "id": 769,
+        "name": {
+            "en": "Reactor Control Unit",
+            "ru": "Блок управления реактором"
+        }
+    },
+    {
+        "id": 770,
+        "name": {
+            "en": "Shield Flux Coil",
+            "ru": "Ускоритель подзарядки щита"
+        }
+    },
+    {
+        "id": 771,
+        "name": {
+            "en": "Missile Launcher Heavy Assault",
+            "ru": "Пусковая установка облегчённых ракет большой мощности"
+        }
+    },
+    {
+        "id": 772,
+        "name": {
+            "en": "Heavy Assault Missile",
+            "ru": "Облегчённая ракета большой мощности"
+        }
+    },
+    {
+        "id": 773,
+        "name": {
+            "en": "Rig Armor",
+            "ru": "Тюнинг-модуль — броня"
+        }
+    },
+    {
+        "id": 774,
+        "name": {
+            "en": "Rig Shield",
+            "ru": "Тюнинг-модуль — щит"
+        }
+    },
+    {
+        "id": 775,
+        "name": {
+            "en": "Rig Energy Weapon",
+            "ru": "Тюнинг-модуль — лазерное оружие"
+        }
+    },
+    {
+        "id": 776,
+        "name": {
+            "en": "Rig Hybrid Weapon",
+            "ru": "Тюнинг-модуль — гибридное оружие"
+        }
+    },
+    {
+        "id": 777,
+        "name": {
+            "en": "Rig Projectile Weapon",
+            "ru": "Тюнинг-модуль — баллистическое оружие"
+        }
+    },
+    {
+        "id": 778,
+        "name": {
+            "en": "Rig Drones",
+            "ru": "Тюнинг-модуль — дроны"
+        }
+    },
+    {
+        "id": 779,
+        "name": {
+            "en": "Rig Launcher",
+            "ru": "Тюнинг-модуль — ракетное оружие"
+        }
+    },
+    {
+        "id": 781,
+        "name": {
+            "en": "Rig Core",
+            "ru": "Тюнинг-модуль — энергосеть"
+        }
+    },
+    {
+        "id": 782,
+        "name": {
+            "en": "Rig Navigation",
+            "ru": "Тюнинг-модуль — астронавигация"
+        }
+    },
+    {
+        "id": 783,
+        "name": {
+            "en": "Cyber X Specials",
+            "ru": "Киберимплантат спецназначения"
+        }
+    },
+    {
+        "id": 786,
+        "name": {
+            "en": "Rig Electronic Systems",
+            "ru": "Тюнинг-модуль — системы электронного противодействия"
+        }
+    },
+    {
+        "id": 787,
+        "name": {
+            "en": "Rig Blueprint",
+            "ru": "Чертежи тюнинг-модуля"
+        }
+    },
+    {
+        "id": 815,
+        "name": {
+            "en": "Clone Vat Bay",
+            "ru": "Бортовая клон-станция"
+        }
+    },
+    {
+        "id": 830,
+        "name": {
+            "en": "Covert Ops",
+            "ru": "Лёгкий диверсионный корабль"
+        }
+    },
+    {
+        "id": 831,
+        "name": {
+            "en": "Interceptor",
+            "ru": "Перехватчик"
+        }
+    },
+    {
+        "id": 832,
+        "name": {
+            "en": "Logistics",
+            "ru": "Корабль обеспечения"
+        }
+    },
+    {
+        "id": 833,
+        "name": {
+            "en": "Force Recon Ship",
+            "ru": "Дозорно-диверсионный крейсер"
+        }
+    },
+    {
+        "id": 834,
+        "name": {
+            "en": "Stealth Bomber",
+            "ru": "Ударно-диверсионный бомбардировщик"
+        }
+    },
+    {
+        "id": 835,
+        "name": {
+            "en": "Station Upgrade Platform",
+            "ru": "Платформа для модуля расширения станции"
+        }
+    },
+    {
+        "id": 836,
+        "name": {
+            "en": "Station Improvement Platform",
+            "ru": "Модуль расширения станции"
+        }
+    },
+    {
+        "id": 837,
+        "name": {
+            "en": "Energy Neutralizing Battery",
+            "ru": "Батарея нейтрализации энергии"
+        }
+    },
+    {
+        "id": 838,
+        "name": {
+            "en": "Cynosural Generator Array",
+            "ru": "Генератор путеводного поля"
+        }
+    },
+    {
+        "id": 839,
+        "name": {
+            "en": "Cynosural System Jammer",
+            "ru": "Постановщик помех путеводного поля"
+        }
+    },
+    {
+        "id": 841,
+        "name": {
+            "en": "Starbase - Control Tower Blueprints",
+            "ru": "Сооружения - чертежи башен управления базами"
+        }
+    },
+    {
+        "id": 842,
+        "name": {
+            "en": "Burst Projectors",
+            "ru": "Ретрансляторы объёмных помех"
+        }
+    },
+    {
+        "id": 853,
+        "name": {
+            "en": "Starbase - Laser Battery Blueprints",
+            "ru": "Сооружения - чертежи лазерного оружия"
+        }
+    },
+    {
+        "id": 854,
+        "name": {
+            "en": "Starbase - Projectile Battery Blueprints",
+            "ru": "Сооружения - чертежи баллистического оружия"
+        }
+    },
+    {
+        "id": 855,
+        "name": {
+            "en": "Starbase - Hybrid Battery Blueprints",
+            "ru": "Сооружения - чертежи гибридного оружия"
+        }
+    },
+    {
+        "id": 856,
+        "name": {
+            "en": "Starbase - ECM Jamming Array Blueprints",
+            "ru": "Сооружения - чертежи передатчика системы РЭБ"
+        }
+    },
+    {
+        "id": 857,
+        "name": {
+            "en": "Starbase - Warp Scrambling Battery Blueprints",
+            "ru": "Сооружения - чертежи варп-глушителей"
+        }
+    },
+    {
+        "id": 858,
+        "name": {
+            "en": "Starbase - Stasis Webification Battery Blueprints",
+            "ru": "Сооружения - чертежи генераторов стазис-поля"
+        }
+    },
+    {
+        "id": 859,
+        "name": {
+            "en": "Starbase - Sensor Dampening Array Blueprints",
+            "ru": "Сооружения - чертежи передатчиков помех системам обнаружения целей"
+        }
+    },
+    {
+        "id": 860,
+        "name": {
+            "en": "Starbase - Energy Neutralizing Battery Blueprints",
+            "ru": "Сооружения - чертежи батареи нейтрализации заряда"
+        }
+    },
+    {
+        "id": 862,
+        "name": {
+            "en": "Missile Launcher Bomb",
+            "ru": "Бомбомёт"
+        }
+    },
+    {
+        "id": 863,
+        "name": {
+            "en": "Bomb ECM",
+            "ru": "Бомба РЭБ"
+        }
+    },
+    {
+        "id": 864,
+        "name": {
+            "en": "Bomb Energy",
+            "ru": "Энергетическая бомба"
+        }
+    },
+    {
+        "id": 870,
+        "name": {
+            "en": "Remote Hull Repairer Blueprint",
+            "ru": "Чертеж системы дистанционного ремонта корпуса"
+        }
+    },
+    {
+        "id": 871,
+        "name": {
+            "en": "Starbase - Missile Battery Blueprints",
+            "ru": "Сооружения - чертежи ракетного оружия"
+        }
+    },
+    {
+        "id": 872,
+        "name": {
+            "en": "Outpost Improvements",
+            "ru": "Внешние модули станций"
+        }
+    },
+    {
+        "id": 873,
+        "name": {
+            "en": "Capital Construction Components",
+            "ru": "Компоненты кораблей большого тоннажа"
+        }
+    },
+    {
+        "id": 876,
+        "name": {
+            "en": "Outpost Upgrades",
+            "ru": "Оборудование для модернизации станций"
+        }
+    },
+    {
+        "id": 879,
+        "name": {
+            "en": "Slave Reception",
+            "ru": "Прием рабов"
+        }
+    },
+    {
+        "id": 880,
+        "name": {
+            "en": "Sleeper Components",
+            "ru": "Компоненты Sleeper"
+        }
+    },
+    {
+        "id": 883,
+        "name": {
+            "en": "Capital Industrial Ship",
+            "ru": "Промышленный корабль"
+        }
+    },
+    {
+        "id": 886,
+        "name": {
+            "en": "Rogue Drone Components",
+            "ru": "Компоненты восставших дронов"
+        }
+    },
+    {
+        "id": 888,
+        "name": {
+            "en": "Ore Compression Blueprints",
+            "ru": "Чертежи сжатия руды"
+        }
+    },
+    {
+        "id": 890,
+        "name": {
+            "en": "Ice Compression Blueprints",
+            "ru": "Чертежи сжатия льда"
+        }
+    },
+    {
+        "id": 891,
+        "name": {
+            "en": "Starbase - Mobile Laboratory Blueprints",
+            "ru": "Сооружения - чертежи передвижной лаборатории"
+        }
+    },
+    {
+        "id": 893,
+        "name": {
+            "en": "Electronic Attack Ship",
+            "ru": "Дозорный фрегат"
+        }
+    },
+    {
+        "id": 894,
+        "name": {
+            "en": "Heavy Interdiction Cruiser",
+            "ru": "Тяжёлый заградительный крейсер"
+        }
+    },
+    {
+        "id": 898,
+        "name": {
+            "en": "Black Ops",
+            "ru": "Тяжёлый диверсионный корабль"
+        }
+    },
+    {
+        "id": 899,
+        "name": {
+            "en": "Warp Disrupt Field Generator",
+            "ru": "Бортовой генератор варп-помех"
+        }
+    },
+    {
+        "id": 900,
+        "name": {
+            "en": "Marauder",
+            "ru": "Рейдер"
+        }
+    },
+    {
+        "id": 902,
+        "name": {
+            "en": "Jump Freighter",
+            "ru": "Джамп-фрейтер"
+        }
+    },
+    {
+        "id": 906,
+        "name": {
+            "en": "Combat Recon Ship",
+            "ru": "Дозорный крейсер"
+        }
+    },
+    {
+        "id": 907,
+        "name": {
+            "en": "Tracking Script",
+            "ru": "Прошивка для систем наводки орудий"
+        }
+    },
+    {
+        "id": 908,
+        "name": {
+            "en": "Warp Disruption Script",
+            "ru": "Прошивка для бортового генератора варп-помех"
+        }
+    },
+    {
+        "id": 909,
+        "name": {
+            "en": "Tracking Disruption Script",
+            "ru": "Программа глушения систем наводки орудий"
+        }
+    },
+    {
+        "id": 910,
+        "name": {
+            "en": "Sensor Booster Script",
+            "ru": "Прошивка для активного усилителя"
+        }
+    },
+    {
+        "id": 911,
+        "name": {
+            "en": "Sensor Dampener Script",
+            "ru": "Прошивка для передатчика помех системам обнаружения целей"
+        }
+    },
+    {
+        "id": 912,
+        "name": {
+            "en": "Script Blueprint",
+            "ru": "Исходники прошивки"
+        }
+    },
+    {
+        "id": 913,
+        "name": {
+            "en": "Advanced Capital Construction Components",
+            "ru": "Усовершенствованные компоненты кораблей большого тоннажа"
+        }
+    },
+    {
+        "id": 914,
+        "name": {
+            "en": "Advanced Capital Construction Component Blueprints",
+            "ru": "Чертежи усовершенствованных компонентов кораблей большого тоннажа"
+        }
+    },
+    {
+        "id": 915,
+        "name": {
+            "en": "Capital Construction Blueprints",
+            "ru": "Чертежи компонентов кораблей большого тоннажа"
+        }
+    },
+    {
+        "id": 916,
+        "name": {
+            "en": "Nanite Repair Paste",
+            "ru": "Nanite Repair Paste"
+        }
+    },
+    {
+        "id": 917,
+        "name": {
+            "en": "Data Miner Blueprint",
+            "ru": "Чертежи программно-аналитического комплекса"
+        }
+    },
+    {
+        "id": 918,
+        "name": {
+            "en": "Scan Probe Launcher Blueprint",
+            "ru": "Чертежи пусковой установки разведзондов"
+        }
+    },
+    {
+        "id": 940,
+        "name": {
+            "en": "Furniture",
+            "ru": "Furniture"
+        }
+    },
+    {
+        "id": 941,
+        "name": {
+            "en": "Industrial Command Ship",
+            "ru": "Флагман буровой флотилии"
+        }
+    },
+    {
+        "id": 943,
+        "name": {
+            "en": "Legacy Currency",
+            "ru": "Устаревшая валюта"
+        }
+    },
+    {
+        "id": 944,
+        "name": {
+            "en": "Capital Industrial Ship Blueprint",
+            "ru": "Чертежи промышленного корабля"
+        }
+    },
+    {
+        "id": 945,
+        "name": {
+            "en": "Industrial Command Ship Blueprint",
+            "ru": "Чертежи флагмана буровой флотилии"
+        }
+    },
+    {
+        "id": 954,
+        "name": {
+            "en": "Defensive Subsystem",
+            "ru": "Оборонительная подсистема"
+        }
+    },
+    {
+        "id": 956,
+        "name": {
+            "en": "Offensive Subsystem",
+            "ru": "Наступательная подсистема"
+        }
+    },
+    {
+        "id": 957,
+        "name": {
+            "en": "Propulsion Subsystem",
+            "ru": "Двигательная подсистема"
+        }
+    },
+    {
+        "id": 958,
+        "name": {
+            "en": "Core Subsystem",
+            "ru": "Подсистема ядра"
+        }
+    },
+    {
+        "id": 963,
+        "name": {
+            "en": "Strategic Cruiser",
+            "ru": "Стратегический крейсер"
+        }
+    },
+    {
+        "id": 964,
+        "name": {
+            "en": "Hybrid Tech Components",
+            "ru": "Компоненты гибридных технологий"
+        }
+    },
+    {
+        "id": 965,
+        "name": {
+            "en": "Hybrid Component Blueprints",
+            "ru": "Чертежи гибридных компонентов"
+        }
+    },
+    {
+        "id": 966,
+        "name": {
+            "en": "Ancient Salvage",
+            "ru": "Демонтированные компоненты древних кораблей"
+        }
+    },
+    {
+        "id": 971,
+        "name": {
+            "en": "Sleeper Propulsion Relics",
+            "ru": "Древние двигательные установки Sleeper"
+        }
+    },
+    {
+        "id": 973,
+        "name": {
+            "en": "Subsystem Blueprints",
+            "ru": "Чертежи подсистем"
+        }
+    },
+    {
+        "id": 974,
+        "name": {
+            "en": "Hybrid Polymers",
+            "ru": "Гибридные полимеры"
+        }
+    },
+    {
+        "id": 976,
+        "name": {
+            "en": "Festival Charges Expired",
+            "ru": "Срок действия фестивальных снарядов истек"
+        }
+    },
+    {
+        "id": 977,
+        "name": {
+            "en": "Hybrid Reactions",
+            "ru": "Гибридные реакции"
+        }
+    },
+    {
+        "id": 979,
+        "name": {
+            "en": "Decryptors - Hybrid",
+            "ru": "Файлы данных — гибридные"
+        }
+    },
+    {
+        "id": 990,
+        "name": {
+            "en": "Sleeper Electronics Relics",
+            "ru": "Древние электронные устройства Sleeper"
+        }
+    },
+    {
+        "id": 991,
+        "name": {
+            "en": "Sleeper Offensive Relics",
+            "ru": "Древние боевые машины Sleeper"
+        }
+    },
+    {
+        "id": 992,
+        "name": {
+            "en": "Sleeper Engineering Relics",
+            "ru": "Древние инженерные установки Sleeper"
+        }
+    },
+    {
+        "id": 993,
+        "name": {
+            "en": "Sleeper Defensive Relics",
+            "ru": "Древние защитные устройства Sleeper"
+        }
+    },
+    {
+        "id": 996,
+        "name": {
+            "en": "Strategic Cruiser Blueprints",
+            "ru": "Чертежи стратегического крейсера"
+        }
+    },
+    {
+        "id": 997,
+        "name": {
+            "en": "Sleeper Hull Relics",
+            "ru": "Древние корпуса Sleeper"
+        }
+    },
+    {
+        "id": 1003,
+        "name": {
+            "en": "Territorial Claim Unit",
+            "ru": "Блок обеспечения прав собственности"
+        }
+    },
+    {
+        "id": 1012,
+        "name": {
+            "en": "Sovereignty Hub",
+            "ru": "Штаб владений"
+        }
+    },
+    {
+        "id": 1013,
+        "name": {
+            "en": "Supercarrier Blueprints",
+            "ru": "Чертежи КАРа сверхбольшого тоннажа"
+        }
+    },
+    {
+        "id": 1016,
+        "name": {
+            "en": "Infrastructure Hub Strategic Upgrades",
+            "ru": "Стратегические улучшения центра инфраструктуры"
+        }
+    },
+    {
+        "id": 1019,
+        "name": {
+            "en": "XL Cruise Missile",
+            "ru": "Ракеты дальнего боя сверхбольшой мощности"
+        }
+    },
+    {
+        "id": 1020,
+        "name": {
+            "en": "Infrastructure Hub Industrial Upgrades",
+            "ru": "Промышленные улучшения центра инфраструктуры"
+        }
+    },
+    {
+        "id": 1021,
+        "name": {
+            "en": "Infrastructure Hub Military Upgrades",
+            "ru": "Военные улучшения центра инфраструктуры"
+        }
+    },
+    {
+        "id": 1022,
+        "name": {
+            "en": "Prototype Exploration Ship",
+            "ru": "Экспериментальный экспедиционный корабль"
+        }
+    },
+    {
+        "id": 1026,
+        "name": {
+            "en": "Extractors",
+            "ru": "Планетарные экстракторы"
+        }
+    },
+    {
+        "id": 1027,
+        "name": {
+            "en": "Command Centers",
+            "ru": "Центры управления"
+        }
+    },
+    {
+        "id": 1028,
+        "name": {
+            "en": "Processors",
+            "ru": "Производственные комплексы"
+        }
+    },
+    {
+        "id": 1029,
+        "name": {
+            "en": "Storage Facilities",
+            "ru": "Складские помещения"
+        }
+    },
+    {
+        "id": 1030,
+        "name": {
+            "en": "Spaceports",
+            "ru": "Космопорты"
+        }
+    },
+    {
+        "id": 1031,
+        "name": {
+            "en": "Planetary Resources",
+            "ru": "Планетарные ресурсы"
+        }
+    },
+    {
+        "id": 1032,
+        "name": {
+            "en": "Planet Solid - Raw Resource",
+            "ru": "Планетарная порода — сырьё"
+        }
+    },
+    {
+        "id": 1033,
+        "name": {
+            "en": "Planet Liquid-Gas - Raw Resource",
+            "ru": "Планетарный жидкий газ — сырьё"
+        }
+    },
+    {
+        "id": 1034,
+        "name": {
+            "en": "Refined Commodities - Tier 2",
+            "ru": "Очищенные товары — класс 2"
+        }
+    },
+    {
+        "id": 1035,
+        "name": {
+            "en": "Planet Organic - Raw Resource",
+            "ru": "Планетарная органика — сырьё"
+        }
+    },
+    {
+        "id": 1036,
+        "name": {
+            "en": "Planetary Links",
+            "ru": "Транспортная система"
+        }
+    },
+    {
+        "id": 1040,
+        "name": {
+            "en": "Specialized Commodities - Tier 3",
+            "ru": "Специализированные товары — класс 3"
+        }
+    },
+    {
+        "id": 1041,
+        "name": {
+            "en": "Advanced Commodities - Tier 4",
+            "ru": "Продвинутые товары — класс 4"
+        }
+    },
+    {
+        "id": 1042,
+        "name": {
+            "en": "Basic Commodities - Tier 1",
+            "ru": "Базовые товары — класс 1"
+        }
+    },
+    {
+        "id": 1045,
+        "name": {
+            "en": "Sovereignty Structure Blueprint",
+            "ru": "Sovereignty Structure Blueprint"
+        }
+    },
+    {
+        "id": 1046,
+        "name": {
+            "en": "Nanite Repair Paste Blueprint",
+            "ru": "Nanite Repair Paste Blueprint"
+        }
+    },
+    {
+        "id": 1048,
+        "name": {
+            "en": "Starbase Blueprint",
+            "ru": "Чертежи ПОСов"
+        }
+    },
+    {
+        "id": 1063,
+        "name": {
+            "en": "Extractor Control Units",
+            "ru": "Узлы управления экстракторами"
+        }
+    },
+    {
+        "id": 1071,
+        "name": {
+            "en": "Flashpoint",
+            "ru": "Вспышка"
+        }
+    },
+    {
+        "id": 1079,
+        "name": {
+            "en": "Generic",
+            "ru": "Без категории"
+        }
+    },
+    {
+        "id": 1081,
+        "name": {
+            "en": "Mercenary Bases",
+            "ru": "Базы наемников"
+        }
+    },
+    {
+        "id": 1082,
+        "name": {
+            "en": "Capsuleer Bases",
+            "ru": "Базы капсулеров"
+        }
+    },
+    {
+        "id": 1083,
+        "name": {
+            "en": "Eyewear",
+            "ru": "Очки"
+        }
+    },
+    {
+        "id": 1084,
+        "name": {
+            "en": "Tattoos",
+            "ru": "Татуировки"
+        }
+    },
+    {
+        "id": 1088,
+        "name": {
+            "en": "Outer",
+            "ru": "Верхняя одежда"
+        }
+    },
+    {
+        "id": 1089,
+        "name": {
+            "en": "Tops",
+            "ru": "Верх"
+        }
+    },
+    {
+        "id": 1090,
+        "name": {
+            "en": "Bottoms",
+            "ru": "Низ"
+        }
+    },
+    {
+        "id": 1091,
+        "name": {
+            "en": "Footwear",
+            "ru": "Обувь"
+        }
+    },
+    {
+        "id": 1092,
+        "name": {
+            "en": "Headwear",
+            "ru": "Головные уборы"
+        }
+    },
+    {
+        "id": 1106,
+        "name": {
+            "en": "Orbital Construction Platform",
+            "ru": "Орбитальная строительная платформа"
+        }
+    },
+    {
+        "id": 1110,
+        "name": {
+            "en": "Point Lights",
+            "ru": "Точечный свет"
+        }
+    },
+    {
+        "id": 1111,
+        "name": {
+            "en": "Box Lights",
+            "ru": "Фонарь"
+        }
+    },
+    {
+        "id": 1112,
+        "name": {
+            "en": "Spot Lights",
+            "ru": "Прожекторы"
+        }
+    },
+    {
+        "id": 1121,
+        "name": {
+            "en": "Perception Points",
+            "ru": "Невидимые очки восприятия"
+        }
+    },
+    {
+        "id": 1122,
+        "name": {
+            "en": "Salvager",
+            "ru": "Демонтажная установка"
+        }
+    },
+    {
+        "id": 1123,
+        "name": {
+            "en": "Salvager Blueprint",
+            "ru": "Чертежи демонтажной установки"
+        }
+    },
+    {
+        "id": 1136,
+        "name": {
+            "en": "Fuel Block",
+            "ru": "Топливный блок"
+        }
+    },
+    {
+        "id": 1137,
+        "name": {
+            "en": "Fuel Block Blueprint",
+            "ru": "Чертеж топливного блока"
+        }
+    },
+    {
+        "id": 1139,
+        "name": {
+            "en": "Mining Laser Upgrade Blueprint",
+            "ru": "Чертеж улучшенного экстрактора"
+        }
+    },
+    {
+        "id": 1141,
+        "name": {
+            "en": "Research Data",
+            "ru": "Исследовательские данные"
+        }
+    },
+    {
+        "id": 1142,
+        "name": {
+            "en": "Energy Neutralizer Drone Blueprint",
+            "ru": "Чертежи дистанционных нейтрализаторов заряда"
+        }
+    },
+    {
+        "id": 1143,
+        "name": {
+            "en": "Electronic Warfare Drone Blueprint",
+            "ru": "Electronic Warfare Drone Blueprint"
+        }
+    },
+    {
+        "id": 1144,
+        "name": {
+            "en": "Logistic Drone Blueprint",
+            "ru": "Чертежи ремонтного дрона"
+        }
+    },
+    {
+        "id": 1145,
+        "name": {
+            "en": "Heavy Fighter Blueprint",
+            "ru": "Чертежи тяжёлых истребителей"
+        }
+    },
+    {
+        "id": 1146,
+        "name": {
+            "en": "Light Fighter Blueprint",
+            "ru": "Чертежи лёгких истребителей"
+        }
+    },
+    {
+        "id": 1147,
+        "name": {
+            "en": "Stasis Webifying Drone Blueprint",
+            "ru": "Stasis Webifying Drone Blueprint"
+        }
+    },
+    {
+        "id": 1150,
+        "name": {
+            "en": "Armor Resistance Shift Hardener",
+            "ru": "Система укрепления брони с автонастройкой"
+        }
+    },
+    {
+        "id": 1151,
+        "name": {
+            "en": "Armor Resistance Shift Hardener Blueprint",
+            "ru": "Чертежи системы укрепления брони с автонастройкой"
+        }
+    },
+    {
+        "id": 1152,
+        "name": {
+            "en": "Drone Damage Module Blueprint",
+            "ru": "Drone Damage Module Blueprint"
+        }
+    },
+    {
+        "id": 1154,
+        "name": {
+            "en": "Signature Suppressor",
+            "ru": "Подавитель сигнатуры"
+        }
+    },
+    {
+        "id": 1155,
+        "name": {
+            "en": "Signature Suppressor Blueprint",
+            "ru": "Чертёж подавителя сигнатуры"
+        }
+    },
+    {
+        "id": 1156,
+        "name": {
+            "en": "Ancillary Shield Booster",
+            "ru": "Установки вспомогательной накачки силового поля"
+        }
+    },
+    {
+        "id": 1157,
+        "name": {
+            "en": "Fueled Shield Booster Blueprint",
+            "ru": "Fueled Shield Booster Blueprint"
+        }
+    },
+    {
+        "id": 1159,
+        "name": {
+            "en": "Salvage Drone",
+            "ru": "Дрон-демонтажник"
+        }
+    },
+    {
+        "id": 1160,
+        "name": {
+            "en": "Survey Probe Blueprints",
+            "ru": "Чертежи лунного зонда"
+        }
+    },
+    {
+        "id": 1162,
+        "name": {
+            "en": "Container Blueprints",
+            "ru": "Чертежи контейнеров"
+        }
+    },
+    {
+        "id": 1165,
+        "name": {
+            "en": "Satellite",
+            "ru": "Спутник"
+        }
+    },
+    {
+        "id": 1166,
+        "name": {
+            "en": "FW Minmatar Republic Frigate",
+            "ru": "Фрегат ополчения Республики Минматар"
+        }
+    },
+    {
+        "id": 1167,
+        "name": {
+            "en": "FW Caldari State Frigate",
+            "ru": "Фрегат ополчения Государства Калдари"
+        }
+    },
+    {
+        "id": 1168,
+        "name": {
+            "en": "FW Gallente Federation Frigate",
+            "ru": "Фрегат ополчения Галлентской Федерации"
+        }
+    },
+    {
+        "id": 1169,
+        "name": {
+            "en": "FW Amarr Empire Frigate",
+            "ru": "Фрегат ополчения Амаррской Империи"
+        }
+    },
+    {
+        "id": 1175,
+        "name": {
+            "en": "FW Amarr Empire Destroyer",
+            "ru": "Эсминец ополчения Амаррской Империи"
+        }
+    },
+    {
+        "id": 1176,
+        "name": {
+            "en": "FW Caldari State Destroyer",
+            "ru": "Эсминец ополчения Государства Калдари"
+        }
+    },
+    {
+        "id": 1177,
+        "name": {
+            "en": "FW Gallente Federation Destroyer",
+            "ru": "Эсминец ополчения Галлентской Федерации"
+        }
+    },
+    {
+        "id": 1178,
+        "name": {
+            "en": "FW Minmatar Republic Destroyer",
+            "ru": "Эсминец ополчения Республики Минматар"
+        }
+    },
+    {
+        "id": 1179,
+        "name": {
+            "en": "FW Amarr Empire Cruiser",
+            "ru": "Крейсер ополчения Амаррской Империи"
+        }
+    },
+    {
+        "id": 1180,
+        "name": {
+            "en": "FW Caldari State Cruiser",
+            "ru": "Крейсер ополчения Государства Калдари"
+        }
+    },
+    {
+        "id": 1181,
+        "name": {
+            "en": "FW Gallente Federation Cruiser",
+            "ru": "Крейсер ополчения Галлентской Федерации"
+        }
+    },
+    {
+        "id": 1182,
+        "name": {
+            "en": "FW Minmatar Republic Cruiser",
+            "ru": "Крейсер ополчения Республики Минматар"
+        }
+    },
+    {
+        "id": 1183,
+        "name": {
+            "en": "FW Amarr Empire Battlecruiser",
+            "ru": "Линейный крейсер ополчения Амаррской Империи"
+        }
+    },
+    {
+        "id": 1184,
+        "name": {
+            "en": "FW Caldari State Battlecruiser",
+            "ru": "Линейный крейсер ополчения Государства Калдари"
+        }
+    },
+    {
+        "id": 1185,
+        "name": {
+            "en": "FW Gallente Federation Battlecruiser",
+            "ru": "Линейный крейсер ополчения Галлентской Федерации"
+        }
+    },
+    {
+        "id": 1186,
+        "name": {
+            "en": "FW Minmatar Republic Battlecruiser",
+            "ru": "Линейный крейсер ополчения Республики Минматар"
+        }
+    },
+    {
+        "id": 1189,
+        "name": {
+            "en": "Micro Jump Drive",
+            "ru": "Маневровый гипердвигатель"
+        }
+    },
+    {
+        "id": 1190,
+        "name": {
+            "en": "Salvage Drone Blueprint",
+            "ru": "Чертежи дрона-демонтажника"
+        }
+    },
+    {
+        "id": 1191,
+        "name": {
+            "en": "Micro Jump Drive Blueprint",
+            "ru": "Чертежи маневрового гипердвигателя"
+        }
+    },
+    {
+        "id": 1194,
+        "name": {
+            "en": "Special Edition Commodities",
+            "ru": "Товары из особых изданий"
+        }
+    },
+    {
+        "id": 1195,
+        "name": {
+            "en": "Tournament Cards: New Eden Open YC 114",
+            "ru": "Турнирные карты: New Eden Open YC 114"
+        }
+    },
+    {
+        "id": 1197,
+        "name": {
+            "en": "Special Edition Commodity Blueprints",
+            "ru": "Чертежи товаров из особых изданий"
+        }
+    },
+    {
+        "id": 1198,
+        "name": {
+            "en": "Orbital Target",
+            "ru": "Орбитальная цель"
+        }
+    },
+    {
+        "id": 1199,
+        "name": {
+            "en": "Ancillary Armor Repairer",
+            "ru": "Установки вспомогательного ремонта брони"
+        }
+    },
+    {
+        "id": 1200,
+        "name": {
+            "en": "Fueled Armor Repairer Blueprint",
+            "ru": "Fueled Armor Repairer Blueprint"
+        }
+    },
+    {
+        "id": 1201,
+        "name": {
+            "en": "Attack Battlecruiser",
+            "ru": "Быстроходный линейный крейсер"
+        }
+    },
+    {
+        "id": 1202,
+        "name": {
+            "en": "Blockade Runner",
+            "ru": "Корабль прорыва блокады"
+        }
+    },
+    {
+        "id": 1206,
+        "name": {
+            "en": "Security Tags",
+            "ru": "Пиратские бирки"
+        }
+    },
+    {
+        "id": 1207,
+        "name": {
+            "en": "Scatter Container",
+            "ru": "Эвакуационный контейнер"
+        }
+    },
+    {
+        "id": 1209,
+        "name": {
+            "en": "Shields",
+            "ru": "Защита кораблей силовыми полями"
+        }
+    },
+    {
+        "id": 1210,
+        "name": {
+            "en": "Armor",
+            "ru": "Укрепление брони"
+        }
+    },
+    {
+        "id": 1212,
+        "name": {
+            "en": "Personal Hangar",
+            "ru": "Личный ангар"
+        }
+    },
+    {
+        "id": 1213,
+        "name": {
+            "en": "Targeting",
+            "ru": "Целеуказание"
+        }
+    },
+    {
+        "id": 1216,
+        "name": {
+            "en": "Engineering",
+            "ru": "Эксплуатация бортовых систем"
+        }
+    },
+    {
+        "id": 1217,
+        "name": {
+            "en": "Scanning",
+            "ru": "Сбор данных"
+        }
+    },
+    {
+        "id": 1218,
+        "name": {
+            "en": "Resource Processing",
+            "ru": "Добыча и переработка сырья"
+        }
+    },
+    {
+        "id": 1220,
+        "name": {
+            "en": "Neural Enhancement",
+            "ru": "Подключение нейротехники"
+        }
+    },
+    {
+        "id": 1222,
+        "name": {
+            "en": "ECM Stabilizer Blueprint",
+            "ru": "ECM Stabilizer Blueprint"
+        }
+    },
+    {
+        "id": 1223,
+        "name": {
+            "en": "Scanning Upgrade",
+            "ru": "Пакет модернизации для систем сканирования"
+        }
+    },
+    {
+        "id": 1224,
+        "name": {
+            "en": "Scanning Upgrade Blueprint",
+            "ru": "Scanning Upgrade Blueprint"
+        }
+    },
+    {
+        "id": 1225,
+        "name": {
+            "en": "Tournament Cards: Alliance Tournament All Stars",
+            "ru": "Коллекционные карты турниров между альянсами: звездные команды"
+        }
+    },
+    {
+        "id": 1226,
+        "name": {
+            "en": "Survey Probe Launcher",
+            "ru": "Пусковая установка лунных зондов"
+        }
+    },
+    {
+        "id": 1227,
+        "name": {
+            "en": "Survey Probe Launcher Blueprint",
+            "ru": "Чертежи пусковой установки лунных зондов"
+        }
+    },
+    {
+        "id": 1228,
+        "name": {
+            "en": "Cyber Targeting",
+            "ru": "Кибер-целеуказание"
+        }
+    },
+    {
+        "id": 1229,
+        "name": {
+            "en": "Cyber Resource Processing",
+            "ru": "Кибер-переработка ресурсов"
+        }
+    },
+    {
+        "id": 1230,
+        "name": {
+            "en": "Cyber Scanning",
+            "ru": "Кибер-сканирование"
+        }
+    },
+    {
+        "id": 1231,
+        "name": {
+            "en": "Cyber Biology",
+            "ru": "Кибер-биология"
+        }
+    },
+    {
+        "id": 1232,
+        "name": {
+            "en": "Rig Resource Processing",
+            "ru": "Тюнинг-модуль для переработки ресурсов"
+        }
+    },
+    {
+        "id": 1233,
+        "name": {
+            "en": "Rig Scanning",
+            "ru": "Тюнинг-модуль для сканирования"
+        }
+    },
+    {
+        "id": 1234,
+        "name": {
+            "en": "Rig Targeting",
+            "ru": "Тюнинг-модуль для целеуказания"
+        }
+    },
+    {
+        "id": 1238,
+        "name": {
+            "en": "Scanning Upgrade Time",
+            "ru": "Сокращение времени сканирования"
+        }
+    },
+    {
+        "id": 1239,
+        "name": {
+            "en": "Scanning Upgrade Time Blueprint",
+            "ru": "Scanning Upgrade Time Blueprint"
+        }
+    },
+    {
+        "id": 1240,
+        "name": {
+            "en": "Subsystems",
+            "ru": "Установка сменных подсистем"
+        }
+    },
+    {
+        "id": 1241,
+        "name": {
+            "en": "Planet Management",
+            "ru": "Освоение планет"
+        }
+    },
+    {
+        "id": 1245,
+        "name": {
+            "en": "Missile Launcher Rapid Heavy",
+            "ru": "Скорострельная ПУ ракет большой мощности"
+        }
+    },
+    {
+        "id": 1246,
+        "name": {
+            "en": "Mobile Depot",
+            "ru": "Автономный пост снабжения"
+        }
+    },
+    {
+        "id": 1247,
+        "name": {
+            "en": "Mobile Siphon Unit",
+            "ru": "Отводной блок"
+        }
+    },
+    {
+        "id": 1248,
+        "name": {
+            "en": "Bounty Encrypted Bonds",
+            "ru": "Зашифрованные облигации в награду за убийство"
+        }
+    },
+    {
+        "id": 1249,
+        "name": {
+            "en": "Mobile Cyno Inhibitor",
+            "ru": "Автономный генератор помех приводным маякам"
+        }
+    },
+    {
+        "id": 1250,
+        "name": {
+            "en": "Mobile Tractor Unit",
+            "ru": "Автономный блок сбора трофеев"
+        }
+    },
+    {
+        "id": 1252,
+        "name": {
+            "en": "Ghost Sites Angel Cartel Cruiser",
+            "ru": "Ghost Sites Angel Cartel Cruiser"
+        }
+    },
+    {
+        "id": 1255,
+        "name": {
+            "en": "Ghost Sites Blood Raiders Cruiser",
+            "ru": "Ghost Sites Blood Raiders Cruiser"
+        }
+    },
+    {
+        "id": 1259,
+        "name": {
+            "en": "Ghost Sites Guristas Cruiser",
+            "ru": "Ghost Sites Guristas Cruiser"
+        }
+    },
+    {
+        "id": 1262,
+        "name": {
+            "en": "Ghost Sites Serpentis Cruiser",
+            "ru": "Ghost Sites Serpentis Cruiser"
+        }
+    },
+    {
+        "id": 1265,
+        "name": {
+            "en": "Ghost Sites Sanshas Cruiser",
+            "ru": "Ghost Sites Sanshas Cruiser"
+        }
+    },
+    {
+        "id": 1267,
+        "name": {
+            "en": "Mobile Siphon Unit Blueprint",
+            "ru": "Чертежи отводного блока"
+        }
+    },
+    {
+        "id": 1268,
+        "name": {
+            "en": "Mobile Cynosural Inhibitor Blueprint",
+            "ru": "Чертежи автономного генератора помех приводным маякам"
+        }
+    },
+    {
+        "id": 1269,
+        "name": {
+            "en": "Mobile Depot Blueprint",
+            "ru": "Чертежи автономного поста снабжения"
+        }
+    },
+    {
+        "id": 1270,
+        "name": {
+            "en": "Mobile Tractor Unit Blueprint",
+            "ru": "Чертежи автономного блока сбора трофеев"
+        }
+    },
+    {
+        "id": 1271,
+        "name": {
+            "en": "Prosthetics",
+            "ru": "Протезы"
+        }
+    },
+    {
+        "id": 1273,
+        "name": {
+            "en": "Encounter Surveillance System",
+            "ru": "Станция учёта боестолкновений"
+        }
+    },
+    {
+        "id": 1275,
+        "name": {
+            "en": "Mobile Scan Inhibitor",
+            "ru": "Автономный генератор помех разведсистемам"
+        }
+    },
+    {
+        "id": 1276,
+        "name": {
+            "en": "Mobile Micro Jump Unit",
+            "ru": "Автономный разгонный блок"
+        }
+    },
+    {
+        "id": 1277,
+        "name": {
+            "en": "Encounter Surveillance System Blueprint",
+            "ru": "Чертежи станции учёта боестолкновений"
+        }
+    },
+    {
+        "id": 1282,
+        "name": {
+            "en": "Compression Array",
+            "ru": "Блоки сжатия руды и льда"
+        }
+    },
+    {
+        "id": 1283,
+        "name": {
+            "en": "Expedition Frigate",
+            "ru": "Разведочно-буровой фрегат"
+        }
+    },
+    {
+        "id": 1288,
+        "name": {
+            "en": "Ghost Sites Mordu's Legion",
+            "ru": "«Объекты-призраки» легиона Морду"
+        }
+    },
+    {
+        "id": 1289,
+        "name": {
+            "en": "Warp Accelerator",
+            "ru": "Варп-ускоритель"
+        }
+    },
+    {
+        "id": 1292,
+        "name": {
+            "en": "Drone Tracking Enhancer",
+            "ru": "Drone Tracking Enhancer"
+        }
+    },
+    {
+        "id": 1293,
+        "name": {
+            "en": "Mobile Scan Inhibitor Blueprint",
+            "ru": "Чертежи автономных генераторов помех разведсистемам"
+        }
+    },
+    {
+        "id": 1294,
+        "name": {
+            "en": "Mobile Micro Jump Unit Blueprint",
+            "ru": "Чертежи автономных разгонных блоков"
+        }
+    },
+    {
+        "id": 1295,
+        "name": {
+            "en": "Mobile Decoy Unit Blueprint",
+            "ru": "Чертежи автономного маскировочного блока"
+        }
+    },
+    {
+        "id": 1297,
+        "name": {
+            "en": "Mobile Vault",
+            "ru": "Автономное убежище"
+        }
+    },
+    {
+        "id": 1299,
+        "name": {
+            "en": "Jump Drive Economizer",
+            "ru": "Экономайзер топлива гипердвигателя"
+        }
+    },
+    {
+        "id": 1301,
+        "name": {
+            "en": "Services",
+            "ru": "Услуги"
+        }
+    },
+    {
+        "id": 1304,
+        "name": {
+            "en": "Generic Decryptor",
+            "ru": "Файлы данных"
+        }
+    },
+    {
+        "id": 1305,
+        "name": {
+            "en": "Tactical Destroyer",
+            "ru": "Многорежимный эсминец"
+        }
+    },
+    {
+        "id": 1306,
+        "name": {
+            "en": "Ship Modifiers",
+            "ru": "Модификаторы корабля"
+        }
+    },
+    {
+        "id": 1307,
+        "name": {
+            "en": "Roaming Sleepers Cruiser",
+            "ru": "Странствующие Спящие крейсерского тоннажа"
+        }
+    },
+    {
+        "id": 1308,
+        "name": {
+            "en": "Rig Anchor",
+            "ru": "Якорный тюнинг-модуль"
+        }
+    },
+    {
+        "id": 1309,
+        "name": {
+            "en": "Tactical Destroyer Blueprint",
+            "ru": "Чертежи многорежимных эсминцев"
+        }
+    },
+    {
+        "id": 1310,
+        "name": {
+            "en": "Drifter Battleship",
+            "ru": "Линкор Скитальцев"
+        }
+    },
+    {
+        "id": 1311,
+        "name": {
+            "en": "Super Kerr-Induced Nanocoatings",
+            "ru": "Шаблоны для перекраски кораблей"
+        }
+    },
+    {
+        "id": 1312,
+        "name": {
+            "en": "Observatory Structures",
+            "ru": "Наблюдательные сооружения"
+        }
+    },
+    {
+        "id": 1313,
+        "name": {
+            "en": "Entosis Link",
+            "ru": "Энтоз-передатчик"
+        }
+    },
+    {
+        "id": 1314,
+        "name": {
+            "en": "Unknown Components",
+            "ru": "Неизвестные компоненты"
+        }
+    },
+    {
+        "id": 1317,
+        "name": {
+            "en": "Infrastructure Upgrade Blueprint",
+            "ru": "Чертежи расширений инфраструктуры"
+        }
+    },
+    {
+        "id": 1318,
+        "name": {
+            "en": "Entosis Link Blueprint",
+            "ru": "Чертежи энтоз-передатчиков"
+        }
+    },
+    {
+        "id": 1321,
+        "name": {
+            "en": "Structure Citadel Service Module",
+            "ru": "Сооружения - служебные модули цитадели"
+        }
+    },
+    {
+        "id": 1322,
+        "name": {
+            "en": "Structure Resource Processing Service Module",
+            "ru": "Служебный модуль переработки материалов"
+        }
+    },
+    {
+        "id": 1327,
+        "name": {
+            "en": "Structure XL Missile Launcher",
+            "ru": "Ракетная установка для сверхбольших сооружений"
+        }
+    },
+    {
+        "id": 1328,
+        "name": {
+            "en": "Structure Guided Bomb Launcher",
+            "ru": "Сооружение - ПУ ракет объёмного взрыва"
+        }
+    },
+    {
+        "id": 1329,
+        "name": {
+            "en": "Structure Energy Neutralizer",
+            "ru": "Сооружения - дистанционные нейтрализаторы заряда накопителя"
+        }
+    },
+    {
+        "id": 1330,
+        "name": {
+            "en": "Structure Area Denial Module",
+            "ru": "Сооружение - система точечной обороны"
+        }
+    },
+    {
+        "id": 1331,
+        "name": {
+            "en": "Structure Burst Projector",
+            "ru": "Проектор объёмных помех для сооружений"
+        }
+    },
+    {
+        "id": 1332,
+        "name": {
+            "en": "Structure ECM Battery",
+            "ru": "Сооружения - батареи РЭП"
+        }
+    },
+    {
+        "id": 1333,
+        "name": {
+            "en": "Structure Doomsday Weapon",
+            "ru": "Structure Doomsday Weapon"
+        }
+    },
+    {
+        "id": 1395,
+        "name": {
+            "en": "Missile Guidance Enhancer",
+            "ru": "Корректор траекторий ракет"
+        }
+    },
+    {
+        "id": 1396,
+        "name": {
+            "en": "Missile Guidance Computer",
+            "ru": "Вычислитель наведения ракет"
+        }
+    },
+    {
+        "id": 1397,
+        "name": {
+            "en": "Missile Guidance Enhancer Blueprint",
+            "ru": "Чертежи корректора траекторий ракет"
+        }
+    },
+    {
+        "id": 1399,
+        "name": {
+            "en": "Missile Guidance Computer Blueprint",
+            "ru": "Missile Guidance Computer Blueprint"
+        }
+    },
+    {
+        "id": 1400,
+        "name": {
+            "en": "Missile Guidance Script",
+            "ru": "Прошивки вычислителей наведения ракет"
+        }
+    },
+    {
+        "id": 1404,
+        "name": {
+            "en": "Engineering Complex",
+            "ru": "Промышленные комплексы"
+        }
+    },
+    {
+        "id": 1406,
+        "name": {
+            "en": "Refinery",
+            "ru": "Перерабатывающие комплексы"
+        }
+    },
+    {
+        "id": 1408,
+        "name": {
+            "en": "Upwell Jump Gate",
+            "ru": "Прыжковые врата «Апвелл»"
+        }
+    },
+    {
+        "id": 1415,
+        "name": {
+            "en": "Structure Engineering Service Module",
+            "ru": "Служебные модули промышленных сооружений"
+        }
+    },
+    {
+        "id": 1429,
+        "name": {
+            "en": "Structure Weapon Upgrade",
+            "ru": "Сооружение - пакет модернизации вооружения"
+        }
+    },
+    {
+        "id": 1430,
+        "name": {
+            "en": "Structure Fitting Module",
+            "ru": "Сооружение - оснащение сооружений"
+        }
+    },
+    {
+        "id": 1441,
+        "name": {
+            "en": "Structure Stasis Webifier",
+            "ru": "Structure Stasis Webifier"
+        }
+    },
+    {
+        "id": 1442,
+        "name": {
+            "en": "Structure Warp Scrambler",
+            "ru": "Тяжёлый варп-глушитель для сооружений"
+        }
+    },
+    {
+        "id": 1462,
+        "name": {
+            "en": "Structure Blueprints",
+            "ru": "Чертежи сооружений"
+        }
+    },
+    {
+        "id": 1527,
+        "name": {
+            "en": "Logistics Frigate",
+            "ru": "Фрегаты обеспечения"
+        }
+    },
+    {
+        "id": 1533,
+        "name": {
+            "en": "Micro Jump Field Generators",
+            "ru": "Генераторы разгонного поля"
+        }
+    },
+    {
+        "id": 1534,
+        "name": {
+            "en": "Command Destroyer",
+            "ru": "Лидеры"
+        }
+    },
+    {
+        "id": 1535,
+        "name": {
+            "en": "Structure Signal Amplifier",
+            "ru": "Structure Signal Amplifier"
+        }
+    },
+    {
+        "id": 1537,
+        "name": {
+            "en": "Support Fighter",
+            "ru": "Истребители поддержки"
+        }
+    },
+    {
+        "id": 1538,
+        "name": {
+            "en": "Force Auxiliary",
+            "ru": "Вспомогательные КБТ"
+        }
+    },
+    {
+        "id": 1542,
+        "name": {
+            "en": "Command Destroyer Blueprint",
+            "ru": "Чертежи лидеров"
+        }
+    },
+    {
+        "id": 1543,
+        "name": {
+            "en": "Micro Jump Field Generator Blueprint",
+            "ru": "Чертежи генераторов разгонного поля"
+        }
+    },
+    {
+        "id": 1545,
+        "name": {
+            "en": "Structure Management",
+            "ru": "Управление сооружениями"
+        }
+    },
+    {
+        "id": 1546,
+        "name": {
+            "en": "Structure Anti-Capital Missile",
+            "ru": "Ракеты сооружений против КБТ"
+        }
+    },
+    {
+        "id": 1547,
+        "name": {
+            "en": "Structure Anti-Subcapital Missile",
+            "ru": "Ракеты сооружений против кораблей стандартного тоннажа"
+        }
+    },
+    {
+        "id": 1548,
+        "name": {
+            "en": "Guided Bomb",
+            "ru": "Направляемая бомба"
+        }
+    },
+    {
+        "id": 1549,
+        "name": {
+            "en": "Structure ECM script",
+            "ru": "Сооружения - прошивка генераторов помех системам сопровождения целей"
+        }
+    },
+    {
+        "id": 1551,
+        "name": {
+            "en": "Structure Warp Disruptor Script",
+            "ru": "Сооружения - прошивка для варп-глушителя"
+        }
+    },
+    {
+        "id": 1562,
+        "name": {
+            "en": "Structure Multirole Missile Launcher",
+            "ru": "Многофункциональная ракетная установка для сооружений"
+        }
+    },
+    {
+        "id": 1569,
+        "name": {
+            "en": "Guidance Disruption Script",
+            "ru": "Прошивка глушения систем наведения ракет"
+        }
+    },
+    {
+        "id": 1613,
+        "name": {
+            "en": "Structure Combat Rig M - Missile Application",
+            "ru": "Боевой тюнинг-модуль средних сооружений - точность ракет"
+        }
+    },
+    {
+        "id": 1614,
+        "name": {
+            "en": "Structure Combat Rig M - Missile Projection",
+            "ru": "Боевой тюнинг-модуль средних сооружений - дальность ракет"
+        }
+    },
+    {
+        "id": 1615,
+        "name": {
+            "en": "Structure Combat Rig M - Energy Neutralizer Projection",
+            "ru": "Боевой тюнинг-модуль средних сооружений - дальность средств нейтрализации энергии"
+        }
+    },
+    {
+        "id": 1616,
+        "name": {
+            "en": "Structure Combat Rig M - Energy Neutralizer Cap Reduction",
+            "ru": "Боевой тюнинг-модуль средних сооружений - экономия энергии на работу средств нейтрализации энергии"
+        }
+    },
+    {
+        "id": 1619,
+        "name": {
+            "en": "Structure Combat Rig M - EW projection",
+            "ru": "Боевой тюнинг-модуль средних сооружений - дальность средств РЭБ"
+        }
+    },
+    {
+        "id": 1620,
+        "name": {
+            "en": "Structure Combat Rig M - EW Cap Reduction",
+            "ru": "Боевой тюнинг-модуль средних сооружений - экономия энергии на работу средств РЭБ"
+        }
+    },
+    {
+        "id": 1621,
+        "name": {
+            "en": "Structure Combat Rig M - Max Targets",
+            "ru": "Боевой тюнинг-модуль средних сооружений - количество целей"
+        }
+    },
+    {
+        "id": 1622,
+        "name": {
+            "en": "Structure Combat Rig M - Boosted Sensors",
+            "ru": "Боевая надстройка для средних сооружений — усиленные сенсоры"
+        }
+    },
+    {
+        "id": 1629,
+        "name": {
+            "en": "Structure Combat Rig L - Missile Application and Projection",
+            "ru": "Боевой тюнинг-модуль больших сооружений - дальность и точность ракет"
+        }
+    },
+    {
+        "id": 1630,
+        "name": {
+            "en": "Structure Combat Rig L - Energy Neutralizer Projection and Cap Reduction",
+            "ru": "Боевой тюнинг-модуль больших сооружений - дальность и экономия энергии при работе дистанционных нейтрализаторов энергии"
+        }
+    },
+    {
+        "id": 1632,
+        "name": {
+            "en": "Structure Combat Rig L - EW Projection and Cap Reduction",
+            "ru": "Боевой тюнинг-модуль больших сооружений - РЭБ, расстояние, экономия энергии"
+        }
+    },
+    {
+        "id": 1633,
+        "name": {
+            "en": "Structure Combat Rig L - AoE Launcher Application and Projection",
+            "ru": "Боевой тюнинг-модуль больших сооружений - дальность и точность ракет объёмного взрыва"
+        }
+    },
+    {
+        "id": 1634,
+        "name": {
+            "en": "Structure Combat Rig L - Point Defense Battery Application and Projection",
+            "ru": "Боевой тюнинг-модуль больших сооружений - дальность и точность систем точечной обороны"
+        }
+    },
+    {
+        "id": 1635,
+        "name": {
+            "en": "Structure Combat Rig L - Max Targets and Sensor Boosting",
+            "ru": "Боевая надстройка для больших сооружений — увеличено макс. число целей и усилены сенсоры"
+        }
+    },
+    {
+        "id": 1639,
+        "name": {
+            "en": "Structure Combat Rig XL - Missile and AoE Missile",
+            "ru": "Боевой тюнинг-модуль сверхбольших сооружений - ракеты и ракеты объёмного взрыва"
+        }
+    },
+    {
+        "id": 1641,
+        "name": {
+            "en": "Structure Combat Rig XL - Energy Neutralizer and EW",
+            "ru": "Боевой тюнинг-модуль сверхбольших сооружений - средства РЭБ, нейтрализация энергии"
+        }
+    },
+    {
+        "id": 1642,
+        "name": {
+            "en": "Structure Combat Rig XL - Doomsday and Targeting",
+            "ru": "Боевой тюнинг-модуль сверхбольших сооружений - орудия Судного дня, целеуказание"
+        }
+    },
+    {
+        "id": 1652,
+        "name": {
+            "en": "Light Fighter",
+            "ru": "Лёгкие истребители"
+        }
+    },
+    {
+        "id": 1653,
+        "name": {
+            "en": "Heavy Fighter",
+            "ru": "Тяжёлые истребители"
+        }
+    },
+    {
+        "id": 1657,
+        "name": {
+            "en": "Citadel",
+            "ru": "Цитадели"
+        }
+    },
+    {
+        "id": 1670,
+        "name": {
+            "en": "Augmentations",
+            "ru": "Усовершенствования"
+        }
+    },
+    {
+        "id": 1672,
+        "name": {
+            "en": "Stasis Grappler",
+            "ru": "Высокомощные стазис-индукторы"
+        }
+    },
+    {
+        "id": 1673,
+        "name": {
+            "en": "Missile Launcher Rapid Torpedo",
+            "ru": "Скорострельные торпедные аппараты"
+        }
+    },
+    {
+        "id": 1674,
+        "name": {
+            "en": "Missile Launcher XL Cruise",
+            "ru": "Пусковые установки ракет дальнего боя сверхбольшой мощности"
+        }
+    },
+    {
+        "id": 1676,
+        "name": {
+            "en": "Named Components",
+            "ru": "Именные компоненты"
+        }
+    },
+    {
+        "id": 1677,
+        "name": {
+            "en": "Advanced XL Torpedo",
+            "ru": "Спецторпеды сверхбольшой мощности"
+        }
+    },
+    {
+        "id": 1678,
+        "name": {
+            "en": "Advanced XL Cruise Missile",
+            "ru": "Спецракеты дальнего боя сверхбольшой мощности"
+        }
+    },
+    {
+        "id": 1679,
+        "name": {
+            "en": "Support Fighter Blueprint",
+            "ru": "Чертежи истребителей поддержки"
+        }
+    },
+    {
+        "id": 1697,
+        "name": {
+            "en": "Ancillary Remote Shield Booster",
+            "ru": "Установки дистанционной вспомогательной накачки силового поля"
+        }
+    },
+    {
+        "id": 1698,
+        "name": {
+            "en": "Ancillary Remote Armor Repairer",
+            "ru": "Установки дистанционного вспомогательного ремонта брони"
+        }
+    },
+    {
+        "id": 1699,
+        "name": {
+            "en": "Flex Armor Hardener",
+            "ru": "Программируемые системы укрепления брони"
+        }
+    },
+    {
+        "id": 1700,
+        "name": {
+            "en": "Flex Shield Hardener",
+            "ru": "Программируемые модуляторы сопротивляемости полей"
+        }
+    },
+    {
+        "id": 1701,
+        "name": {
+            "en": "Flex Armor Hardener Script",
+            "ru": "Прошивки для систем укрепления брони"
+        }
+    },
+    {
+        "id": 1702,
+        "name": {
+            "en": "Flex Shield Hardener Script",
+            "ru": "Прошивки для модуляторов сопротивляемости полей"
+        }
+    },
+    {
+        "id": 1703,
+        "name": {
+            "en": "Burst Projector Blueprint",
+            "ru": "Чертежи генераторов объёмных помех"
+        }
+    },
+    {
+        "id": 1706,
+        "name": {
+            "en": "Capital Sensor Array",
+            "ru": "Усилитель систем обнаружения целей КБТ-класса"
+        }
+    },
+    {
+        "id": 1707,
+        "name": {
+            "en": "Structure Module Blueprint",
+            "ru": "Чертежи модулей сооружений"
+        }
+    },
+    {
+        "id": 1708,
+        "name": {
+            "en": "Structure Rig Blueprint",
+            "ru": "Чертёж надстройки сооружения"
+        }
+    },
+    {
+        "id": 1718,
+        "name": {
+            "en": "Force Auxiliary Blueprint",
+            "ru": "Чертежи вспомогательных КБТ"
+        }
+    },
+    {
+        "id": 1719,
+        "name": {
+            "en": "Structure Disruption Battery",
+            "ru": "Сооружения - батареи постановки помех"
+        }
+    },
+    {
+        "id": 1723,
+        "name": {
+            "en": "Shield Resistance Shift Hardener Blueprint",
+            "ru": "Чертежи программируемых модуляторов сопротивляемости полей"
+        }
+    },
+    {
+        "id": 1730,
+        "name": {
+            "en": "Special Edition Implant",
+            "ru": "Имплантат спецвыпуска"
+        }
+    },
+    {
+        "id": 1739,
+        "name": {
+            "en": "Skill Injectors",
+            "ru": "СП-инъекторы"
+        }
+    },
+    {
+        "id": 1769,
+        "name": {
+            "en": "Shield Command Burst Charges",
+            "ru": "Заряды импульсных оптимизаторов силовой защиты"
+        }
+    },
+    {
+        "id": 1770,
+        "name": {
+            "en": "Command Burst",
+            "ru": "Импульсные оптимизаторы"
+        }
+    },
+    {
+        "id": 1771,
+        "name": {
+            "en": "Mining Foreman Burst Charges",
+            "ru": "Заряды импульсных оптимизаторов добычи сырья"
+        }
+    },
+    {
+        "id": 1772,
+        "name": {
+            "en": "Skirmish Command Burst Charges",
+            "ru": "Заряды импульсных оптимизаторов боевого маневрирования"
+        }
+    },
+    {
+        "id": 1773,
+        "name": {
+            "en": "Information Command Burst Charges",
+            "ru": "Заряды импульсных оптимизаторов мер РЭБ"
+        }
+    },
+    {
+        "id": 1774,
+        "name": {
+            "en": "Armor Command Burst Charges",
+            "ru": "Брони"
+        }
+    },
+    {
+        "id": 1810,
+        "name": {
+            "en": "Command Burst Charge Blueprint",
+            "ru": "Чертежи зарядов импульсных оптимизаторов"
+        }
+    },
+    {
+        "id": 1812,
+        "name": {
+            "en": "Command Burst Blueprint",
+            "ru": "Чертежи импульсных оптимизаторов"
+        }
+    },
+    {
+        "id": 1815,
+        "name": {
+            "en": "Titan Phenomena Generator",
+            "ru": "Генератор воздействия титана"
+        }
+    },
+    {
+        "id": 1816,
+        "name": {
+            "en": "Structure Engineering Rig M - Equipment ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства оборудования"
+        }
+    },
+    {
+        "id": 1818,
+        "name": {
+            "en": "Strong Boxes",
+            "ru": "Спецконтейнеры"
+        }
+    },
+    {
+        "id": 1819,
+        "name": {
+            "en": "Structure Engineering Rig M - Equipment TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства боеприпасов и зарядов"
+        }
+    },
+    {
+        "id": 1820,
+        "name": {
+            "en": "Structure Engineering Rig M - Ammunition ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства боеприпасов и зарядов"
+        }
+    },
+    {
+        "id": 1821,
+        "name": {
+            "en": "Structure Engineering Rig M - Ammunition TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства боеприпасов и зарядов"
+        }
+    },
+    {
+        "id": 1822,
+        "name": {
+            "en": "Structure Engineering Rig M - Drone and Fighter ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства дронов и истребителей"
+        }
+    },
+    {
+        "id": 1823,
+        "name": {
+            "en": "Structure Engineering Rig M - Drone and Fighter TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства дронов и истребителей"
+        }
+    },
+    {
+        "id": 1824,
+        "name": {
+            "en": "Structure Engineering Rig M - Basic Small Ship ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства малых типовых кораблей"
+        }
+    },
+    {
+        "id": 1825,
+        "name": {
+            "en": "Structure Engineering Rig M - Basic Small Ship TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства малых типовых кораблей"
+        }
+    },
+    {
+        "id": 1826,
+        "name": {
+            "en": "Structure Engineering Rig M - Basic Medium Ship ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства средних типовых кораблей"
+        }
+    },
+    {
+        "id": 1827,
+        "name": {
+            "en": "Structure Engineering Rig M - Basic Medium Ship TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства средних типовых кораблей"
+        }
+    },
+    {
+        "id": 1828,
+        "name": {
+            "en": "Structure Engineering Rig M - Basic Large Ship ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства больших типовых кораблей"
+        }
+    },
+    {
+        "id": 1829,
+        "name": {
+            "en": "Structure Engineering Rig M - Basic Large Ship TE",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства больших типовых кораблей"
+        }
+    },
+    {
+        "id": 1830,
+        "name": {
+            "en": "Structure Engineering Rig M - Advanced Small Ship ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства малых специализированных кораблей"
+        }
+    },
+    {
+        "id": 1831,
+        "name": {
+            "en": "Structure Engineering Rig M - Advanced Small Ship TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства малых специализированных кораблей"
+        }
+    },
+    {
+        "id": 1832,
+        "name": {
+            "en": "Structure Engineering Rig M - Advanced Medium Ship ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства средних специализированных кораблей"
+        }
+    },
+    {
+        "id": 1833,
+        "name": {
+            "en": "Structure Engineering Rig M - Advanced Medium Ship TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства средних специализированных кораблей"
+        }
+    },
+    {
+        "id": 1834,
+        "name": {
+            "en": "Structure Engineering Rig M - Advanced Large Ship ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства больших специализированных кораблей"
+        }
+    },
+    {
+        "id": 1835,
+        "name": {
+            "en": "Structure Engineering Rig M - Advanced Large Ship TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства больших специализированных кораблей"
+        }
+    },
+    {
+        "id": 1836,
+        "name": {
+            "en": "Structure Engineering Rig M - Advanced Component ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства усовершенствованных компонентов"
+        }
+    },
+    {
+        "id": 1837,
+        "name": {
+            "en": "Structure Engineering Rig M - Advanced Component TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства усовершенствованных компонентов"
+        }
+    },
+    {
+        "id": 1838,
+        "name": {
+            "en": "Structure Engineering Rig M - Basic Capital Component TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства основных компонентов КБТ"
+        }
+    },
+    {
+        "id": 1839,
+        "name": {
+            "en": "Structure Engineering Rig M - Basic Capital Component ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства основных компонентов КБТ"
+        }
+    },
+    {
+        "id": 1840,
+        "name": {
+            "en": "Structure Engineering Rig M - Structure ME",
+            "ru": "Промышленный модификатор средних сооружений - материалоэффективность производства сооружений"
+        }
+    },
+    {
+        "id": 1841,
+        "name": {
+            "en": "Structure Engineering Rig M - Structure TE",
+            "ru": "Промышленный модификатор средних сооружений - скорость производства сооружений"
+        }
+    },
+    {
+        "id": 1842,
+        "name": {
+            "en": "Structure Engineering Rig M - Invention Cost Optimization",
+            "ru": "Промышленный модификатор средних сооружений - оптимизация стоимости модернизации"
+        }
+    },
+    {
+        "id": 1843,
+        "name": {
+            "en": "Structure Engineering Rig M - Invention Accelerator",
+            "ru": "Промышленный модификатор средних сооружений - скорость модернизации"
+        }
+    },
+    {
+        "id": 1844,
+        "name": {
+            "en": "Structure Engineering Rig M - ME Research Cost Optimization",
+            "ru": "Промышленный модификатор средних сооружений - оптимизация стоимости проектов по повышению материалоэффективности"
+        }
+    },
+    {
+        "id": 1845,
+        "name": {
+            "en": "Structure Engineering Rig M - ME Research Accelerator",
+            "ru": "Промышленный модификатор средних сооружений - ускорение проектов по повышению материалоэффективности производства"
+        }
+    },
+    {
+        "id": 1846,
+        "name": {
+            "en": "Structure Engineering Rig M - TE Research Cost Optimization",
+            "ru": "Промышленный модификатор средних сооружений - оптимизация стоимости проектов по повышению стоимости производства"
+        }
+    },
+    {
+        "id": 1847,
+        "name": {
+            "en": "Structure Engineering Rig M - TE Research Accelerator",
+            "ru": "Промышленный модификатор средних сооружений - ускорение проектов по повышению скорости производства"
+        }
+    },
+    {
+        "id": 1848,
+        "name": {
+            "en": "Structure Engineering Rig M - Blueprint Copy Cost Optimization",
+            "ru": "Промышленный модификатор средних сооружений - оптимизация стоимости копирования чертежей"
+        }
+    },
+    {
+        "id": 1849,
+        "name": {
+            "en": "Structure Engineering Rig M - Blueprint Copy Accelerator",
+            "ru": "Промышленный модификатор средних сооружений - ускорение копирования чертежей"
+        }
+    },
+    {
+        "id": 1850,
+        "name": {
+            "en": "Structure Engineering Rig L - Equipment Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства оборудования"
+        }
+    },
+    {
+        "id": 1851,
+        "name": {
+            "en": "Structure Engineering Rig L - Ammunition Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства боеприпасов и зарядов"
+        }
+    },
+    {
+        "id": 1852,
+        "name": {
+            "en": "Structure Engineering Rig L - Drone and Fighter Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства дронов и истребителей"
+        }
+    },
+    {
+        "id": 1853,
+        "name": {
+            "en": "Structure Engineering Rig L - Basic Small Ship Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства малых типовых кораблей"
+        }
+    },
+    {
+        "id": 1854,
+        "name": {
+            "en": "Structure Engineering Rig L - Basic Medium Ship Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства средних типовых кораблей"
+        }
+    },
+    {
+        "id": 1855,
+        "name": {
+            "en": "Structure Engineering Rig L - Basic Large Ship Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства больших типовых кораблей"
+        }
+    },
+    {
+        "id": 1856,
+        "name": {
+            "en": "Structure Engineering Rig L - Advanced Small Ship Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства малых типовых кораблей"
+        }
+    },
+    {
+        "id": 1857,
+        "name": {
+            "en": "Structure Engineering Rig L - Advanced Medium Ship Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства средних специализированных кораблей"
+        }
+    },
+    {
+        "id": 1858,
+        "name": {
+            "en": "Structure Engineering Rig L - Advanced Large Ship Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства специализированных больших кораблей"
+        }
+    },
+    {
+        "id": 1859,
+        "name": {
+            "en": "Structure Engineering Rig L - Capital Ship Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства КБТ"
+        }
+    },
+    {
+        "id": 1860,
+        "name": {
+            "en": "Structure Engineering Rig L - Advanced Component Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства усовершенствованных компонентов"
+        }
+    },
+    {
+        "id": 1861,
+        "name": {
+            "en": "Structure Engineering Rig L - Basic Capital Component Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства типовых компонентов КБТ"
+        }
+    },
+    {
+        "id": 1862,
+        "name": {
+            "en": "Structure Engineering Rig L - Structure Efficiency",
+            "ru": "Промышленный модификатор больших сооружений - эффективность производства сооружений"
+        }
+    },
+    {
+        "id": 1863,
+        "name": {
+            "en": "Structure Engineering Rig L - Invention Optimization",
+            "ru": "Промышленный модификатор больших сооружений - оптимизация модернизации"
+        }
+    },
+    {
+        "id": 1864,
+        "name": {
+            "en": "Structure Engineering Rig L - ME Research Optimization",
+            "ru": "Промышленный модификатор больших сооружений - оптимизация проектов по повышению материалоэффективности"
+        }
+    },
+    {
+        "id": 1865,
+        "name": {
+            "en": "Structure Engineering Rig L - TE Research Optimization",
+            "ru": "Промышленный модификатор больших сооружений - оптимизация проектов по повышению скорости производства"
+        }
+    },
+    {
+        "id": 1866,
+        "name": {
+            "en": "Structure Engineering Rig L - Blueprint Copy Optimization",
+            "ru": "Промышленный модификатор больших сооружений - оптимизация копирования чертежей"
+        }
+    },
+    {
+        "id": 1867,
+        "name": {
+            "en": "Structure Engineering Rig XL - Equipment and Consumable Efficiency",
+            "ru": "Промышленный модификатор сверхбольших сооружений - эффективность производства оборудования и расходников"
+        }
+    },
+    {
+        "id": 1868,
+        "name": {
+            "en": "Structure Engineering Rig XL - Ship Efficiency",
+            "ru": "Промышленный модификатор сверхбольших сооружений - эффективность производства кораблей"
+        }
+    },
+    {
+        "id": 1869,
+        "name": {
+            "en": "Structure Engineering Rig XL - Structure and Component Efficiency",
+            "ru": "Промышленный модификатор сверхбольших сооружений - эффективность производства сооружений и компонентов"
+        }
+    },
+    {
+        "id": 1870,
+        "name": {
+            "en": "Structure Engineering Rig XL - Laboratory Optimization",
+            "ru": "Промышленный модификатор сверхбольших сооружений - оптимизация проектов"
+        }
+    },
+    {
+        "id": 1875,
+        "name": {
+            "en": "PLEX",
+            "ru": "Плексы"
+        }
+    },
+    {
+        "id": 1884,
+        "name": {
+            "en": "Ubiquitous Moon Asteroids",
+            "ru": "Повсеместные лунные астероиды"
+        }
+    },
+    {
+        "id": 1886,
+        "name": {
+            "en": "Technical Data Chips",
+            "ru": "Технические ключ-схемы"
+        }
+    },
+    {
+        "id": 1887,
+        "name": {
+            "en": "Structure Moon Drilling Service Module",
+            "ru": "Сооружения - служебные модули бурения лун"
+        }
+    },
+    {
+        "id": 1888,
+        "name": {
+            "en": "Composite Reaction Formulas",
+            "ru": "Формулы композитных реакций"
+        }
+    },
+    {
+        "id": 1889,
+        "name": {
+            "en": "Polymer Reaction Formulas",
+            "ru": "Формулы полимерных реакций"
+        }
+    },
+    {
+        "id": 1890,
+        "name": {
+            "en": "Biochemical Reaction Formulas",
+            "ru": "Формулы биохимических реакций"
+        }
+    },
+    {
+        "id": 1912,
+        "name": {
+            "en": "Structure Drilling Rig M - Efficiency",
+            "ru": "Буровой модификатор средних сооружений - эффективность"
+        }
+    },
+    {
+        "id": 1913,
+        "name": {
+            "en": "Structure Drilling Rig M - Stability",
+            "ru": "Буровой модификатор средних сооружений - стабильность"
+        }
+    },
+    {
+        "id": 1914,
+        "name": {
+            "en": "Structure Drilling Rig L - Proficiency",
+            "ru": "Буровой модуль больших сооружений - мастерство"
+        }
+    },
+    {
+        "id": 1920,
+        "name": {
+            "en": "Common Moon Asteroids",
+            "ru": "Обычные лунные астероиды"
+        }
+    },
+    {
+        "id": 1921,
+        "name": {
+            "en": "Uncommon Moon Asteroids",
+            "ru": "Необычные лунные астероиды"
+        }
+    },
+    {
+        "id": 1922,
+        "name": {
+            "en": "Rare Moon Asteroids",
+            "ru": "Редкие лунные астероиды"
+        }
+    },
+    {
+        "id": 1923,
+        "name": {
+            "en": "Exceptional Moon Asteroids",
+            "ru": "Исключительные лунные астероиды"
+        }
+    },
+    {
+        "id": 1933,
+        "name": {
+            "en": "Structure Composite Reactor Rig M - TE",
+            "ru": "Надстройка для средних сооружений — композитный реактор: скорость производства"
+        }
+    },
+    {
+        "id": 1934,
+        "name": {
+            "en": "Structure Composite Reactor Rig M - ME",
+            "ru": "Надстройка для средних сооружений — композитный реактор: материалоэффективность"
+        }
+    },
+    {
+        "id": 1935,
+        "name": {
+            "en": "Structure Hybrid Reactor Rig M - TE",
+            "ru": "Надстройка для средних сооружений — гибридный реактор: скорость производства"
+        }
+    },
+    {
+        "id": 1936,
+        "name": {
+            "en": "Structure Hybrid Reactor Rig M - ME",
+            "ru": "Надстройка для средних сооружений — гибридный реактор: материалоэффективность"
+        }
+    },
+    {
+        "id": 1937,
+        "name": {
+            "en": "Structure Biochemical Reactor Rig M - TE",
+            "ru": "Надстройка для средних сооружений — биохимический реактор: скорость производства"
+        }
+    },
+    {
+        "id": 1938,
+        "name": {
+            "en": "Structure Biochemical Reactor Rig M - ME",
+            "ru": "Надстройка для средних сооружений — биохимический реактор: материалоэффективность"
+        }
+    },
+    {
+        "id": 1939,
+        "name": {
+            "en": "Structure Reactor Rig L - Efficiency",
+            "ru": "Надстройка для больших сооружений — реактор: эффективность"
+        }
+    },
+    {
+        "id": 1941,
+        "name": {
+            "en": "Structure Resource Rig M - Asteroid Ore Reprocessing",
+            "ru": "Надстройка для средних сооружений — переработка руды со спутников"
+        }
+    },
+    {
+        "id": 1942,
+        "name": {
+            "en": "Structure Resource Rig M - Ice Reprocessing",
+            "ru": "Надстройка для средних сооружений — переработка льда"
+        }
+    },
+    {
+        "id": 1943,
+        "name": {
+            "en": "Structure Resource Rig M - Moon Ore Reprocessing",
+            "ru": "Надстройка для средних сооружений — переработка руды с астероидов"
+        }
+    },
+    {
+        "id": 1944,
+        "name": {
+            "en": "Structure Resource Rig L - Reprocessing",
+            "ru": "Надстройка для больших сооружений — переработка ресурсов"
+        }
+    },
+    {
+        "id": 1945,
+        "name": {
+            "en": "Structure Resource Rig XL - Reprocessing",
+            "ru": "Тюнинг-модуль переработки, сверхбольшие сооружения - переработка"
+        }
+    },
+    {
+        "id": 1948,
+        "name": {
+            "en": "Cyber Scanning Implant Blueprints",
+            "ru": "Чертежи кибернетического сканер-импланта"
+        }
+    },
+    {
+        "id": 1950,
+        "name": {
+            "en": "Permanent SKIN",
+            "ru": "Бессрочный шаблон"
+        }
+    },
+    {
+        "id": 1951,
+        "name": {
+            "en": "Volatile SKIN",
+            "ru": "Хрупкий шаблон"
+        }
+    },
+    {
+        "id": 1952,
+        "name": {
+            "en": "7-Day SKIN",
+            "ru": "7-дневный шаблон"
+        }
+    },
+    {
+        "id": 1953,
+        "name": {
+            "en": "30-Day SKIN",
+            "ru": "30-дневный шаблон"
+        }
+    },
+    {
+        "id": 1954,
+        "name": {
+            "en": "90-Day SKIN",
+            "ru": "90-дневный шаблон"
+        }
+    },
+    {
+        "id": 1955,
+        "name": {
+            "en": "1-Year SKIN",
+            "ru": "Годовой шаблон"
+        }
+    },
+    {
+        "id": 1964,
+        "name": {
+            "en": "Mutaplasmids",
+            "ru": "Мутаплазмиды"
+        }
+    },
+    {
+        "id": 1966,
+        "name": {
+            "en": "Structure Capacitor Battery",
+            "ru": "Накопительная батарея для сооружений"
+        }
+    },
+    {
+        "id": 1967,
+        "name": {
+            "en": "Structure Capacitor Power Relay",
+            "ru": "Силовые реле накопителя для сооружений"
+        }
+    },
+    {
+        "id": 1968,
+        "name": {
+            "en": "Structure Armor Reinforcer",
+            "ru": "Усилитель брони для сооружений"
+        }
+    },
+    {
+        "id": 1972,
+        "name": {
+            "en": "Flag Cruiser",
+            "ru": "Флагманский крейсер"
+        }
+    },
+    {
+        "id": 1974,
+        "name": {
+            "en": "Structure Festival Launcher",
+            "ru": "Салютная ПУ для сооружений"
+        }
+    },
+    {
+        "id": 1976,
+        "name": {
+            "en": "Structure Festival Charges",
+            "ru": "Салютные снаряды для сооружений"
+        }
+    },
+    {
+        "id": 1979,
+        "name": {
+            "en": "Abyssal Filaments",
+            "ru": "Нити бездны"
+        }
+    },
+    {
+        "id": 1984,
+        "name": {
+            "en": "Outpost Conversion Rigs",
+            "ru": "Надстройки для конверсии форпоста"
+        }
+    },
+    {
+        "id": 1986,
+        "name": {
+            "en": "Precursor Weapon",
+            "ru": "Оружие Предтечей"
+        }
+    },
+    {
+        "id": 1987,
+        "name": {
+            "en": "Exotic Plasma Charge",
+            "ru": "Заряд экзотической плазмы"
+        }
+    },
+    {
+        "id": 1988,
+        "name": {
+            "en": "Entropic Radiation Sink",
+            "ru": "Поглотитель энтропического излучения"
+        }
+    },
+    {
+        "id": 1989,
+        "name": {
+            "en": "Advanced Exotic Plasma Charge",
+            "ru": "Улучшенный заряд экзотической плазмы"
+        }
+    },
+    {
+        "id": 1990,
+        "name": {
+            "en": "Precursor Weapon Blueprint",
+            "ru": "Чертёж оружия Предтечей"
+        }
+    },
+    {
+        "id": 1992,
+        "name": {
+            "en": "Entropic Radiation Sink Blueprint",
+            "ru": "Чертёж поглотителя энтропического излучения"
+        }
+    },
+    {
+        "id": 1993,
+        "name": {
+            "en": "Exotic Plasma Charge Blueprint",
+            "ru": "Чертёж заряда экзотической плазмы"
+        }
+    },
+    {
+        "id": 1994,
+        "name": {
+            "en": "Advanced Exotic Plasma Charge Blueprint",
+            "ru": "Чертёж улучшенного заряда экзотической плазмы"
+        }
+    },
+    {
+        "id": 1995,
+        "name": {
+            "en": "Triglavian Data",
+            "ru": "Сведения о Триглаве"
+        }
+    },
+    {
+        "id": 1996,
+        "name": {
+            "en": "Abyssal Materials",
+            "ru": "Материалы бездны"
+        }
+    },
+    {
+        "id": 2002,
+        "name": {
+            "en": "Triglavian Datastreams",
+            "ru": "Потоки данных Триглава"
+        }
+    },
+    {
+        "id": 2005,
+        "name": {
+            "en": "Deployable Advertisement",
+            "ru": "Развёртываемая реклама"
+        }
+    },
+    {
+        "id": 2008,
+        "name": {
+            "en": "Mass Entanglers",
+            "ru": "Модуляторы массы"
+        }
+    },
+    {
+        "id": 2010,
+        "name": {
+            "en": "Mass Entangler Blueprints",
+            "ru": "Чертежи модуляторов массы"
+        }
+    },
+    {
+        "id": 2013,
+        "name": {
+            "en": "Stasis Nullifiers",
+            "ru": "Стазисные нейтрализаторы"
+        }
+    },
+    {
+        "id": 2016,
+        "name": {
+            "en": "Upwell Cyno Jammer",
+            "ru": "Генератор помех приводному маяку «Апвелл»"
+        }
+    },
+    {
+        "id": 2017,
+        "name": {
+            "en": "Upwell Cyno Beacon",
+            "ru": "Приводной маяк «Апвелл»"
+        }
+    },
+    {
+        "id": 2018,
+        "name": {
+            "en": "Mutadaptive Remote Armor Repairer",
+            "ru": "Мутадаптивный модуль дистанционного ремонта брони"
+        }
+    },
+    {
+        "id": 2019,
+        "name": {
+            "en": "Mutadaptive Remote Armor Repairer Blueprint",
+            "ru": "Чертёж мутадаптивного модуля дистанционного ремонта брони"
+        }
+    },
+    {
+        "id": 2023,
+        "name": {
+            "en": "Cyber Electronics Implant Blueprints",
+            "ru": "Чертежи электронного киберимпланта"
+        }
+    },
+    {
+        "id": 4029,
+        "name": {
+            "en": "Talassonite",
+            "ru": "Talassonite"
+        }
+    },
+    {
+        "id": 4030,
+        "name": {
+            "en": "Rakovene",
+            "ru": "Rakovene"
+        }
+    },
+    {
+        "id": 4031,
+        "name": {
+            "en": "Bezdnacine",
+            "ru": "Bezdnacine"
+        }
+    },
+    {
+        "id": 4040,
+        "name": {
+            "en": "180-Day SKIN",
+            "ru": "Окраска на 180 дней"
+        }
+    },
+    {
+        "id": 4041,
+        "name": {
+            "en": "Jump Filaments",
+            "ru": "Прыжковые нити"
+        }
+    },
+    {
+        "id": 4050,
+        "name": {
+            "en": "Abyssal Proving Filaments",
+            "ru": "Полигонные нити Бездны"
+        }
+    },
+    {
+        "id": 4052,
+        "name": {
+            "en": "Jump Filament Blueprint",
+            "ru": "Чертеж прыжковых нитей"
+        }
+    },
+    {
+        "id": 4057,
+        "name": {
+            "en": "Masks",
+            "ru": "Маски"
+        }
+    },
+    {
+        "id": 4060,
+        "name": {
+            "en": "Vorton Projector",
+            "ru": "Вортонный проектор"
+        }
+    },
+    {
+        "id": 4061,
+        "name": {
+            "en": "Advanced Condenser Pack",
+            "ru": "Улучшенный набор конденсаторов"
+        }
+    },
+    {
+        "id": 4062,
+        "name": {
+            "en": "Condenser Pack",
+            "ru": "Набор конденсаторов"
+        }
+    },
+    {
+        "id": 4064,
+        "name": {
+            "en": "Vorton Projector Blueprint",
+            "ru": "Чертёж вортонного проектора"
+        }
+    },
+    {
+        "id": 4065,
+        "name": {
+            "en": "Condenser Pack Blueprint",
+            "ru": "Чертёж набора конденсаторов"
+        }
+    },
+    {
+        "id": 4066,
+        "name": {
+            "en": "Advanced Condenser Pack Blueprint",
+            "ru": "Чертёж улучшенного набора конденсаторов"
+        }
+    },
+    {
+        "id": 4067,
+        "name": {
+            "en": "Vorton Projector Upgrade",
+            "ru": "Улучшение вортонного проектора"
+        }
+    },
+    {
+        "id": 4069,
+        "name": {
+            "en": "Vorton Projector Upgrade Blueprints",
+            "ru": "Чертежи улучшения вортонного проектора"
+        }
+    },
+    {
+        "id": 4070,
+        "name": {
+            "en": "Exotic Artefact",
+            "ru": "Экзотический артефакт"
+        }
+    },
+    {
+        "id": 4072,
+        "name": {
+            "en": "Expired Jump Filaments",
+            "ru": "Просроченные прыжковые нити"
+        }
+    },
+    {
+        "id": 4079,
+        "name": {
+            "en": "Encounter Surveillance System",
+            "ru": "Система наблюдения за столкновениями"
+        }
+    },
+    {
+        "id": 4086,
+        "name": {
+            "en": "Quantum Cores",
+            "ru": "Квантовые ядра"
+        }
+    },
+    {
+        "id": 4087,
+        "name": {
+            "en": "Triglavian Space Filaments",
+            "ru": "Нити пространства Триглава"
+        }
+    },
+    {
+        "id": 4088,
+        "name": {
+            "en": "Interdiction Burst Probes",
+            "ru": "Заградительные импульсные зонды"
+        }
+    },
+    {
+        "id": 4091,
+        "name": {
+            "en": "Standard Expert Systems",
+            "ru": "Стандартные экспертные системы"
+        }
+    },
+    {
+        "id": 4093,
+        "name": {
+            "en": "Mobile Cynosural Beacon",
+            "ru": "Мобильный приводной маяк"
+        }
+    },
+    {
+        "id": 4095,
+        "name": {
+            "en": "Mobile Cynosural Beacon Blueprint",
+            "ru": "Чертёж мобильного приводного маяка"
+        }
+    },
+    {
+        "id": 4096,
+        "name": {
+            "en": "Molecular-Forged Materials",
+            "ru": "Молекулярно модифицированные материалы"
+        }
+    },
+    {
+        "id": 4097,
+        "name": {
+            "en": "Molecular-Forged Reaction Formulas",
+            "ru": "Формулы молекулярной реакции"
+        }
+    },
+    {
+        "id": 4098,
+        "name": {
+            "en": "Promotional Expert Systems",
+            "ru": "Особые экспертные системы"
+        }
+    },
+    {
+        "id": 4102,
+        "name": {
+            "en": "ESS Reserve Bank Keys",
+            "ru": "Ключи от резервного банка СНС"
+        }
+    },
+    {
+        "id": 4107,
+        "name": {
+            "en": "Mobile Observatory",
+            "ru": "Mobile Observatory"
+        }
+    },
+    {
+        "id": 4108,
+        "name": {
+            "en": "Mobile Observatory Blueprint",
+            "ru": "Mobile Observatory Blueprint"
+        }
+    },
+    {
+        "id": 4117,
+        "name": {
+            "en": "Interdiction Nullifier",
+            "ru": "Нейтрализатор варп-заграждений"
+        }
+    },
+    {
+        "id": 4118,
+        "name": {
+            "en": "Interdiction Nullifier Blueprint",
+            "ru": "Чертёж нейтрализатора варп-заграждений"
+        }
+    },
+    {
+        "id": 4127,
+        "name": {
+            "en": "Covert Jump Portal Generator",
+            "ru": "Диверсионный генератор гиперпорталов"
+        }
+    },
+    {
+        "id": 4137,
+        "name": {
+            "en": "Mobile Analysis Beacon",
+            "ru": "Мобильный маяк анализа"
+        }
+    },
+    {
+        "id": 4138,
+        "name": {
+            "en": "Gas Cloud Harvesters",
+            "ru": "Сборщики газовых облаков"
+        }
+    },
+    {
+        "id": 4139,
+        "name": {
+            "en": "Gas Harvester Blueprint",
+            "ru": "Чертёж установки для сбора газа"
+        }
+    },
+    {
+        "id": 4141,
+        "name": {
+            "en": "Mobile Analysis Beacon Blueprint",
+            "ru": "Чертёж мобильного маяка анализа"
+        }
+    },
+    {
+        "id": 4142,
+        "name": {
+            "en": "Rogue Drone Analysis Data",
+            "ru": "Данные анализа восставших дронов"
+        }
+    },
+    {
+        "id": 4145,
+        "name": {
+            "en": "Warp Matrix Filaments",
+            "ru": "Варп-матричные нити"
+        }
+    },
+    {
+        "id": 4165,
+        "name": {
+            "en": "Peculiar Materials",
+            "ru": "Любопытные материалы"
+        }
+    },
+    {
+        "id": 4168,
+        "name": {
+            "en": "Compressed Gas",
+            "ru": "Сжатый газ"
+        }
+    },
+    {
+        "id": 4174,
+        "name": {
+            "en": "Compressors",
+            "ru": "Компрессоры"
+        }
+    },
+    {
+        "id": 4175,
+        "name": {
+            "en": "Compressors Blueprints",
+            "ru": "Чертежи компрессоров"
+        }
+    },
+    {
+        "id": 4184,
+        "name": {
+            "en": "Industrial Jump Portal Generator",
+            "ru": "Industrial Jump Portal Generator"
+        }
+    },
+    {
+        "id": 4186,
+        "name": {
+            "en": "Structure Area Denial Ammunition",
+            "ru": "Боеприпасы для систем обороны сооружений"
+        }
+    },
+    {
+        "id": 4188,
+        "name": {
+            "en": "Structure Area Denial Ammo Blueprint",
+            "ru": "Structure Area Denial Ammo Blueprint"
+        }
+    },
+    {
+        "id": 4431,
+        "name": {
+            "en": "FW Amarr Empire Battleship",
+            "ru": "FW Amarr Empire Battleship"
+        }
+    },
+    {
+        "id": 4432,
+        "name": {
+            "en": "FW Caldari State Battleship",
+            "ru": "FW Caldari State Battleship"
+        }
+    },
+    {
+        "id": 4433,
+        "name": {
+            "en": "FW Gallente Federation Battleship",
+            "ru": "FW Gallente Federation Battleship"
+        }
+    },
+    {
+        "id": 4434,
+        "name": {
+            "en": "FW Minmatar Republic Battleship",
+            "ru": "FW Minmatar Republic Battleship"
+        }
+    },
+    {
+        "id": 4471,
+        "name": {
+            "en": "Ship Emblems",
+            "ru": "Эмблемы для кораблей"
+        }
+    },
+    {
+        "id": 4477,
+        "name": {
+            "en": "FW Propaganda Broadcast Structure",
+            "ru": "Сооружение для передачи пропаганды МВ"
+        }
+    },
+    {
+        "id": 4493,
+        "name": {
+            "en": "Mobile Objective Blueprint",
+            "ru": "Чертёж подвижной цели"
+        }
+    },
+    {
+        "id": 4499,
+        "name": {
+            "en": "FW Listening Outpost",
+            "ru": "Прослушивающий форпост МВ"
+        }
+    },
+    {
+        "id": 4513,
+        "name": {
+            "en": "Mordunium",
+            "ru": "Mordunium"
+        }
+    },
+    {
+        "id": 4514,
+        "name": {
+            "en": "Ytirium",
+            "ru": "Ютирий"
+        }
+    },
+    {
+        "id": 4515,
+        "name": {
+            "en": "Eifyrium",
+            "ru": "Эйфирий"
+        }
+    },
+    {
+        "id": 4516,
+        "name": {
+            "en": "Ducinium",
+            "ru": "Дачиний"
+        }
+    },
+    {
+        "id": 4568,
+        "name": {
+            "en": "Mutanite",
+            "ru": "Мутанит"
+        }
+    },
+    {
+        "id": 4575,
+        "name": {
+            "en": "Homefront Operations Commodity",
+            "ru": "Ценный груз в тыловом районе"
+        }
+    },
+    {
+        "id": 4594,
+        "name": {
+            "en": "Lancer Dreadnought",
+            "ru": "Дредноут-лансер"
+        }
+    },
+    {
+        "id": 4599,
+        "name": {
+            "en": "Warp Vector Data",
+            "ru": "Warp Vector Data"
+        }
+    },
+    {
+        "id": 4647,
+        "name": {
+            "en": "Insurgency Pirate Frigate",
+            "ru": "Фрегат пирата-интервента"
+        }
+    },
+    {
+        "id": 4648,
+        "name": {
+            "en": "Insurgency Pirate Destroyer",
+            "ru": "Эсминец пирата-интервента"
+        }
+    },
+    {
+        "id": 4649,
+        "name": {
+            "en": "Insurgency Pirate Cruiser",
+            "ru": "Крейсер пирата-интервента"
+        }
+    },
+    {
+        "id": 4650,
+        "name": {
+            "en": "Insurgency Pirate Battlecruiser",
+            "ru": "Линейный крейсер пирата-интервента"
+        }
+    },
+    {
+        "id": 4651,
+        "name": {
+            "en": "Insurgency Pirate Battleship",
+            "ru": "Линкор пирата-интервента"
+        }
+    },
+    {
+        "id": 4652,
+        "name": {
+            "en": "Insurgency Mordu Frigate",
+            "ru": "Фрегат бойца интервенции из Морду"
+        }
+    },
+    {
+        "id": 4653,
+        "name": {
+            "en": "Insurgency Mordu Destroyer",
+            "ru": "Эсминец бойца интервенции из Морду"
+        }
+    },
+    {
+        "id": 4654,
+        "name": {
+            "en": "Insurgency Mordu Cruiser",
+            "ru": "Крейсер бойца интервенции из Морду"
+        }
+    },
+    {
+        "id": 4655,
+        "name": {
+            "en": "Insurgency Mordu Battlecruiser",
+            "ru": "Линейный крейсер бойца интервенции из Морду"
+        }
+    },
+    {
+        "id": 4656,
+        "name": {
+            "en": "Insurgency Mordu Battleship",
+            "ru": "Линкор бойца интервенции из Морду"
+        }
+    },
+    {
+        "id": 4673,
+        "name": {
+            "en": "Insurgency Mining Ship",
+            "ru": "Insurgency Mining Ship"
+        }
+    },
+    {
+        "id": 4716,
+        "name": {
+            "en": "Abyssal Battlefield Filament Materials",
+            "ru": "Материалы для нитей боевых зон Бездны"
+        }
+    },
+    {
+        "id": 4717,
+        "name": {
+            "en": "CD Filaments",
+            "ru": "Нити боевых подземелий"
+        }
+    },
+    {
+        "id": 4725,
+        "name": {
+            "en": "Sequence Binders",
+            "ru": "Фиксаторы для окрасок"
+        }
+    },
+    {
+        "id": 4726,
+        "name": {
+            "en": "Ship SKIN Design Element",
+            "ru": "Декоративные элементы окрасок"
+        }
+    },
+    {
+        "id": 4729,
+        "name": {
+            "en": "Colony Reagents",
+            "ru": "Реагенты колоний"
+        }
+    },
+    {
+        "id": 4734,
+        "name": {
+            "en": "Sequencing",
+            "ru": "Производство окрасок"
+        }
+    },
+    {
+        "id": 4736,
+        "name": {
+            "en": "Skyhook",
+            "ru": "Подъёмник"
+        }
+    },
+    {
+        "id": 4743,
+        "name": {
+            "en": "Abyssal Battlefield Filaments",
+            "ru": "Нити боевых зон Бездны"
+        }
+    },
+    {
+        "id": 4744,
+        "name": {
+            "en": "Upwell Moon Drill",
+            "ru": "Спутниковый бур от «Апвелл»"
+        }
+    },
+    {
+        "id": 4755,
+        "name": {
+            "en": "Kylixium",
+            "ru": "Kylixium"
+        }
+    },
+    {
+        "id": 4756,
+        "name": {
+            "en": "Nocxite",
+            "ru": "Нокцит"
+        }
+    },
+    {
+        "id": 4757,
+        "name": {
+            "en": "Ueganite",
+            "ru": "Уэганит"
+        }
+    },
+    {
+        "id": 4758,
+        "name": {
+            "en": "Hezorime",
+            "ru": "Hezorime"
+        }
+    },
+    {
+        "id": 4759,
+        "name": {
+            "en": "Griemeer",
+            "ru": "Griemeer"
+        }
+    },
+    {
+        "id": 4768,
+        "name": {
+            "en": "Sovereignty Hub Anomaly Detection Upgrades",
+            "ru": "Улучшения поиска аномалий для штаба владений"
+        }
+    },
+    {
+        "id": 4769,
+        "name": {
+            "en": "Capital Mobility Modules",
+            "ru": "Ускоряющие модули КБТ"
+        }
+    },
+    {
+        "id": 4772,
+        "name": {
+            "en": "Sovereignty Hub Service Infrastructure Upgrade",
+            "ru": "Улучшение служебной инфраструктуры штаба владений"
+        }
+    },
+    {
+        "id": 4776,
+        "name": {
+            "en": "Expired Abyssal Battlefields Filaments",
+            "ru": "Просроченные нити боевых зон Бездны"
+        }
+    },
+    {
+        "id": 4777,
+        "name": {
+            "en": "Structure Light Fighter",
+            "ru": "Лёгкий истребитель сооружения"
+        }
+    },
+    {
+        "id": 4778,
+        "name": {
+            "en": "Structure Support Fighter",
+            "ru": "Истребитель поддержки сооружения"
+        }
+    },
+    {
+        "id": 4779,
+        "name": {
+            "en": "Structure Heavy Fighter",
+            "ru": "Тяжёлый истребитель сооружения"
+        }
+    },
+    {
+        "id": 4807,
+        "name": {
+            "en": "Breacher Pod Launchers",
+            "ru": "Пусковая установка внедряющихся капсул"
+        }
+    },
+    {
+        "id": 4808,
+        "name": {
+            "en": "SCARAB Breacher Pods",
+            "ru": "Внедряющиеся капсулы «Скарабей»"
+        }
+    },
+    {
+        "id": 4810,
+        "name": {
+            "en": "Mercenary Den",
+            "ru": "Mercenary Den"
+        }
+    },
+    {
+        "id": 4811,
+        "name": {
+            "en": "Mercenary Den Blueprint",
+            "ru": "Mercenary Den Blueprint"
+        }
+    },
+    {
+        "id": 4820,
+        "name": {
+            "en": "Mutaplasmid Blueprint",
+            "ru": "Чертёж мутаплазмида"
+        }
+    },
+    {
+        "id": 4821,
+        "name": {
+            "en": "Atavum",
+            "ru": "Атавум"
+        }
+    },
+    {
+        "id": 4824,
+        "name": {
+            "en": "Infomorph Systems",
+            "ru": "Инфоморфы"
+        }
+    }
+]
