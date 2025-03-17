@@ -10,7 +10,7 @@ interface ShipData {
 // Тип для объекта базы данных
 type Database = sqlite.Database;
 
-let db: Database | null = null;
+export let db: Database | null = null;
 
 // Инициализация базы данных (экспорт этой функции)
 export const initializeDB = async (): Promise<void> => {
