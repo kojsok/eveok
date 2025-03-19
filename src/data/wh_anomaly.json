@@ -1,0 +1,346 @@
+{
+  "C1": {
+    "war": [
+      {
+        "name": "Perimeter Ambush Point",
+        "value": "188 dps"
+      },
+      {
+        "name": "Perimeter Camp",
+        "value": "204 dps"
+      },
+      {
+        "name": "Phase Catalyst Node",
+        "value": "312 dps"
+      },
+      {
+        "name": "The Line",
+        "value": "152 dps"
+      }
+    ],
+    "relic": [
+      {
+        "name": "Forgotten Perimeter Coronation Platform",
+        "value": "224 dps"
+      },
+      {
+        "name": "Forgotten Perimeter Power Array",
+        "value": "168 dps"
+      }
+    ],
+    "data": [
+      {
+        "name": "Unsecured Perimeter Amplifier",
+        "value": "204 dps"
+      },
+      {
+        "name": "Unsecured Perimeter Information Center",
+        "value": "206 dps"
+      }
+    ]
+  },
+  "C2": {
+    "war": [
+      {
+        "name": "Perimeter Checkpoint",
+        "value": "266 dps"
+      },
+      {
+        "name": "Perimeter Hangar",
+        "value": "414 dps"
+      },
+      {
+        "name": "The Ruins of Enclave Cohort 27",
+        "value": "338 dps"
+      },
+      {
+        "name": "Sleeper Data Sanctuary",
+        "value": "344 dps"
+      }
+    ],
+    "relic": [
+      {
+        "name": "Forgotten Perimeter Gateway",
+        "value": "560 dps"
+      },
+      {
+        "name": "Forgotten Perimeter Habitation Coils",
+        "value": "526 dps"
+      }
+    ],
+    "data": [
+      {
+        "name": "Unsecured Perimeter Comms Relay",
+        "value": "524 dps"
+      },
+      {
+        "name": "Unsecured Perimeter Transponder Farm",
+        "value": "458 dps"
+      }
+    ]
+  },
+  "C3": {
+    "war": [
+      {
+        "name": "Fortification Frontier Stronghold",
+        "value": "660 dps"
+      },
+      {
+        "name": "Outpost Frontier Stronghold",
+        "value": "740 dps"
+      },
+      {
+        "name": "Solar Cell",
+        "value": "690 dps"
+      },
+      {
+        "name": "The Oruze Construct",
+        "value": "582 dps"
+      }
+    ],
+    "relic": [
+      {
+        "name": "Forgotten Frontier Quarantine Outpost",
+        "value": "608 dps"
+      },
+      {
+        "name": "Forgotten Frontier Recursive Depot",
+        "value": "1396 dps"
+      }
+    ],
+    "data": [
+      {
+        "name": "Unsecured Frontier Database",
+        "value": "1050 dps"
+      },
+      {
+        "name": "Unsecured Frontier Receiver",
+        "value": "608 dps"
+      }
+    ]
+  },
+  "C4": {
+    "war": [
+      {
+        "name": "Frontier Barracks",
+        "value": "1442 dps"
+      },
+      {
+        "name": "Frontier Command Post",
+        "value": "1052 dps"
+      },
+      {
+        "name": "Integrated Terminus",
+        "value": "614 dps"
+      },
+      {
+        "name": "Sleeper Information Sanctum",
+        "value": "1448 dps"
+      }
+    ],
+    "relic": [
+      {
+        "name": "Forgotten Frontier Conversion Module",
+        "value": "1928 dps"
+      },
+      {
+        "name": "Forgotten Frontier Evacuation Center",
+        "value": "1156 dps"
+      }
+    ],
+    "data": [
+      {
+        "name": "Unsecured Frontier Digital Nexus",
+        "value": "1928 dps"
+      },
+      {
+        "name": "Unsecured Frontier Trinary Hub",
+        "value": "1156 dps"
+      }
+    ]
+  },
+  "C5": {
+    "war": [
+      {
+        "name": "Core Garrison",
+        "value": "1758 dps"
+      },
+      {
+        "name": "Core Stronghold",
+        "value": "2476 dps"
+      },
+      {
+        "name": "Oruze Osobnyk",
+        "value": "1914 dps"
+      },
+      {
+        "name": "Quarantine Area",
+        "value": "1554 dps"
+      }
+    ],
+    "relic": [
+      {
+        "name": "Forgotten Core Data Field",
+        "value": "2134 dps"
+      },
+      {
+        "name": "Forgotten Core Information Pen",
+        "value": "3134 dps"
+      }
+    ],
+    "data": [
+      {
+        "name": "Unsecured Frontier Enclave Relay",
+        "value": "2060 dps"
+      },
+      {
+        "name": "Unsecured Frontier Server Bank",
+        "value": "2158 dps"
+      }
+    ]
+  },
+  "C6": {
+    "war": [
+      {
+        "name": "Core Citadel",
+        "value": "2826 dps"
+      },
+      {
+        "name": "Core Bastion",
+        "value": "3214 dps"
+      },
+      {
+        "name": "Strange Energy Readings",
+        "value": "3286 dps"
+      },
+      {
+        "name": "The Mirror",
+        "value": "3146 dps"
+      }
+    ],
+    "relic": [
+      {
+        "name": "Forgotten Core Assembly Hall",
+        "value": "5212 dps"
+      },
+      {
+        "name": "Forgotten Core Circuitry Disassembler",
+        "value": "5554 dps"
+      }
+    ],
+    "data": [
+      {
+        "name": "Unsecured Core Backup Array",
+        "value": "4604 dps"
+      },
+      {
+        "name": "Unsecured Core Emergence",
+        "value": "4648 dps"
+      }
+    ]
+  },
+  "all1": {
+    "ore": [
+      {
+        "name": "Average Frontier Deposit",
+        "value": "94 dps"
+      },
+      {
+        "name": "Common Perimeter Deposit",
+        "value": "90 dps"
+      },
+      {
+        "name": "Exceptional Core Deposit",
+        "value": "412 dps"
+      },
+      {
+        "name": "Infrequent Core Deposit",
+        "value": "112 dps"
+      },
+      {
+        "name": "Isolated Core Deposit",
+        "value": "66 dps"
+      },
+      {
+        "name": "Ordinary Perimeter Deposit",
+        "value": "90 dps"
+      },
+      {
+        "name": "Rarified Core Deposit",
+        "value": "556 dps"
+      },
+      {
+        "name": "Unusual Core Deposit",
+        "value": "80 dps"
+      },
+      {
+        "name": "Uncommon Core Deposit",
+        "value": "28 dps"
+      },
+      {
+        "name": "Unexceptional Frontier Deposit",
+        "value": "88 dps"
+      }
+    ]
+  },
+  "all2": {
+    "gas": [
+      {
+        "name": "Barren Perimeter Reservoir",
+        "value": "164 dps"
+      },
+      {
+        "name": "Bountiful Frontier Reservoir",
+        "value": "416 dps"
+      },
+      {
+        "name": "Instrumental Core Reservoir",
+        "value": "1648 dps"
+      },
+      {
+        "name": "Minor Perimeter Reservoir",
+        "value": "160 dps"
+      },
+      {
+        "name": "Ordinary Perimeter Reservoir",
+        "value": "260 dps"
+      },
+      {
+        "name": "Sizeable Perimeter Reservoir",
+        "value": "192 dps"
+      },
+      {
+        "name": "Token Perimeter Reservoir",
+        "value": "156 dps"
+      },
+      {
+        "name": "Vast Frontier Reservoir",
+        "value": "392 dps"
+      },
+      {
+        "name": "Vital Core Reservoir",
+        "value": "2296 dps"
+      }
+    ]
+  },
+  "thera": {
+    "war": [
+      {
+        "name": "Epicenter",
+        "value": "104 dps"
+      },
+      {
+        "name": "Expedition Command Outpost Wreck",
+        "value": "104 dps"
+      },
+      {
+        "name": "Planetary Colonization Office Wreck",
+        "value": "104 dps"
+      },
+      {
+        "name": "Testing Facilities",
+        "value": "104 dps"
+      }
+    ]
+  }
+}
