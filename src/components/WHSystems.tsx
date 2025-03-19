@@ -110,7 +110,7 @@ export default function WHSystems() {
     // Очистка строки от пробелов и проверка на пустую строку
     const trimmedQuery = query.trim();
     if (!trimmedQuery) {
-      setError("Введите название системы.");
+      setError("Система не найдена. Введите название системы без пробелов и дополнительных символов *.");
       setSystems([]);
       return;
     }
@@ -152,7 +152,7 @@ export default function WHSystems() {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
-          placeholder="Enter system name..."
+          placeholder="Enter system name...: J105443"
           className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-800 text-slate-300"
         />
         <button
@@ -267,7 +267,7 @@ export default function WHSystems() {
           })}
         </div>
       ) : (
-        <p className="text-center text-slate-300">No systems found.</p>
+        <p className="text-center text-slate-300">Введите название системы: J100744</p>
       )}
     </div>
   );
