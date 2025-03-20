@@ -127,7 +127,7 @@ export default function WHSystems() {
     // Очистка строки от пробелов и проверка на пустую строку
     const trimmedQuery = query.trim();
     if (!trimmedQuery) {
-      setError("Введите название системы.");
+      setError("Система не найдена. Введите название системы в формате JXXXXXX или сообщите нам об ошибке.");
       setSystems([]);
       return;
     }
@@ -317,6 +317,7 @@ export default function WHSystems() {
                                         </span>
                                       </AccordionTrigger>
                                       <AccordionContent className="pl-6 space-y-1">
+                                      <span className="text-yellow-300 text-sm">NPC триггеры следующей волны:</span>
                                         {triggers &&
                                           Object.entries(triggers.Triggers).map(([wave, trigger]) => (
                                             <div key={wave} className="flex items-center gap-2">
@@ -357,7 +358,7 @@ export default function WHSystems() {
           })}
         </div>
       ) : (
-        <p className="text-center text-slate-300">No systems found.</p>
+        <p className="text-center text-slate-300">Введите название системы: J162226</p>
       )}
     </div>
   );
