@@ -236,13 +236,13 @@ export default function WHSystems() {
                 <div className="flex flex-col sm:flex-row gap-4">
                   {/* Левая колонка: информация о системе */}
                   <div className="flex-1 space-y-2">
-                    <h2 className="text-xl font-semibold">{system.system}</h2>
+                    <h2 className="text-slate-300 text-xl font-semibold">Характеристики системы: {system.system}</h2>
                     <p className="text-slate-300 text-sm">
                       <strong>Класс ВХ:</strong>{" "}
                       <span className={`${classColor} font-bold`}>{classLabel}</span>
                     </p>
                     <p className="text-slate-300 text-sm">
-                      <strong>Статик:</strong>{" "}
+                      <strong>Система имеет статик в:</strong>{" "}
                       {staticsInfo.map((info, index) => (
                         <span
                           key={index}
