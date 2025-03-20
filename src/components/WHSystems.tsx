@@ -113,7 +113,7 @@ const getClassColor = (className: string): string => {
     case "c6":
       return "text-purple-500";
     default:
-      return "text-slate-300";
+      return "text-yellow-300";
   }
 };
 
@@ -225,7 +225,15 @@ export default function WHSystems() {
             const staticsArray = system.statics.split(",").map((staticValue) => staticValue.trim());
             const staticsInfo = staticsArray.map(findStatic);
             const classColor = getClassColor(`c${Math.abs(system.class)}`);
-            const classLabel = system.class > 0 ? `C-${system.class}` : `C-${Math.abs(system.class)} (разлом)`;
+            // const classLabel = system.class > 0 ? `C-${system.class}` : `C-${Math.abs(system.class)} (разлом)`;
+            const classLabel =
+              system.class === 13
+                ? `C-13 (фриг ВХ)`
+                : [14, 15, 16, 17, 18].includes(system.class)
+                  ? `C-${system.class} (дрифтерская будьте предельно аккуратны)`
+                  : system.class > 0
+                    ? `C-${system.class}`
+                    : `C-${Math.abs(system.class)} (разлом)`;
             const anomalies = getAnomaliesForClass(`${Math.abs(system.class)}`);
 
             return (
@@ -317,7 +325,7 @@ export default function WHSystems() {
                                         </span>
                                       </AccordionTrigger>
                                       <AccordionContent className="pl-6 space-y-1">
-                                      <span className="text-yellow-300 text-sm">NPC триггеры следующей волны:</span>
+                                        <span className="text-yellow-300 text-sm">NPC триггеры следующей волны:</span>
                                         {triggers &&
                                           Object.entries(triggers.Triggers).map(([wave, trigger]) => (
                                             <div key={wave} className="flex items-center gap-2">
