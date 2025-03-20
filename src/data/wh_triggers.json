@@ -1,0 +1,107 @@
+[
+    {
+      "Name": "Frontier Barracks", "Triggers": {
+        "wave1": {
+          "Name": "Sleepless Preserver",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave2": {
+          "Name": "Sleepless Upholder",
+          "Type": "Cruiser",
+          "Distance": "65 km"
+        }
+      }
+    },
+    {"Name": "Frontier Command Post", "Triggers": {
+        "wave1": {
+          "Name": "Emergent Preserver",
+          "Type": " Frigate",
+          "Distance": "5 km"
+        },
+        "wave2": {
+          "Name": " Awakened Defender ",
+          "Type": "Cruiser",
+          "Distance": "15 km"
+        }
+      }
+    },
+    {"Name": "Integrated Terminus", "Triggers": {
+        "wave1": {
+          "Name": "Awakened Defender ",
+          "Type": "Cruiser",
+          "Distance": "15 km"
+        },
+        "wave2": {
+          "Name": "Awakened Upholder ",
+          "Type": "Cruiser",
+          "Distance": "30 km"
+        }
+      }
+    },
+    {"Name": "Sleeper Information Sanctum", "Triggers": {
+        "wave1": {
+          "Name": " Sleepless Preserver ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave2": {
+          "Name": "Sleepless Safeguard ",
+          "Type": "Battleship",
+          "Distance": "15 km"
+        }
+      }
+    },
+    {"Name": "Forgotten Frontier Conversion Module", "Triggers": {
+        "wave1": {
+          "Name": "all",
+          "Type": "all",
+          "Distance": "6-65 km"
+        },
+        "wave2": {
+          "Name": "Sleepless Defender ",
+          "Type": "Battleship",
+          "Distance": "19 km"
+        }
+      }
+    },
+    {"Name": "Forgotten Frontier Evacuation Center", "Triggers": {
+        "wave1": {
+          "Name": "Sleepless Preserver ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave2": {
+          "Name": " Sleepless Preserver ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        }
+      }
+    },
+    {"Name": "Unsecured Frontier Digital Nexus", "Triggers": {
+        "wave1": {
+          "Name": "Awakened Defender ",
+          "Type": "Cruiser",
+          "Distance": "15 km"
+        },
+        "wave2": {
+          "Name": "Sleepless Defender",
+          "Type": "Battleship",
+          "Distance": "19 km"
+        }
+      }
+    },
+    {"Name": "Unsecured Frontier Trinary Hub", "Triggers": {
+        "wave1": {
+          "Name": "Sleepless Preserver   ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave2": {
+          "Name": " Sleepless Preserver ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        }
+      }
+    }
+  ]
