@@ -1,5 +1,167 @@
 [
-    {
+  {
+    "Name": "Fortification Frontier Stronghold",
+    "Triggers": {
+      "wave1": {
+        "Name": " Awakened Defender ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave2": {
+        "Name": "Awakened Upholder  ",
+        "Type": "Cruiser",
+        "Distance": "30 km"
+      },
+      "wave3": {
+        "Name": " Awakened Preserver   ",
+        "Type": "Cruiser",
+        "Distance": "45 km"
+      }
+    }
+  },
+  {
+    "Name": "Outpost Frontier Stronghold",
+    "Triggers": {
+      "wave1": {
+        "Name": " Sleepless Defender ",
+        "Type": " Battleship",
+        "Distance": "19 km"
+      },
+      "wave2": {
+        "Name": "  Awakened Defender  ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave3": {
+        "Name": "   Sleepless Defender ",
+        "Type": "Battleship",
+        "Distance": "15 km"
+      }
+    }
+  },
+  {
+    "Name": "Solar Cell",
+    "Triggers": {
+      "wave1": {
+        "Name": "Emergent Preserver  ",
+        "Type": "Frigate",
+        "Distance": "5 km"
+      },
+      "wave2": {
+        "Name": "Emergent Upholder     ",
+        "Type": "Frigate",
+        "Distance": "5 km"
+      },
+      "wave3": {
+        "Name": " Sleepless Preserver",
+        "Type": "Battleship",
+        "Distance": "15 km"
+      }
+    }
+  },
+  {
+    "Name": "The Oruze Construct",
+    "Triggers": {
+      "wave1": {
+        "Name": "  Awakened Upholder  ",
+        "Type": "Cruiser",
+        "Distance": "30 km"
+      },
+      "wave2": {
+        "Name": "Sleepless Defender ",
+        "Type": "Battleship",
+        "Distance": "19 km"
+      },
+      "wave3": {
+        "Name": " Awakened Preserver  ",
+        "Type": "Battleship",
+        "Distance": "45 km"
+      }
+    }
+  },
+  {
+    "Name": "Forgotten Frontier Quarantine Outpost",
+    "Triggers": {
+      "wave1": {
+        "Name": "Awakened Preserver ",
+        "Type": "Cruiser",
+        "Distance": "45 km"
+      },
+      "wave2": {
+        "Name": " Awakened Defender ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave3": {
+        "Name": " Emergent Upholder ",
+        "Type": "Frigate",
+        "Distance": "5 km"
+      }
+    }
+  },
+  {
+    "Name": "Forgotten Frontier Recursive Depot",
+    "Triggers": {
+      "wave1": {
+        "Name": "Awakened Defender  ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave2": {
+        "Name": " Awakened Defender ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave3": {
+        "Name": "  Sleepless Upholder  ",
+        "Type": "Battleship",
+        "Distance": "65 km"
+      }
+    }
+  },
+  {
+    "Name": "Unsecured Frontier Database",
+    "Triggers": {
+      "wave1": {
+        "Name": "Emergent Preserver   ",
+        "Type": "Frigate",
+        "Distance": "5 km"
+      },
+      "wave2": {
+        "Name": " Awakened Defender",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave3": {
+        "Name": " Sleepless Upholder  ",
+        "Type": "Battleship",
+        "Distance": "65 km"
+      }
+    }
+  },
+  {
+    "Name": "Unsecured Frontier Receiver",
+    "Triggers": {
+      "wave1": {
+        "Name": " Awakened Preserver ",
+        "Type": "Cruiser",
+        "Distance": "45 km"
+      },
+      "wave2": {
+        "Name": " Awakened Preserver  ",
+        "Type": "Cruiser",
+        "Distance": "45 km"
+      },
+      "wave3": {
+        "Name": " Sleepless Defender ",
+        "Type": "Battleship",
+        "Distance": "19 km"
+      }
+    }
+  },
+  
+  
+  {
       "Name": "Frontier Barracks", "Triggers": {
         "wave1": {
           "Name": "Sleepless Preserver",
