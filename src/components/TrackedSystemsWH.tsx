@@ -49,7 +49,7 @@ export default function TrackedSystems({ trackedSystems, setTrackedSystems, onSy
 
   return (
     <div className="mt-0 p-4 bg-gradient-to-r from-[#06091F] to-[#161A31] border border-[rgba(105,113,162,0.16)] rounded-lg shadow-md">
-      <h2 className="text-xl font-bold text-slate-300">Системы</h2>
+      <h2 className="text-xl font-bold text-slate-300">Системы слежения</h2>
       <div className="mt-2 space-y-2">
         {trackedSystems.length > 0 ? (
           trackedSystems.map((system, index) => (

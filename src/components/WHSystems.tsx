@@ -441,9 +441,9 @@ export default function WHSystems() {
                   {/* Кнопка "Отследить" */}
                   <button
                     onClick={() => addTrackedSystem(system)}
-                    className="mt-4 inline-flex gap-2 justify-center items-center px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform hover:scale-105 hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
+                    className="mt-4 mx-auto w-full inline-flex gap-2 justify-center items-center px-3 py-2 text-sm font-medium tracking-tight leading-tight text-white rounded-[10px] border border-[rgba(105,113,162,0.4)] bg-gradient-to-r from-[#161A31] to-[#06091F] transition-all duration-300 ease-in-out transform  hover:bg-gradient-to-r hover:from-[#06091F] hover:to-[#161A31] shadow-md hover:shadow-lg"
                   >
-                    Отследить
+                    Отследить систему
                   </button>
                 </div>
               );
