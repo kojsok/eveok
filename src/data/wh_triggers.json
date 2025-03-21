@@ -137,6 +137,142 @@
 
 
 
+  {
+    "Name": "Perimeter Checkpoint",
+    "Triggers": {
+      "wave1": {
+        "Name": " Awakened Patroller   ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave2": {
+        "Name": "Awakened Patroller  ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      }
+    }
+  },
+  {
+    "Name": "Perimeter Hangar",
+    "Triggers": {
+      "wave1": {
+        "Name": " Awakened Patroller   ",
+        "Type": " Cruiser",
+        "Distance": "15 km"
+      },
+      "wave2": {
+        "Name": "wakened Escort ",
+        "Type": "Cruiser",
+        "Distance": "45 km"
+      }
+    }
+  },
+  {
+    "Name": "The Ruins of Enclave Cohort 27",
+    "Triggers": {
+      "wave1": {
+        "Name": " Emergent Patroller  ",
+        "Type": "Frigate",
+        "Distance": "8 km"
+      },
+      "wave2": {
+        "Name": "Awakened Patroller ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      }
+    }
+  },
+  {
+    "Name": "Sleeper Data Sanctuary",
+    "Triggers": {
+      "wave1": {
+        "Name": "Awakened Escort  ",
+        "Type": "Cruiser",
+        "Distance": "45 km"
+      },
+      "wave2": {
+        "Name": "  Sleepless Escort   ",
+        "Type": "Battleship",
+        "Distance": "55 km"
+      },
+      "wave3": {
+        "Name": "  Sleepless Escort   ",
+        "Type": "Battleship",
+        "Distance": "55 km"
+      }
+    }
+  },
+  {
+    "Name": "Forgotten Perimeter Gateway",
+    "Triggers": {
+      "wave1": {
+        "Name": "Awakened Watchman ",
+        "Type": "Cruiser",
+        "Distance": "30 km"
+      },
+      "wave2": {
+        "Name": "   Emergent Watchman  ",
+        "Type": "Frigate",
+        "Distance": "5 km"
+      }
+    }
+  },
+  {
+    "Name": "Forgotten Perimeter Habitation Coils",
+    "Triggers": {
+      "wave1": {
+        "Name": "Emergent Escort  ",
+        "Type": "Frigate",
+        "Distance": "5 km"
+      },
+      "wave2": {
+        "Name": " Awakened Patroller   ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave3": {
+        "Name": "  Sleepless Patroller  ",
+        "Type": "Battleship",
+        "Distance": "19 km"
+      }
+    }
+  },
+  {
+    "Name": "Unsecured Perimeter Comms Relay",
+    "Triggers": {
+      "wave1": {
+        "Name": " Awakened Watchman ",
+        "Type": "Cruiser",
+        "Distance": "30 km"
+      },
+      "wave2": {
+        "Name": "Sleepless Patroller",
+        "Type": "Battleship",
+        "Distance": "19 km"
+      }
+    }
+  },
+  {
+    "Name": "Unsecured Perimeter Transponder Farm",
+    "Triggers": {
+      "wave1": {
+        "Name": "Emergent Escort  ",
+        "Type": "Frigate",
+        "Distance": "5 km"
+      },
+      "wave2": {
+        "Name": " Awakened Patroller    ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      },
+      "wave3": {
+        "Name": " Will be 4 waves, no info about trigger in 3 one ",
+        "Type": "Cruiser",
+        "Distance": "15 km"
+      }
+    }
+  },
+
 
   {
     "Name": "Fortification Frontier Stronghold",
