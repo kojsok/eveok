@@ -1,6 +1,12 @@
 "use client";
 
 import { Trash2 } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 interface TrackedSystem {
   system: string;
@@ -49,7 +55,12 @@ export default function TrackedSystems({ trackedSystems, setTrackedSystems, onSy
 
   return (
     <div className="mt-0 p-4 bg-gradient-to-r from-[#06091F] to-[#161A31] border border-[rgba(105,113,162,0.16)] rounded-lg shadow-md">
-      <h2 className="text-xl font-bold text-slate-300">Системы слежения</h2>
+      
+      <Accordion type="multiple" defaultValue={["item-1"]} className="w-full border-b-0 pb-0 py-0">
+        <AccordionItem value="item-1" className="border-b-0 pb-0 py-0">
+          <AccordionTrigger className="flex py-1 justify-between items-center text-green-400 font-medium text-sm hover:no-underline">Системы слежения</AccordionTrigger>
+          <AccordionContent>
+          {/* <h2 className="text-xl font-bold text-slate-300">Системы слежения</h2> */}
       <div className="mt-2 space-y-2">
         {trackedSystems.length > 0 ? (
           trackedSystems.map((system, index) => (
@@ -107,6 +118,12 @@ export default function TrackedSystems({ trackedSystems, setTrackedSystems, onSy
           <p className="text-slate-500">Нет отслеживаемых систем</p>
         )}
       </div>
+          </AccordionContent>
+        </AccordionItem>
+      </Accordion>
+      
+      
+     
     </div>
   );
 }

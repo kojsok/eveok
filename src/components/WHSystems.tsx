@@ -203,18 +203,54 @@ export default function WHSystems() {
     }
   };
 
+  // const handleSearch = async () => {
+  //   // Очистка строки от пробелов и проверка на пустую строку
+  //   const trimmedQuery = query.trim();
+  //   if (!trimmedQuery) {
+  //     setError("Система не найдена. Введите название системы в формате JXXXXXX или сообщите нам об ошибке.");
+  //     setSystems([]);
+  //     return;
+  //   }
+
+  //   setLoading(true);
+  //   setError(null);
+
+  //   try {
+  //     const response = await fetch(`/api/wh-systems?query=${encodeURIComponent(trimmedQuery.toLowerCase())}`);
+  //     if (!response.ok) {
+  //       throw new Error("Failed to fetch data");
+  //     }
+  //     const data: WormholeSystem[] = await response.json();
+  //     if (data.length === 0) {
+  //       setError("Система не найдена.");
+  //     } else {
+  //       setSystems(data);
+  //       setError(null);
+  //     }
+  //   } catch (error) {
+  //     console.error("Error fetching systems:", error);
+  //     setError("Произошла ошибка при поиске.");
+  //   } finally {
+  //     setLoading(false);
+  //   }
+  // };
+
+  // Функция для очистки данных
+  
   const handleSearch = async () => {
-    // Очистка строки от пробелов и проверка на пустую строку
-    const trimmedQuery = query.trim();
+    // Удаляем символ '*' из строки запроса
+    const trimmedQuery = query.replace(/\*/g, '').trim(); // Убираем '*' и лишние пробелы
+  
+    // Проверка на пустую строку
     if (!trimmedQuery) {
       setError("Система не найдена. Введите название системы в формате JXXXXXX или сообщите нам об ошибке.");
       setSystems([]);
       return;
     }
-
+  
     setLoading(true);
     setError(null);
-
+  
     try {
       const response = await fetch(`/api/wh-systems?query=${encodeURIComponent(trimmedQuery.toLowerCase())}`);
       if (!response.ok) {
@@ -235,7 +271,6 @@ export default function WHSystems() {
     }
   };
 
-  // Функция для очистки данных
   const handleClear = () => {
     setQuery(""); // Очищаем поле ввода
     setSystems([]); // Удаляем найденные системы
@@ -275,6 +310,12 @@ export default function WHSystems() {
           type="text"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
+          // добавляем ввод по ентер
+          onKeyDown={(e) => {
+            if (e.key === 'Enter') {
+              handleSearch();
+            }
+          }}
           placeholder="Enter system name..."
           className="w-full p-2 border rounded-md focus:outline-none focus:ring-1 focus:ring-blue-500 bg-slate-800 text-slate-300"
         />
