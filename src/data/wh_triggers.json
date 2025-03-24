@@ -540,5 +540,149 @@
           "Distance": "55 km"
         }
       }
+    },
+
+
+
+
+    {
+      "Name": "Core Garrison",
+      "Triggers": {
+        "wave1": {
+          "Name": "Awakened Sentinel",
+          "Type": "Cruiser",
+          "Distance": "15 km"
+        },
+        "wave2": {
+          "Name": " Emergent Keeper ",
+          "Type": "Frigate",
+          "Distance": "5 km"
+        },
+        "wave3": {
+          "Name": "  Sleepless Sentinel  ",
+          "Type": "Battleship",
+          "Distance": "19 km"
+        }
+      }
+    },
+    {
+      "Name": "Core Stronghold",
+      "Triggers": {
+        "wave1": {
+          "Name": " Emergent Sentinel",
+          "Type": " Frigate",
+          "Distance": "6 km"
+        },
+        "wave2": {
+          "Name": " Sleepless Warden   ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave3": {
+          "Name": " Awakened Sentinel    ",
+          "Type": "Cruiser",
+          "Distance": "15 km"
+        }
+      }
+    },
+    {
+      "Name": "Oruze Osobnyk",
+      "Triggers": {
+        "wave1": {
+          "Name": "  Sleepless Sentinel   ",
+          "Type": "Battleship",
+          "Distance": "19 km"
+        },
+        "wave2": {
+          "Name": " Sleepless Guardian  ",
+          "Type": "Battleship",
+          "Distance": "35 km"
+        }
+      }
+    },
+    {
+      "Name": "Quarantine Area",
+      "Triggers": {
+        "wave1": {
+          "Name": "No triggers  ",
+          "Type": "Cruiser",
+          "Distance": "00 km"
+        }
+      }
+    },
+    {
+      "Name": "Forgotten Core Data Field",
+      "Triggers": {
+        "wave1": {
+          "Name": "Awakened Keeper   ",
+          "Type": "Cruiser",
+          "Distance": "30 km"
+        },
+        "wave2": {
+          "Name": "    Awakened Keeper  ",
+          "Type": "Cruiser",
+          "Distance": "30 km"
+        },
+        "wave3": {
+          "Name": " Sleepless Keeper ",
+          "Type": "Battleship",
+          "Distance": "65 km"
+        }
+      }
+    },
+    {
+      "Name": "Forgotten Core Information Pen",
+      "Triggers": {
+        "wave1": {
+          "Name": " Sleepless Keeper",
+          "Type": "Battleship",
+          "Distance": "65 km"
+        },
+        "wave3": {
+          "Name": " Awakened Warden   ",
+          "Type": "Cruiser",
+          "Distance": "45 km"
+        }
+      }
+    },
+    {
+      "Name": "Unsecured Frontier Enclave Relay",
+      "Triggers": {
+        "wave1": {
+          "Name": "Sleepless Keeper ",
+          "Type": "Battleship",
+          "Distance": "65 km"
+        },
+        "wave2": {
+          "Name": "Sleepless Keeper ",
+          "Type": "Battleship",
+          "Distance": "65 km"
+        },
+        "wave3": {
+          "Name": "Sleepless Keeper ",
+          "Type": "Battleship",
+          "Distance": "65 km"
+        }
+      }
+    },
+    {
+      "Name": "Unsecured Frontier Server Bank",
+      "Triggers": {
+        "wave1": {
+          "Name": "Awakened Keeper  ",
+          "Type": "Cruiser",
+          "Distance": "30 km"
+        },
+        "wave2": {
+          "Name": "Awakened Keeper  ",
+          "Type": "Cruiser",
+          "Distance": "30 km"
+        },
+        "wave3": {
+          "Name": "Sleepless Keeper  ",
+          "Type": "Buttleship",
+          "Distance": "65 km"
+        }
+      }
     }
   ]
