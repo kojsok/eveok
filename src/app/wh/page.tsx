@@ -8,6 +8,9 @@ export const metadata: Metadata = {
   description:
     "Полная информация о червоточинах (wormholes) в EVE Online. Изучайте их характеристики, классы, сигнатуры и безопасность. Удобный инструмент для исследования галактики New Eden.",
     keywords: [
+      "eveok wh",
+      "whdb",
+      "eve whdb",
       "EVE Online wormholes",
       "червоточины EVE Online",
       "wormhole classes",
@@ -149,7 +152,7 @@ export const metadata: Metadata = {
   },
 };
 
-export default function Price() {
+export default function WormholePage() {
   return (
     <div className="flex flex-col min-h-screen bg-slate-950">
       {/* Ограниченная ширина контейнера */}
