@@ -26,7 +26,11 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://eveok.ru"), // Укажите ваш домен
-  title: "EVEOK - Главная | Исследуй безграничную галактику EVE Online",
+  // title: "EVEOK - Главная | Исследуй безграничную галактику EVE Online",
+  title: {
+    template: "%s | EVEOK",
+    default: "EVEOK - Главная | Исследуй безграничную галактику EVE Online",
+  },
   description:
     "Погрузись в мир EVE Online — исследуй безграничную галактику возможностей. Добро пожаловать в уникальную вселенную, где каждое решение определяет твою судьбу. Инструменты и утилиты для эффективного изучения EVE Online.",
   keywords: [

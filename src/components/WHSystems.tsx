@@ -36,6 +36,7 @@ interface WormholeSystem {
 interface Anomaly {
   name: string;
   value: string;
+  price: string;
 }
 
 interface AnomalyGroup {
@@ -437,10 +438,15 @@ export default function WHSystems() {
                                         className="border-b-0 pb-0 py-0"
                                       >
                                         <AccordionTrigger className="flex py-1 justify-between items-center text-green-400 font-medium text-sm hover:no-underline">
-                                          <span>{anomaly.name}</span>
-                                          <span className="text-red-500 font-bold ml-auto pr-6">
-                                            {anomaly.value}
-                                          </span>
+                                          <span>{anomaly.name}</span> {/* Остается слева */}
+                                          <div className="flex ml-auto"> {/* Прижимаем этот блок к правому краю */}
+                                            <span className="text-cyan-500 font-bold pr-2">
+                                              {anomaly.price}
+                                            </span>
+                                            <span className="text-red-500 font-bold pr-0">
+                                              {anomaly.value}
+                                            </span>
+                                          </div>
                                         </AccordionTrigger>
                                         <AccordionContent className="pl-6 space-y-1">
                                           <span className="text-yellow-300 text-sm">NPC триггеры следующей волны:</span>

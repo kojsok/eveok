@@ -3,39 +3,47 @@
     "war": [
       {
         "name": "Perimeter Ambush Point",
-        "value": "188 dps"
+        "value": "188 dps",
+        "price": "8.600.000 ISK"
       },
       {
         "name": "Perimeter Camp",
-        "value": "204 dps"
+        "value": "204 dps",
+        "price": "10.400.000 ISK"
       },
       {
         "name": "Phase Catalyst Node",
-        "value": "312 dps"
+        "value": "312 dps",
+        "price": "9.000.000 ISK"
       },
       {
         "name": "The Line",
-        "value": "152 dps"
+        "value": "152 dps",
+        "price": "12.000.000 ISK"
       }
     ],
     "relic": [
       {
         "name": "Forgotten Perimeter Coronation Platform",
-        "value": "224 dps"
+        "value": "224 dps",
+        "price": "12.800.000 ISK"
       },
       {
         "name": "Forgotten Perimeter Power Array",
-        "value": "168 dps"
+        "value": "168 dps",
+        "price": "9.200.000 ISK"
       }
     ],
     "data": [
       {
         "name": "Unsecured Perimeter Amplifier",
-        "value": "204 dps"
+        "value": "204 dps",
+        "price": "10.200.000 ISK"
       },
       {
         "name": "Unsecured Perimeter Information Center",
-        "value": "206 dps"
+        "value": "206 dps",
+        "price": "11.800.000 ISK"
       }
     ]
   },
@@ -43,39 +51,47 @@
     "war": [
       {
         "name": "Perimeter Checkpoint",
-        "value": "266 dps"
+        "value": "266 dps",
+        "price": "12.500.000 ISK"
       },
       {
         "name": "Perimeter Hangar",
-        "value": "414 dps"
+        "value": "414 dps",
+        "price": "15.600.000 ISK"
       },
       {
         "name": "The Ruins of Enclave Cohort 27",
-        "value": "338 dps"
+        "value": "338 dps",
+        "price": "6.300.000 ISK"
       },
       {
         "name": "Sleeper Data Sanctuary",
-        "value": "344 dps"
+        "value": "344 dps",
+        "price": "15.900.000 ISK"
       }
     ],
     "relic": [
       {
         "name": "Forgotten Perimeter Gateway",
-        "value": "560 dps"
+        "value": "560 dps",
+        "price": "19.100.000 ISK"
       },
       {
         "name": "Forgotten Perimeter Habitation Coils",
-        "value": "526 dps"
+        "value": "526 dps",
+        "price": "25.400.000 ISK"
       }
     ],
     "data": [
       {
         "name": "Unsecured Perimeter Comms Relay",
-        "value": "524 dps"
+        "value": "524 dps",
+        "price": "20.200.000 ISK"
       },
       {
         "name": "Unsecured Perimeter Transponder Farm",
-        "value": "458 dps"
+        "value": "458 dps",
+        "price": "26.700.000 ISK"
       }
     ]
   },
@@ -83,39 +99,47 @@
     "war": [
       {
         "name": "Fortification Frontier Stronghold",
-        "value": "660 dps"
+        "value": "660 dps",
+        "price": "41.100.000 ISK"
       },
       {
         "name": "Outpost Frontier Stronghold",
-        "value": "740 dps"
+        "value": "740 dps",
+        "price": "45.100.000 ISK"
       },
       {
         "name": "Solar Cell",
-        "value": "690 dps"
+        "value": "690 dps",
+        "price": "52.300.000 ISK"
       },
       {
         "name": "The Oruze Construct",
-        "value": "582 dps"
+        "value": "582 dps",
+        "price": "44.500.000 ISK"
       }
     ],
     "relic": [
       {
         "name": "Forgotten Frontier Quarantine Outpost",
-        "value": "608 dps"
+        "value": "608 dps",
+        "price": "76.500.000 ISK"
       },
       {
         "name": "Forgotten Frontier Recursive Depot",
-        "value": "1396 dps"
+        "value": "1396 dps",
+        "price": "92.500.000 ISK"
       }
     ],
     "data": [
       {
         "name": "Unsecured Frontier Database",
-        "value": "1050 dps"
+        "value": "1050 dps",
+        "price": "88.400.000 ISK"
       },
       {
         "name": "Unsecured Frontier Receiver",
-        "value": "608 dps"
+        "value": "608 dps",
+        "price": "75.100.000 ISK"
       }
     ]
   },
@@ -123,39 +147,47 @@
     "war": [
       {
         "name": "Frontier Barracks",
-        "value": "1442 dps"
+        "value": "1442 dps",
+        "price": "86.700.000 ISK"
       },
       {
         "name": "Frontier Command Post",
-        "value": "1052 dps"
+        "value": "1052 dps",
+        "price": "92.300.000 ISK"
       },
       {
         "name": "Integrated Terminus",
-        "value": "614 dps"
+        "value": "614 dps",
+        "price": "56.800.000 ISK"
       },
       {
         "name": "Sleeper Information Sanctum",
-        "value": "1448 dps"
+        "value": "1448 dps",
+        "price": "86.100.000 ISK"
       }
     ],
     "relic": [
       {
         "name": "Forgotten Frontier Conversion Module",
-        "value": "1928 dps"
+        "value": "1928 dps",
+        "price": "134.100.000 ISK"
       },
       {
         "name": "Forgotten Frontier Evacuation Center",
-        "value": "1156 dps"
+        "value": "1156 dps",
+        "price": "82.300.000 ISK"
       }
     ],
     "data": [
       {
         "name": "Unsecured Frontier Digital Nexus",
-        "value": "1928 dps"
+        "value": "1928 dps",
+        "price": "117.700.000 ISK"
       },
       {
         "name": "Unsecured Frontier Trinary Hub",
-        "value": "1156 dps"
+        "value": "1156 dps",
+        "price": "82.300.000 ISK"
       }
     ]
   },
@@ -163,39 +195,47 @@
     "war": [
       {
         "name": "Core Garrison",
-        "value": "1758 dps"
+        "value": "1758 dps",
+        "price": "253.400.000 ISK"
       },
       {
         "name": "Core Stronghold",
-        "value": "2476 dps"
+        "value": "2476 dps",
+        "price": "234.900.000 ISK"
       },
       {
         "name": "Oruze Osobnyk",
-        "value": "1914 dps"
+        "value": "1914 dps",
+        "price": "164.700.000 ISK"
       },
       {
         "name": "Quarantine Area",
-        "value": "1554 dps"
+        "value": "1554 dps",
+        "price": "146.900.000 ISK"
       }
     ],
     "relic": [
       {
         "name": "Forgotten Core Data Field",
-        "value": "2134 dps"
+        "value": "2134 dps",
+        "price": "276.200.000 ISK"
       },
       {
         "name": "Forgotten Core Information Pen",
-        "value": "3134 dps"
+        "value": "3134 dps",
+        "price": "348.800.000 ISK"
       }
     ],
     "data": [
       {
         "name": "Unsecured Frontier Enclave Relay",
-        "value": "2060 dps"
+        "value": "2060 dps",
+        "price": "314.000.000 ISK"
       },
       {
         "name": "Unsecured Frontier Server Bank",
-        "value": "2158 dps"
+        "value": "2158 dps",
+        "price": "272.100.000 ISK"
       }
     ]
   },
@@ -203,39 +243,47 @@
     "war": [
       {
         "name": "Core Citadel",
-        "value": "2826 dps"
+        "value": "2826 dps",
+        "price": "310.100.000 ISK"
       },
       {
         "name": "Core Bastion",
-        "value": "3214 dps"
+        "value": "3214 dps",
+        "price": "445.600.000 ISK"
       },
       {
         "name": "Strange Energy Readings",
-        "value": "3286 dps"
+        "value": "3286 dps",
+        "price": "291.800.000 ISK"
       },
       {
         "name": "The Mirror",
-        "value": "3146 dps"
+        "value": "3146 dps",
+        "price": "363.200.000 ISK"
       }
     ],
     "relic": [
       {
         "name": "Forgotten Core Assembly Hall",
-        "value": "5212 dps"
+        "value": "5212 dps",
+        "price": "642.500.000 ISK"
       },
       {
         "name": "Forgotten Core Circuitry Disassembler",
-        "value": "5554 dps"
+        "value": "5554 dps",
+        "price": "657.600.000 ISK"
       }
     ],
     "data": [
       {
         "name": "Unsecured Core Backup Array",
-        "value": "4604 dps"
+        "value": "4604 dps",
+        "price": "688.300.000 ISK"
       },
       {
         "name": "Unsecured Core Emergence",
-        "value": "4648 dps"
+        "value": "4648 dps",
+        "price": "606.200.000 ISK"
       }
     ]
   },
@@ -243,43 +291,53 @@
     "ore": [
       {
         "name": "Average Frontier Deposit",
-        "value": "94 dps"
+        "value": "94 dps",
+        "price": "2.200.000 ISK"
       },
       {
         "name": "Common Perimeter Deposit",
-        "value": "90 dps"
+        "value": "90 dps",
+        "price": "2.000.000 ISK"
       },
       {
         "name": "Exceptional Core Deposit",
-        "value": "412 dps"
+        "value": "412 dps",
+        "price": "15.900.000 ISK"
       },
       {
         "name": "Infrequent Core Deposit",
-        "value": "112 dps"
+        "value": "112 dps",
+        "price": "5.800.000 ISK"
       },
       {
         "name": "Isolated Core Deposit",
-        "value": "66 dps"
+        "value": "66 dps",
+        "price": "1.800.000 ISK"
       },
       {
         "name": "Ordinary Perimeter Deposit",
-        "value": "90 dps"
+        "value": "90 dps",
+        "price": "2.000.000 ISK"
       },
       {
         "name": "Rarified Core Deposit",
-        "value": "556 dps"
+        "value": "556 dps",
+        "price": "27.500.000 ISK"
       },
       {
         "name": "Unusual Core Deposit",
-        "value": "80 dps"
+        "value": "80 dps",
+        "price": "2.000.000 ISK"
       },
       {
         "name": "Uncommon Core Deposit",
-        "value": "28 dps"
+        "value": "28 dps",
+        "price": "800.000 ISK"
       },
       {
         "name": "Unexceptional Frontier Deposit",
-        "value": "88 dps"
+        "value": "88 dps",
+        "price": "2.000.000 ISK"
       }
     ]
   },
@@ -287,39 +345,48 @@
     "gas": [
       {
         "name": "Barren Perimeter Reservoir",
-        "value": "164 dps"
+        "value": "164 dps",
+        "price": "65.617.000 ISK"
       },
       {
         "name": "Bountiful Frontier Reservoir",
-        "value": "416 dps"
+        "value": "416 dps",
+        "price": "295.140.000 ISK"
       },
       {
         "name": "Instrumental Core Reservoir",
-        "value": "1648 dps"
+        "value": "1648 dps",
+        "price": "742.610.000 ISK"
       },
       {
         "name": "Minor Perimeter Reservoir",
-        "value": "160 dps"
+        "value": "160 dps",
+        "price": "80.680.000 ISK"
       },
       {
         "name": "Ordinary Perimeter Reservoir",
-        "value": "260 dps"
+        "value": "260 dps",
+        "price": "188.280.000 ISK"
       },
       {
         "name": "Sizeable Perimeter Reservoir",
-        "value": "192 dps"
+        "value": "192 dps",
+        "price": "285.891.000 ISK"
       },
       {
         "name": "Token Perimeter Reservoir",
-        "value": "156 dps"
+        "value": "156 dps",
+        "price": "57.990.000 ISK"
       },
       {
         "name": "Vast Frontier Reservoir",
-        "value": "392 dps"
+        "value": "392 dps",
+        "price": "358.660.000 ISK"
       },
       {
         "name": "Vital Core Reservoir",
-        "value": "2296 dps"
+        "value": "2296 dps",
+        "price": "1.004.280.000 ISK"
       }
     ]
   },
@@ -327,19 +394,23 @@
     "war": [
       {
         "name": "Epicenter",
-        "value": "104 dps"
+        "value": "104 dps",
+        "price": "5.700.000 ISK"
       },
       {
         "name": "Expedition Command Outpost Wreck",
-        "value": "104 dps"
+        "value": "104 dps",
+        "price": "5.700.000 ISK"
       },
       {
         "name": "Planetary Colonization Office Wreck",
-        "value": "104 dps"
+        "value": "104 dps",
+        "price": "5.700.000 ISK"
       },
       {
         "name": "Testing Facilities",
-        "value": "104 dps"
+        "value": "104 dps",
+        "price": "5.700.000 ISK"
       }
     ]
   }
