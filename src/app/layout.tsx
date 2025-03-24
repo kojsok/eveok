@@ -6,6 +6,7 @@ import Navigation from "@/components/Navigation";
 import IntellectualPropertyNotice from "@/components/IntellectualPropertyNotice";
 import Promo from "@/components/Promo";
 import DonationPanel from "@/components/DonationPanel";
+import GoogleAnalytics from "@/components/GoogleAnalytics";
 
 
 
@@ -200,6 +201,7 @@ export default function RootLayout({ children, }: Readonly<{ children: React.Rea
 
                   <Promo />
                   <IntellectualPropertyNotice />
+                  <GoogleAnalytics />
                   {/* <span>&copy; 2023 Your Company</span> */}
                 </div>
               </footer>
