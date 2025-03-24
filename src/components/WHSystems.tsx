@@ -58,8 +58,9 @@ interface TriggerWave {
 interface Trigger {
   Name: string;
   Triggers: {
-    wave1: TriggerWave;
-    wave2: TriggerWave;
+    wave1?: TriggerWave;
+    wave2?: TriggerWave;
+    wave3?: TriggerWave;
   };
 }
 

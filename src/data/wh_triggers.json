@@ -546,8 +546,7 @@
 
 
     {
-      "Name": "Core Garrison",
-      "Triggers": {
+      "Name": "Core Garrison", "Triggers": {
         "wave1": {
           "Name": "Awakened Sentinel",
           "Type": "Cruiser",
