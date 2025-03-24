@@ -679,8 +679,156 @@
         },
         "wave3": {
           "Name": "Sleepless Keeper  ",
-          "Type": "Buttleship",
+          "Type": "Battleship",
           "Distance": "65 km"
+        }
+      }
+    },
+
+
+
+    {
+      "Name": "Core Citadel",
+      "Triggers": {
+        "wave1": {
+          "Name": "Sleepless Warden ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave2": {
+          "Name": " Sleepless Warden ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave3": {
+          "Name": " Sleepless Warden ",
+          "Type": "Battleship",
+          "Distance": "65 km"
+        }
+      }
+    },
+    {
+      "Name": "Core Bastion",
+      "Triggers": {
+        "wave1": {
+          "Name": " Emergent Keeper ",
+          "Type": " Frigate",
+          "Distance": "5 km"
+        },
+        "wave2": {
+          "Name": "Awakened Warden ",
+          "Type": "Cruiser",
+          "Distance": "45 km"
+        },
+        "wave3": {
+          "Name": "Sleepless Guardian ",
+          "Type": "Battleship",
+          "Distance": "35 km"
+        }
+      }
+    },
+    {
+      "Name": "Strange Energy Readings",
+      "Triggers": {
+        "wave1": {
+          "Name": " Awakened Warden",
+          "Type": "Cruiser",
+          "Distance": "45 km"
+        },
+        "wave2": {
+          "Name": "Sleepless Guardian ",
+          "Type": "Battleship",
+          "Distance": "35 km"
+        }
+      }
+    },
+    {
+      "Name": "The Mirror",
+      "Triggers": {
+        "wave1": {
+          "Name": " Sleepless Warden ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave2": {
+          "Name": "Sleepless Guardian ",
+          "Type": "Battleship",
+          "Distance": "35 km"
+        }
+      }
+    },
+    {
+      "Name": "Forgotten Core Assembly Hall",
+      "Triggers": {
+        "wave1": {
+          "Name": " Sleepless Warden ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave2": {
+          "Name": "Sleepless Warden ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave3": {
+          "Name": "Sleepless Warden ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        }
+      }
+    },
+    {
+      "Name": "Forgotten Core Circuitry Disassembler",
+      "Triggers": {
+        "wave1": {
+          "Name": " Emergent Warden",
+          "Type": "Frigate",
+          "Distance": "5 km"
+        },
+        "wave3": {
+          "Name": " Sleepless Guardian ",
+          "Type": "Battleship",
+          "Distance": "35 km"
+        }
+      }
+    },
+    {
+      "Name": "Unsecured Core Backup Array",
+      "Triggers": {
+        "wave1": {
+          "Name": "Sleepless Warden  ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave2": {
+          "Name": " Sleepless Warden   ",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        },
+        "wave3": {
+          "Name": "Sleepless Warden",
+          "Type": "Battleship",
+          "Distance": "55 km"
+        }
+      }
+    },
+    {
+      "Name": "Unsecured Core Emergence",
+      "Triggers": {
+        "wave1": {
+          "Name": "Emergent Warden  ",
+          "Type": "Frigate",
+          "Distance": "5 km"
+        },
+        "wave2": {
+          "Name": " Awakened Warden ",
+          "Type": "Cruiser",
+          "Distance": "45 km"
+        },
+        "wave3": {
+          "Name": "Sleepless Guardian ",
+          "Type": "Battleship",
+          "Distance": "35 km"
         }
       }
     }

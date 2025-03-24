@@ -205,39 +205,6 @@ export default function WHSystems() {
     }
   };
 
-  // const handleSearch = async () => {
-  //   // Очистка строки от пробелов и проверка на пустую строку
-  //   const trimmedQuery = query.trim();
-  //   if (!trimmedQuery) {
-  //     setError("Система не найдена. Введите название системы в формате JXXXXXX или сообщите нам об ошибке.");
-  //     setSystems([]);
-  //     return;
-  //   }
-
-  //   setLoading(true);
-  //   setError(null);
-
-  //   try {
-  //     const response = await fetch(`/api/wh-systems?query=${encodeURIComponent(trimmedQuery.toLowerCase())}`);
-  //     if (!response.ok) {
-  //       throw new Error("Failed to fetch data");
-  //     }
-  //     const data: WormholeSystem[] = await response.json();
-  //     if (data.length === 0) {
-  //       setError("Система не найдена.");
-  //     } else {
-  //       setSystems(data);
-  //       setError(null);
-  //     }
-  //   } catch (error) {
-  //     console.error("Error fetching systems:", error);
-  //     setError("Произошла ошибка при поиске.");
-  //   } finally {
-  //     setLoading(false);
-  //   }
-  // };
-
-  // Функция для очистки данных
   
   const handleSearch = async () => {
     // Удаляем символ '*' из строки запроса
@@ -342,7 +309,7 @@ export default function WHSystems() {
       {error && <p className="text-center text-red-500">{error}</p>}
       <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] gap-4">
         
-        {/* Правая колонка: Основной контент */}
+        {/* Левая колонка: Основной контент */}
         <div>
           {systems.length > 0 ? (
             systems.map((system) => {
@@ -365,7 +332,7 @@ export default function WHSystems() {
                 >
                   <div className="flex flex-col sm:flex-row gap-4">
                     {/* Левая колонка: информация о системе */}
-                    <div className="flex-1 space-y-2">
+                    <div className="flex-[2] space-y-2">
                       <h2 className="text-slate-300 text-xl font-semibold">Характеристики системы: {system.system}</h2>
                       <p className="text-slate-300 text-sm">
                         <strong>Класс ВХ:</strong>{" "}
@@ -403,7 +370,7 @@ export default function WHSystems() {
                       </p>
                     </div>
                     {/* Средняя колонка: аномалии и триггеры */}
-                    <div className="flex-1 space-y-4">
+                    <div className="flex-[3] space-y-4">
                       {anomalies ? (
                         Object.entries(anomalies).map(([type, entries], typeIndex) => {
                           const typeLabel =
@@ -501,7 +468,7 @@ export default function WHSystems() {
           )}
         </div>
 
-        {/* Левая колонка: TrackedSystems */}
+        {/* Правая колонка: TrackedSystems */}
         <div className="hidden md:block">
           <TrackedSystems
             trackedSystems={trackedSystems}
