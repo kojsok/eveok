@@ -19,7 +19,7 @@ const Promo: React.FC = () => {
                         alt="EVE Online Logo"
                         width={180}
                         height={80}
-                        className="mb-6"
+                        // className="mb-6 w-full h-auto" // или "w-auto h-full" в зависимости от потребностей
                     />
                     <h3 className="text-2xl font-bold mt-2 mb-2 leading-tight text-indigo-100 max-md:text-xl max-sm:text-lg max-sm:leading-7">Присоединяйтесь к нам в <span className="text-violet-300">EVE Online</span>!</h3>
                     <p className="text-base text-center mb-2">
