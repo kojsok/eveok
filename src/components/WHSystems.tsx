@@ -14,7 +14,8 @@ import { Trash2 } from "lucide-react"; // Импортируем иконку "X
 import TrackedSystems from "./TrackedSystemsWH";
 import KilledShips from './KilledShips';
 import { Swords } from "lucide-react"; // Иконка мечей для убийств
-import { Eye, EyeOff } from "lucide-react"; // Иконка глаза
+import { Eye, EyeOff,  Globe, ShieldAlert, Route, Zap, Globe2, Moon, Sun } from "lucide-react"; // Иконка глаза
+
 
 
 
@@ -318,7 +319,7 @@ const handleSystemClick = async (systemName: string) => {
         </div>
       </div>
       {error && <p className="text-center text-red-500">{error}</p>}
-      <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] gap-4">
+      <div className="grid grid-cols-1 md:grid-cols-[4fr_1fr] gap-2">
         
         {/* Левая колонка: Основной контент */}
         <div>
@@ -329,12 +330,12 @@ const handleSystemClick = async (systemName: string) => {
               const classColor = getColorForCategory(`c${Math.abs(system.class)}`);
               const classLabel =
                 system.class === 13
-                  ? `C-13 (фриг ВХ)`
+                  ? `C13 (фриг ВХ)`
                   : [14, 15, 16, 17, 18].includes(system.class)
-                    ? `C-${system.class} (дрифтерская будьте предельно аккуратны)`
+                    ? `C${system.class} (дрифтерская будьте предельно аккуратны)`
                     : system.class > 0
-                      ? `C-${system.class}`
-                      : `C-${Math.abs(system.class)} (разлом)`;
+                      ? `C${system.class}`
+                      : `C${Math.abs(system.class)} (разлом)`;
               const anomalies = getAnomaliesForClass(`${Math.abs(system.class)}`);
               return (
                 <div
@@ -343,41 +344,58 @@ const handleSystemClick = async (systemName: string) => {
                 >
                   <div className="flex flex-col sm:flex-row gap-4">
                     {/* Левая колонка: информация о системе */}
+                    
+
+                    {/* Левая колонка: информация о системе */}
                     <div className="flex-[2] space-y-2">
-                      <h2 className="text-slate-300 text-xl font-semibold">Характеристики системы: {system.system}</h2>
-                      <p className="text-slate-300 text-sm">
+                      <p className="text-slate-300 text-sm flex items-center">
+                        <Globe size={16} className="mr-2 text-blue-400" />
+                        <strong>Cистема (червоточина): </strong>{" "} 
+                        <span className="text-red-600 text-xl font-semibold pl-2">{system.system}</span>
+                      </p>
+                      
+                      <p className="text-slate-300 text-sm flex items-center">
+                        <ShieldAlert size={16} className="mr-2 text-amber-400" />
                         <strong>Класс ВХ:</strong>{" "}
-                        <span className={`${classColor} font-bold`}>{classLabel}</span>
+                        <span className={`${classColor} text-xl font-bold ml-1`}>{classLabel}</span>
                       </p>
-                      <p className="text-slate-300 text-sm">
+                      
+                      <p className="text-slate-300 text-sm flex items-center">
+                        <Route size={16} className="mr-2 text-purple-400" />
                         <strong>Система имеет статик в:</strong>{" "}
-                        {staticsInfo.map((info, index) => (
-                          <span
-                            key={index}
-                            className={`mr-2 ${info.color}`}
-                            style={{ color: info.color.replace("text-", "#") }}
-                          >
-                            {`${staticsArray[index]} (${info.category})`}
-                          </span>
-                        ))}
+                        <span className="flex items-center ml-1">
+                          {staticsInfo.map((info, index) => (
+                            <span
+                              key={index}
+                              className={`mr-2 ${info.color} flex items-center `}
+                              style={{ color: info.color.replace("text-", "#") }}
+                            >
+                              {/* <ArrowRightCircle size={14} className="mr-1" /> */}
+                              {/* {`${info.category.toLocaleUpperCase()} (${staticsArray[index]}) `} */}
+                              {`${info.category.toLocaleUpperCase()}`}
+                            </span>
+                          ))}
+                        </span>
                       </p>
-                      <p className="text-slate-300 text-sm">
-                        <strong>Эффект:</strong> {system.effect || "нет эффекта"}
+                      
+                      <p className="text-slate-300 text-sm flex items-center">
+                        <Zap size={16} className="mr-2 text-yellow-400" />
+                        <strong>Эффект:</strong> <span className="ml-1">{system.effect || "нет эффекта"}</span>
                       </p>
-                      <p className="text-slate-300 text-sm">
-                        <strong>Планеты:</strong> {system.planets}
+                      
+                      <p className="text-slate-300 text-sm flex items-center">
+                        <Globe2 size={16} className="mr-2 text-green-400" />
+                        <strong>Планеты:</strong> <span className="ml-1">{system.planets}</span>
                       </p>
-                      <p className="text-slate-300 text-sm">
-                        <strong>Луны:</strong> {system.moons}
+                      
+                      <p className="text-slate-300 text-sm flex items-center">
+                        <Moon size={16} className="mr-2 text-slate-400" />
+                        <strong>Луны:</strong> <span className="ml-1">{system.moons}</span>
                       </p>
-                      <p className="text-slate-300 text-sm">
-                        <strong>Звезда:</strong> {system.star}
-                      </p>
-                      <p className="text-slate-300 text-sm">
-                        <strong>Уровень безопасности:</strong> -1.0
-                      </p>
-                      <p className="text-slate-300 text-sm">
-                        <strong>Радиус:</strong> 24.5 AE (орбита последней планеты)
+                      
+                      <p className="text-slate-300 text-sm flex items-center">
+                        <Sun size={16} className="mr-2 text-orange-400" />
+                        <strong>Звезда:</strong> <span className="ml-1">{system.star}</span>
                       </p>
                     </div>
                     {/* Средняя колонка: аномалии и триггеры */}
@@ -528,17 +546,8 @@ const handleSystemClick = async (systemName: string) => {
         </div>
       </div>
       {/* Отображаем компонент KilledShips, если выбрана система */}
-      {selectedSystemID  && (
-        // <Accordion type="multiple" defaultValue={[]} className="w-full border-b-0 mt-4">
-        //   <AccordionItem value="item-1" className="border-b-0">
-        //     <AccordionTrigger className="flex py-0 px-2 justify-center items-center text-red-400 font-semibold text-lg hover:no-underline gap-6">
-        //       <span className="text-center">Посмотреть данные по уничтоженным кораблям в системе {selectedSystemID}</span>
-        //     </AccordionTrigger>
-        //     <AccordionContent className="pt-0 px-4">
+      {selectedSystemID  && (      
               <KilledShips solarSystemID={selectedSystemID} />
-        //     </AccordionContent>
-        //   </AccordionItem>
-        // </Accordion>
       )}
       
     </div>
