@@ -1,3 +1,4 @@
+import { BannersGrid } from "@/components/BannersGrid";
 import Hero from "@/components/Hero";
 
 
@@ -12,6 +13,7 @@ export default function Home() {
         <div className="max-w-screen-xl w-full flex flex-col gap-6">
           <Hero />
           {/* <ShipsList data={CombinedShipsData} /> */}
+          <BannersGrid />
         </div>
       </main>
 
